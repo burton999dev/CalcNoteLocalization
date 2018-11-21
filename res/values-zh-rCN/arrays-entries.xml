@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="round_behavior_entries">
+        <item>四舍五入</item>
+        <item>下舍入</item>
+        <item>上舍入</item>
+        <item>银行家舍入法</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="tax_round_behavior_entries">
+        <item>四舍五入</item>
+        <item>下舍入</item>
+        <item>上舍入</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Settings for sounds when the calculator button is pressed. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="keypad_sound_entries">
+        <item>静音</item>
+        <item>音效1</item>
+        <item>音效2</item>
+        <item>音效3</item>
+        <item>音效4</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Operation method for opening the subaction assigned to a button. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="keypad_input_method_entries">
+        <item>长按</item>
+        <item>滑动</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="button_font_size_entries">
+        <item>小</item>
+        <item>中</item>
+        <item>大</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Calculator menu font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="keypad_menu_size_entries">
+        <item>小</item>
+        <item>中</item>
+        <item>大</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Unit of angle used in trigonometric functions. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="angle_mode_entries">
+        <item>弧度</item>
+        <item>角度</item>
+        <item>梯度</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Calculation precision settings for the calculator. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="calculation_mode_entries">
+        <!--[CHAR LIMIT=50] Calculation precision settings for the calculator. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. The default setting. As it is calculated using floating point numbers, errors may occur in calculation of extremely large or small numerical values.-->
+        <item>标准</item>
+        <!--[CHAR LIMIT=50] Calculation precision settings for the calculator. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. The processing speed may decrease due to an increase in the calculation load, but this will result in the calculations being conducted without error.-->
+        <item>高精度（CPU负载增加）</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Text display positioning setting. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="result_alignment_entries">
+        <item>左对齐</item>
+        <item>右对齐</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Symbols used for line reference. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>行号<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>行号<xliff:g>}</xliff:g></item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Text editor cursor line display method setting. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="caret_row_highlighting_entries">
+        <item>已禁用</item>
+        <!--[CHAR LIMIT=50] Text editor cursor line display method setting. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. Change and highlight the cursor line background color.-->
+        <item>背景颜色模式</item>
+        <!--[CHAR LIMIT=50] Text editor cursor line display method setting. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. Underline the cursor line and highlight it.-->
+        <item>下划线模式</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Screen display orientation setting. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="screen_orientation_entries">
+        <item>纵向</item>
+        <item>横向</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Floating widget activation method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="floating_activation_method_entries">
+        <!--[CHAR LIMIT=50] Floating widget activation method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. Activated by tapping the notification displayed in the notification bar.-->
+        <item>从通知激活</item>
+        <!--[CHAR LIMIT=50] Floating widget activation method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. Activated by tapping the floating button permanently displayed on the screen. See https://github.com/recruit-lifestyle/FloatingView-->
+        <item>从浮动按钮激活</item>
+        <!--[CHAR LIMIT=50] Floating widget activation method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. Activated by tapping the shortcut placed on the home screen.-->
+        <item>从快捷方式激活</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Date format settings. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>自定义格式</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] File sort order settings. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="file_sort_condition_entries">
+        <item>按更新日期升序排序</item>
+        <item>按更新日期降序排序</item>
+        <item>按文件名升序排序</item>
+        <item>按文件名降序排序</item>
+    </string-array>
+</resources>

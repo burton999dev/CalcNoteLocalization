@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="function_help_parameters">Parameters:</string>
+    <string name="function_help_returns">Returns:</string>
+    <string name="function_help_examples">Examples:</string>
+    <!-- $n -->
+    <string name="statement_help_description_reference_answer">Creates an absolute reference to result of line.</string>
+    <!-- sin(x) -->
+    <string name="function_help_description_sin">Returns the trigonometric sine of an angle.</string>
+    <string name="function_help_parameter1_description_sin_rad">an angle, in radians.</string>
+    <string name="function_help_parameter1_description_sin_deg">an angle, in degrees.</string>
+    <string name="function_help_parameter1_description_sin_grad">an angle, in gradians.</string>
+    <string name="function_help_return_value_sin">the sine of x</string>
+    <!-- asin(x) -->
+    <string name="function_help_description_asin">Returns the arc sine of a value; the returned angle is in the range -pi/2 through pi/2.</string>
+    <string name="function_help_parameter1_description_asin">the value whose arc sine is to be returned.</string>
+    <string name="function_help_return_value_asin">the arc sine of the x.</string>
+    <!-- sinh(x) -->
+    <string name="function_help_description_sinh">Returns the hyperbolic sine of a value. The hyperbolic sine of x is defined to be (ex - e-x)/2 where e is Euler\'s number.</string>
+    <string name="function_help_parameter1_description_sinh">the number whose hyperbolic sine is to be returned.</string>
+    <string name="function_help_return_value_sinh">the hyperbolic sine of x.</string>
+    <!-- cos(x) -->
+    <string name="function_help_description_cos">Returns the trigonometric cosine of an angle.</string>
+    <string name="function_help_parameter1_description_cos_rad">an angle, in radians.</string>
+    <string name="function_help_parameter1_description_cos_deg">an angle, in degrees.</string>
+    <string name="function_help_parameter1_description_cos_grad">an angle, in gradians.</string>
+    <string name="function_help_return_value_cos">the cosine of the x.</string>
+    <!-- acos(x) -->
+    <string name="function_help_description_acos">Returns the arc cosine of a value; the returned angle is in the range 0.0 through pi.</string>
+    <string name="function_help_parameter1_description_acos">the value whose arc cosine is to be returned.</string>
+    <string name="function_help_return_value_acos">the arc cosine of the argument.</string>
+    <!-- cosh(x) -->
+    <string name="function_help_description_cosh">Returns the hyperbolic cosine of a value. The hyperbolic cosine of x is defined to be (ex + e-x)/2 where e is Euler\'s number.</string>
+    <string name="function_help_parameter1_description_cosh">the number whose hyperbolic cosine is to be returned.</string>
+    <string name="function_help_return_value_cosh">the hyperbolic cosine of x.</string>
+    <!-- tan(x) -->
+    <string name="function_help_description_tan">Returns the trigonometric tangent of an angle.</string>
+    <string name="function_help_parameter1_description_tan_rad">an angle, in radians.</string>
+    <string name="function_help_parameter1_description_tan_deg">an angle, in degrees.</string>
+    <string name="function_help_parameter1_description_tan_grad">an angle, in gradians.</string>
+    <string name="function_help_return_value_tan">the tangent of x.</string>
+    <!-- atan(x) -->
+    <string name="function_help_description_atan">Returns the arc tangent of a value; the returned angle is in the range -pi/2 through pi/2.</string>
+    <string name="function_help_parameter1_description_atan">the value whose arc tangent is to be returned.</string>
+    <string name="function_help_return_value_atan">the arc tangent of the x.</string>
+    <!-- tanh(x) -->
+    <string name="function_help_description_tanh">Returns the hyperbolic tangent of a value. The hyperbolic tangent of x is defined to be (ex - e-x)/(ex + e-x), in other words, sinh(x)/cosh(x). Note that the absolute value of the exact tanh is always less than 1.</string>
+    <string name="function_help_parameter1_description_tanh">The number whose hyperbolic tangent is to be returned.</string>
+    <string name="function_help_return_value_tanh">the hyperbolic tangent of x.</string>
+    <!-- log(x) -->
+    <string name="function_help_description_log">Returns the base 10 logarithm of a value.</string>
+    <string name="function_help_parameter1_description_log">a value</string>
+    <string name="function_help_return_value_log">the base 10 logarithm of x</string>
+    <!-- log2(x) -->
+    <string name="function_help_description_log2">Returns the base 2 logarithm of a value.</string>
+    <string name="function_help_parameter1_description_log2">a value</string>
+    <string name="function_help_return_value_log2">the base 2 logarithm of x</string>
+    <!-- ln(x) -->
+    <string name="function_help_description_ln">Returns the natural logarithm (base e) of a value.</string>
+    <string name="function_help_parameter1_description_ln">a value</string>
+    <string name="function_help_return_value_ln">the value ln x, the natural logarithm of x.</string>
+    <!-- exp(x) -->
+    <string name="function_help_description_exp">Returns Euler\'s number e raised to the power of a value.</string>
+    <string name="function_help_parameter1_description_exp">the exponent to raise e to.</string>
+    <string name="function_help_return_value_exp">the value ea, where e is the base of the natural logarithms.</string>
+    <!-- round(x) -->
+    <string name="function_help_description_round">Returns the closest int to the x, with ties rounding up.</string>
+    <string name="function_help_parameter1_description_round">a floating-point value to be rounded to an integer.</string>
+    <string name="function_help_return_value_round">the value of the x rounded to the nearest int value.</string>
+    <!-- ceil(x) -->
+    <string name="function_help_description_ceil">Returns the smallest (closest to negative infinity) value that is greater than or equal to the argument and is equal to a mathematical integer.</string>
+    <string name="function_help_parameter1_description_ceil">a value.</string>
+    <string name="function_help_return_value_ceil">the smallest (closest to negative infinity) floating-point value that is greater than or equal to the argument and is equal to a mathematical integer.</string>
+    <!-- floor(x) -->
+    <string name="function_help_description_floor">Returns the largest (closest to positive infinity) value that is less than or equal to the argument and is equal to a mathematical integer.</string>
+    <string name="function_help_parameter1_description_floor">a value</string>
+    <string name="function_help_return_value_floor">the largest (closest to positive infinity) floating-point value that less than or equal to the argument and is equal to a mathematical integer.</string>
+    <!-- rhup(x, places) -->
+    <string name="function_help_description_rhup">Rounds a number to a certain number of decimal places according to standard rules.</string>
+    <string name="function_help_parameter1_description_rhup">the value to round to places number of places.</string>
+    <string name="function_help_parameter2_description_rhup">the number of decimal places to which to round.places may be negative, in which case value is rounded at the specified number of digits to the left of the decimal point.</string>
+    <string name="function_help_return_value_rhup">the value of the x rounded</string>
+    <!-- rup(x, places) -->
+    <string name="function_help_description_rup">Rounds a number to a certain number of decimal places, always rounding up to the next valid increment.</string>
+    <string name="function_help_parameter1_description_rup">the value to round to places number of places, always rounding up.</string>
+    <string name="function_help_parameter2_description_rup">the number of decimal places to which to round.places may be negative, in which case value is rounded at the specified number of digits to the left of the decimal point.</string>
+    <string name="function_help_return_value_rup">the value of the x rounded</string>
+    <!-- rdown(x, places) -->
+    <string name="function_help_description_rdown">Rounds a number to a certain number of decimal places, always rounding down to the next valid increment.</string>
+    <string name="function_help_parameter1_description_rdown">the value to round to places number of places, always rounding down.</string>
+    <string name="function_help_parameter2_description_rdown">the number of decimal places to which to round.places may be negative, in which case value is rounded at the specified number of digits to the left of the decimal point.</string>
+    <string name="function_help_return_value_rdown">the value of the x rounded</string>
+    <!-- cbrt(x) -->
+    <string name="function_help_description_cbrt">Returns the cube root value. For positive finite x, cbrt(-x) == -cbrt(x); that is, the cube root of a negative value is the negative of the cube root of that value\'s magnitude.</string>
+    <string name="function_help_parameter1_description_cbrt">a value</string>
+    <string name="function_help_return_value_cbrt">the cube root of x.</string>
+    <!-- abs(x) -->
+    <string name="function_help_description_abs">Returns the absolute value. If the argument is not negative, the argument is returned. If the argument is negative, the negation of the argument is returned.</string>
+    <string name="function_help_parameter1_description_abs">the argument whose absolute value is to be determined.</string>
+    <string name="function_help_return_value_abs">Returns the absolute value.If the argument is not negative, the argument is returned.If the argument is negative, the negation of the argument is returned.</string>
+    <!-- UnitConverter -->
+    <string name="function_help_description_unit_converter">Convert the value from <xliff:g id="converting_value_from">%1$s</xliff:g> into <xliff:g id="converting_value_to">%2$s</xliff:g>.</string>
+    <string name="function_help_parameter1_description_unit_converter">the value of conversion-source</string>
+    <string name="function_help_return_value_unit_converter">the value of conversion-destination</string>
+    <!-- CurrencyConverter -->
+    <string name="function_help_description_currency_converter">Convert a currency from <xliff:g id="converting_value_from">%1$s</xliff:g> into <xliff:g id="converting_value_to">%2$s</xliff:g>. The exchange rate is updated once a day.</string>
+    <string name="function_help_parameter1_description_currency_converter">the value of conversion-source</string>
+    <string name="function_help_return_value_currency_converter">the value of conversion-destination</string>
+    <!-- sum -->
+    <string name="function_help_description_sum">Returns the sum of a series of numbers and/or line references.</string>
+    <string name="function_help_parameter1_description_sum">The first line reference.</string>
+    <string name="function_help_parameter2_description_sum">The second line reference.</string>
+    <string name="function_help_return_value_sum">Returns the sum of values.</string>
+    <!-- avg -->
+    <string name="function_help_description_avg">Returns the average of a series of numbers and/or line references.</string>
+    <string name="function_help_parameter1_description_avg">The first line reference.</string>
+    <string name="function_help_parameter2_description_avg">The second line reference.</string>
+    <string name="function_help_return_value_avg">Returns the average of values.</string>
+    <!-- max -->
+    <string name="function_help_description_max">Returns the maximum of a series of numbers and/or line references.</string>
+    <string name="function_help_parameter1_description_max">The first line reference.</string>
+    <string name="function_help_parameter2_description_max">The second line reference.</string>
+    <string name="function_help_return_value_max">Returns the maximum value.</string>
+    <!-- min -->
+    <string name="function_help_description_min">Returns the minimum of a series of numbers and/or line references.</string>
+    <string name="function_help_parameter1_description_min">The first line reference.</string>
+    <string name="function_help_parameter2_description_min">The second line reference.</string>
+    <string name="function_help_return_value_min">Returns the minimum value.</string>
+    <!-- var -->
+    <string name="function_help_description_var">Returns the variance of a series of numbers and/or line references.</string>
+    <string name="function_help_parameter1_description_var">The first line reference.</string>
+    <string name="function_help_parameter2_description_var">The second line reference.</string>
+    <string name="function_help_return_value_var">Returns the variance of values.</string>
+    <!-- stdev -->
+    <string name="function_help_description_stdev">Returns the standard deviation of a series of numbers and/or line references.</string>
+    <string name="function_help_parameter1_description_stdev">The first line reference.</string>
+    <string name="function_help_parameter2_description_stdev">The second line reference.</string>
+    <string name="function_help_return_value_stdev">Returns the standard deviation of values.</string>
+    <!-- median -->
+    <string name="function_help_description_median">Returns the median of a series of numbers and/or line references.</string>
+    <string name="function_help_parameter1_description_median">The first line reference.</string>
+    <string name="function_help_parameter2_description_median">The second line reference.</string>
+    <string name="function_help_return_value_median">Returns the median of values.</string>
+    <!-- pmt -->
+    <string name="function_help_description_pmt">Calculates the payment for a loan based on constant payments and a constant interest rate.</string>
+    <string name="function_help_parameter1_description_pmt">The interest rate for the loan.</string>
+    <string name="function_help_parameter2_description_pmt">The total number of payments for the loan.</string>
+    <string name="function_help_parameter3_description_pmt">The present value, or the total amount that a series of future payments is worth now.</string>
+    <string name="function_help_parameter4_description_pmt">The future value, or a cash balance you want to attain after the last payment is made.</string>
+    <string name="function_help_parameter5_description_pmt">Indicates when payments are due. 0:At the end of the period 1:At the beginning of the period</string>
+    <string name="function_help_return_value_pmt">Returns the periodic payment amount.</string>
+    <!-- ipmt -->
+    <string name="function_help_description_ipmt">Returns the interest payment for a given period for an investment based on periodic, constant payments and a constant interest rate.</string>
+    <string name="function_help_parameter1_description_ipmt">The interest rate per period.</string>
+    <string name="function_help_parameter2_description_ipmt">The period for which you want to find the interest and must be in the range 1 to nper.</string>
+    <string name="function_help_parameter3_description_ipmt">The total number of payment periods in an annuity.</string>
+    <string name="function_help_parameter4_description_ipmt">The present value, or the lump-sum amount that a series of future payments is worth right now.</string>
+    <string name="function_help_parameter5_description_ipmt">The future value, or a cash balance you want to attain after the last payment is made.</string>
+    <string name="function_help_parameter6_description_ipmt">Indicates when payments are due. 0:At the end of the period 1:At the beginning of the period</string>
+    <string name="function_help_return_value_ipmt">Returns the interest portion of payment.</string>
+    <!-- ppmt -->
+    <string name="function_help_description_ppmt">Calculates the payment on the principal for a given period for an investment based on periodic, constant payments and a constant interest rate.</string>
+    <string name="function_help_parameter1_description_ppmt">The interest rate per period.</string>
+    <string name="function_help_parameter2_description_ppmt">Specifies the period and must be in the range 1 to nper.</string>
+    <string name="function_help_parameter3_description_ppmt">The total number of payment periods in an annuity.</string>
+    <string name="function_help_parameter4_description_ppmt">The total amount that a series of future payments is worth now.</string>
+    <string name="function_help_parameter5_description_ppmt">The future value, or a cash balance you want to attain after the last payment is made.</string>
+    <string name="function_help_parameter6_description_ppmt">Indicates when payments are due. 0:At the end of the period 1:At the beginning of the period</string>
+    <string name="function_help_return_value_ppmt">Returns the principal portion of payment.</string>
+    <!-- fv -->
+    <string name="function_help_description_fv">Calculates the future value of an investment based on a constant interest rate.</string>
+    <string name="function_help_parameter1_description_fv">The interest rate per period.</string>
+    <string name="function_help_parameter2_description_fv">The total number of payment periods in an annuity.</string>
+    <string name="function_help_parameter3_description_fv">The payment made each period.</string>
+    <string name="function_help_parameter4_description_fv">The present value, or the lump-sum amount that a series of future payments is worth right now.</string>
+    <string name="function_help_parameter5_description_fv">Indicates when payments are due. 0:At the end of the period 1:At the beginning of the period</string>
+    <string name="function_help_return_value_fv">Returns the future principal value.</string>
+    <!-- pv -->
+    <string name="function_help_description_pv">Calculates the present value of a loan or an investment, based on a constant interest rate.</string>
+    <string name="function_help_parameter1_description_pv">The interest rate per period.</string>
+    <string name="function_help_parameter2_description_pv">The total number of payment periods in an annuity.</string>
+    <string name="function_help_parameter3_description_pv">The payment made each period and cannot change over the life of the annuity.</string>
+    <string name="function_help_parameter4_description_pv">The future value, or a cash balance you want to attain after the last payment is made.</string>
+    <string name="function_help_parameter5_description_pv">Indicates when payments are due. 0:At the end of the period 1:At the beginning of the period</string>
+    <string name="function_help_return_value_pv">Returns the present value of a loan.</string>
+    <!-- nper -->
+    <string name="function_help_description_nper">Returns the number of periods for an investment based on periodic, constant payments and a constant interest rate.</string>
+    <string name="function_help_parameter1_description_nper">The interest rate per period.</string>
+    <string name="function_help_parameter2_description_nper">The payment made each period. it cannot change over the life of the annuity.</string>
+    <string name="function_help_parameter3_description_nper">The present value, or the lump-sum amount that a series of future payments is worth right now.</string>
+    <string name="function_help_parameter4_description_nper">The future value, or a cash balance you want to attain after the last payment is made.</string>
+    <string name="function_help_parameter5_description_nper">Indicates when payments are due. 0:At the end of the period 1:At the beginning of the period</string>
+    <string name="function_help_return_value_nper">Returns the number of periods for an investment based on periodic.</string>
+    <!-- rate -->
+    <string name="function_help_description_rate">Returns the interest rate per period of an annuity. RATE is calculated by iteration and can have zero or more solutions.</string>
+    <string name="function_help_parameter1_description_rate">The total number of payment periods in an annuity.</string>
+    <string name="function_help_parameter2_description_rate">The payment made each period and cannot change over the life of the annuity.</string>
+    <string name="function_help_parameter3_description_rate">The present value.</string>
+    <string name="function_help_parameter4_description_rate">The future value, or a cash balance you want to attain after the last payment is made.</string>
+    <string name="function_help_parameter5_description_rate">Indicates when payments are due. 0:At the end of the period 1:At the beginning of the period</string>
+    <string name="function_help_parameter6_description_rate">Your guess for what the rate will be.</string>
+    <string name="function_help_return_value_rate">Returns the interest rate per period of an annuity.</string>
+</resources>

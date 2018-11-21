@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="function_help_parameters">参数:</string>
+    <string name="function_help_returns">返回:</string>
+    <string name="function_help_examples">用法示例:</string>
+    <!-- $n -->
+    <string name="statement_help_description_reference_answer">你会看到指定的行号的结果。</string>
+    <!-- sin(x) -->
+    <string name="function_help_description_sin">返回角的三角正弦。</string>
+    <string name="function_help_parameter1_description_sin_rad">以弧度表示的角</string>
+    <string name="function_help_parameter1_description_sin_deg">以度表示的角</string>
+    <string name="function_help_parameter1_description_sin_grad">以梯度表示的角</string>
+    <string name="function_help_return_value_sin">参数的正弦</string>
+    <!-- asin(x) -->
+    <string name="function_help_description_asin">返回一个值的反正弦；返回的角度范围在 -pi/2 到 pi/2 之间。</string>
+    <string name="function_help_parameter1_description_asin">要返回其反正弦的值</string>
+    <string name="function_help_return_value_asin">参数的反正弦</string>
+    <!-- sinh(x) -->
+    <string name="function_help_description_sinh">返回值的双曲线正弦。x 双曲线正弦的定义是 (ex - e-x)/2，其中 e 是欧拉数。</string>
+    <string name="function_help_parameter1_description_sinh">要返回其双曲线正弦的数字</string>
+    <string name="function_help_return_value_sinh">x 的双曲线正弦</string>
+    <!-- cos(x) -->
+    <string name="function_help_description_cos">返回角的三角余弦。</string>
+    <string name="function_help_parameter1_description_cos_rad">以弧度表示的角</string>
+    <string name="function_help_parameter1_description_cos_deg">以度表示的角</string>
+    <string name="function_help_parameter1_description_cos_grad">以梯度表示的角</string>
+    <string name="function_help_return_value_cos">参数的余弦</string>
+    <!-- acos(x) -->
+    <string name="function_help_description_acos">返回一个值的反余弦；返回的角度范围在 0.0 到 pi 之间。</string>
+    <string name="function_help_parameter1_description_acos">要返回其反余弦的值</string>
+    <string name="function_help_return_value_acos">参数的反余弦</string>
+    <!-- cosh(x) -->
+    <string name="function_help_description_cosh">返回值的双曲线余弦。x 的双曲线余弦的定义是 (ex + e-x)/2，其中 e 是欧拉数。</string>
+    <string name="function_help_parameter1_description_cosh">要返回其双曲线余弦的数字</string>
+    <string name="function_help_return_value_cosh">x 的双曲线余弦</string>
+    <!-- tan(x) -->
+    <string name="function_help_description_tan">返回角的三角正切。</string>
+    <string name="function_help_parameter1_description_tan_rad">以弧度表示的角</string>
+    <string name="function_help_parameter1_description_tan_deg">以度表示的角</string>
+    <string name="function_help_parameter1_description_tan_grad">以梯度表示的角</string>
+    <string name="function_help_return_value_tan">参数的正切</string>
+    <!-- atan(x) -->
+    <string name="function_help_description_atan">返回一个值的反正切；返回的角度范围在 -pi/2 到 pi/2 之间。</string>
+    <string name="function_help_parameter1_description_atan">要返回其反正切的值</string>
+    <string name="function_help_return_value_atan">参数的反正切</string>
+    <!-- tanh(x) -->
+    <string name="function_help_description_tanh">返回值的双曲线余弦。x 的双曲线正切的定义是 (ex - e-x)/(ex + e-x)，即 sinh(x)/cosh(x)。注意，准确的 tanh 绝对值始终小于 1。</string>
+    <string name="function_help_parameter1_description_tanh">要返回其双曲线正切的数字</string>
+    <string name="function_help_return_value_tanh">x 的双曲线正切</string>
+    <!-- log(x) -->
+    <string name="function_help_description_log">返回值的底数为 10 的对数。</string>
+    <string name="function_help_parameter1_description_log">一个值</string>
+    <string name="function_help_return_value_log">x 的底数为 10 的对数。</string>
+    <!-- log2(x) -->
+    <string name="function_help_description_log2">返回值的底数为 2 的对数。</string>
+    <string name="function_help_parameter1_description_log2">一个值</string>
+    <string name="function_help_return_value_log2">x 的底数为 2 的对数。</string>
+    <!-- ln(x) -->
+    <string name="function_help_description_ln">返回值的自然对数（底数是 e）。</string>
+    <string name="function_help_parameter1_description_ln">一个值</string>
+    <string name="function_help_return_value_ln">ln x 的值，即 x 的自然对数。</string>
+    <!-- exp(x) -->
+    <string name="function_help_description_exp">返回欧拉数 e 的次幂的值。</string>
+    <string name="function_help_parameter1_description_exp">e 的指数</string>
+    <string name="function_help_return_value_exp">值 ea，其中 e 是自然对数的底数</string>
+    <!-- round(x) -->
+    <string name="function_help_description_round">返回最接近参数的 long。结果将舍入为整数：加上 1/2，对结果调用 floor 并将所得结果强制转换为 long 类型。</string>
+    <string name="function_help_parameter1_description_round">舍入为 long 的浮点值</string>
+    <string name="function_help_return_value_round">舍入为最接近的 long 值的参数值</string>
+    <!-- ceil(x) -->
+    <string name="function_help_description_ceil">返回最小的（最接近负无穷大）值，该值大于等于参数，并等于某个整数。</string>
+    <string name="function_help_parameter1_description_ceil">一个值</string>
+    <string name="function_help_return_value_ceil">最小（最接近负无穷大）浮点值，该值大于等于该参数，并等于某个整数。</string>
+    <!-- floor(x) -->
+    <string name="function_help_description_floor">返回最大的（最接近正无穷大）值，该值小于等于参数，并等于某个整数。</string>
+    <string name="function_help_parameter1_description_floor">一个值</string>
+    <string name="function_help_return_value_floor">最大（最接近正无穷大）浮点值，该值小于等于该参数，并等于某个整数</string>
+    <!-- cbrt(x) -->
+    <string name="function_help_description_cbrt">返回值的立方根。对于正的有限值 x，cbrt(-x) == -cbrt(x)；也就是说，负值的立方根是该值数值的负立方根。</string>
+    <string name="function_help_parameter1_description_cbrt">一个值</string>
+    <string name="function_help_return_value_cbrt">x 的立方根</string>
+    <!-- abs(x) -->
+    <string name="function_help_description_abs">返回值的绝对值。如果参数为非负数，则返回该参数。如果参数为负数，则返回该参数的相反数。</string>
+    <string name="function_help_parameter1_description_abs">要确定绝对值的参数</string>
+    <string name="function_help_return_value_abs">参数的绝对值</string>
+</resources>

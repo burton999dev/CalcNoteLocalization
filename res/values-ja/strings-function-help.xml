@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="function_help_parameters">パラメータ:</string>
+    <string name="function_help_returns">戻り値:</string>
+    <string name="function_help_examples">使用例:</string>
+    <!-- $n -->
+    <string name="statement_help_description_reference_answer">指定した行番号の結果を参照します。</string>
+    <!-- sin(x) -->
+    <string name="function_help_description_sin">指定された角度の正弦 (サイン) を返します。</string>
+    <string name="function_help_parameter1_description_sin_rad">ラジアンで表した角度</string>
+    <string name="function_help_parameter1_description_sin_deg">度数法で表した角度</string>
+    <string name="function_help_parameter1_description_sin_grad">グラードで表した角度</string>
+    <string name="function_help_return_value_sin">xの正弦 (サイン)</string>
+    <!-- asin(x) -->
+    <string name="function_help_description_asin">値の逆正弦 (アークサイン) を返します。返される角度の範囲は、-pi/2 〜 pi/2 の範囲です。</string>
+    <string name="function_help_parameter1_description_asin">逆正弦を求める対象の値</string>
+    <string name="function_help_return_value_asin">xの逆正弦 (アークサイン)</string>
+    <!-- sinh(x) -->
+    <string name="function_help_description_sinh">値の双曲線正弦を返します。xの双曲線正弦は (ex - e-x)/2 で表されます。 ここで、e は Euler\'s number です。</string>
+    <string name="function_help_parameter1_description_sinh">双曲線正弦を求める対象の値</string>
+    <string name="function_help_return_value_sinh">xの双曲線正弦</string>
+    <!-- cos(x) -->
+    <string name="function_help_description_cos">指定された角度の余弦 (コサイン) を返します。</string>
+    <string name="function_help_parameter1_description_cos_rad">ラジアンで表した角度</string>
+    <string name="function_help_parameter1_description_cos_deg">度数法で表した角度</string>
+    <string name="function_help_parameter1_description_cos_grad">グラードで表した角度</string>
+    <string name="function_help_return_value_cos">引数の余弦 (コサイン)</string>
+    <!-- acos(x) -->
+    <string name="function_help_description_acos">値の逆余弦 (アークコサイン) を返します。返される角度の範囲は、0.0 〜 pi です。</string>
+    <string name="function_help_parameter1_description_acos">逆余弦を求める対象の値</string>
+    <string name="function_help_return_value_acos">xの逆余弦 (アークコサイン)</string>
+    <!-- cosh(x) -->
+    <string name="function_help_description_cosh">値の双曲線余弦を返します。x の双曲線余弦は (ex + e-x)/2 で表されます。 ここで、e は Euler\'s number です。</string>
+    <string name="function_help_parameter1_description_cosh">双曲線余弦を求める対象の値</string>
+    <string name="function_help_return_value_cosh">xの双曲線余弦</string>
+    <!-- tan(x) -->
+    <string name="function_help_description_tan">指定された角度の正接 (タンジェント) を返します。</string>
+    <string name="function_help_parameter1_description_tan_rad">ラジアンで表した角度</string>
+    <string name="function_help_parameter1_description_tan_deg">度数法で表した角度</string>
+    <string name="function_help_parameter1_description_tan_grad">グラードで表した角度</string>
+    <string name="function_help_return_value_tan">xの正接 (タンジェント)</string>
+    <!-- atan(x) -->
+    <string name="function_help_description_atan">指定された値の逆正接 (アークタンジェント) を返します。返される角度の範囲は、-pi/2 〜 pi/2 の範囲です。</string>
+    <string name="function_help_parameter1_description_atan">逆正接を求める対象の値</string>
+    <string name="function_help_return_value_atan">xの逆正接 (アークタンジェント)</string>
+    <!-- tanh(x) -->
+    <string name="function_help_description_tanh">値の双曲線正接を返します。xの双曲線正接は (ex - e-x)/(ex + e-x) で表されます。 つまり、sinh(x)/cosh(x)。正確な tanh の絶対値は常に 1 未満です。</string>
+    <string name="function_help_parameter1_description_tanh">双曲線正接を求める対象の値</string>
+    <string name="function_help_return_value_tanh">xの双曲線正接</string>
+    <!-- log(x) -->
+    <string name="function_help_description_log">指定された値の10を底とする対数を返します。</string>
+    <string name="function_help_parameter1_description_log">対数を求める対象の値</string>
+    <string name="function_help_return_value_log">10を底とする対数</string>
+    <!-- log2(x) -->
+    <string name="function_help_description_log2">指定された値の2を底とする対数を返します。</string>
+    <string name="function_help_parameter1_description_log2">対数を求める対象の値</string>
+    <string name="function_help_return_value_log2">2を底とする対数</string>
+    <!-- ln(x) -->
+    <string name="function_help_description_ln">指定された値の自然対数値 (底は e) を返します。</string>
+    <string name="function_help_parameter1_description_ln">自然対数値を求める対象の値</string>
+    <string name="function_help_return_value_ln">xの自然対数</string>
+    <!-- exp(x) -->
+    <string name="function_help_description_exp">オイラー数 e を指定した値で累乗した値を返します。</string>
+    <string name="function_help_parameter1_description_exp">eに設定した指数</string>
+    <string name="function_help_return_value_exp">eを底とする指定した数値のべき乗</string>
+    <!-- round(x) -->
+    <string name="function_help_description_round">小数点第一位を四捨五入した整数を返します。桁を指定して四捨五入したい場合は rhup 関数を使用してください。</string>
+    <string name="function_help_parameter1_description_round">四捨五入する小数</string>
+    <string name="function_help_return_value_round">xを四捨五入した整数値</string>
+    <!-- ceil(x) -->
+    <string name="function_help_description_ceil">小数点第一位を切り上げした整数を返します。桁を指定して切り上げしたい場合は rup 関数を使用してください。</string>
+    <string name="function_help_parameter1_description_ceil">切り上げする小数</string>
+    <string name="function_help_return_value_ceil">xを切り上げた整数値</string>
+    <!-- floor(x) -->
+    <string name="function_help_description_floor">小数点第一位を切り捨てした整数を返します。桁を指定して切り捨てしたい場合は rdown 関数を使用してください。</string>
+    <string name="function_help_parameter1_description_floor">切り捨てする小数</string>
+    <string name="function_help_return_value_floor">xを切り捨てた整数値</string>
+    <!-- rhup(x, places) -->
+    <string name="function_help_description_rhup">指定した値を指定した桁数で四捨五入します。</string>
+    <string name="function_help_parameter1_description_rhup">四捨五入する値です。</string>
+    <string name="function_help_parameter2_description_rhup">丸めた後の小数点以下の桁数です。placesに負の値を指定した場合、整数部分が丸められます。</string>
+    <string name="function_help_return_value_rhup">xを四捨五入した値</string>
+    <!-- rup(x, places) -->
+    <string name="function_help_description_rup">指定した値を指定した桁数で切り上げます。</string>
+    <string name="function_help_parameter1_description_rup">切り上げる値です。</string>
+    <string name="function_help_parameter2_description_rup">丸めた後の小数点以下の桁数です。placesに負の値を指定した場合、整数部分が丸められます。</string>
+    <string name="function_help_return_value_rup">xを切り上げた値</string>
+    <!-- rdown(x, places) -->
+    <string name="function_help_description_rdown">指定した値を指定した桁数で切り捨てます。</string>
+    <string name="function_help_parameter1_description_rdown">切り捨てる値です。</string>
+    <string name="function_help_parameter2_description_rdown">丸めた後の小数点以下の桁数です。placesに負の値を指定した場合、整数部分が丸められます。</string>
+    <string name="function_help_return_value_rdown">xを切り捨てた値</string>
+    <!-- cbrt(x) -->
+    <string name="function_help_description_cbrt">値の立方根を返します。正の有限値 x の場合、cbrt(-x) == -cbrt(x)。 つまり、負の値の立方根は、値の絶対値の立方根を負にしたものです。</string>
+    <string name="function_help_parameter1_description_cbrt">立方根を求める対象の値</string>
+    <string name="function_help_return_value_cbrt">xの立方根</string>
+    <!-- abs(x) -->
+    <string name="function_help_description_abs">値の絶対値を返します。xが負でない場合はxそのものを返します。負のときは、その正負を逆にした値を返します。</string>
+    <string name="function_help_parameter1_description_abs">絶対値求める対象の値</string>
+    <string name="function_help_return_value_abs">xの絶対値</string>
+    <!-- UnitConverter -->
+    <string name="function_help_description_unit_converter">値を <xliff:g id="converting_value_from">%1$s</xliff:g> から <xliff:g id="converting_value_to">%2$s</xliff:g> に変換します。</string>
+    <string name="function_help_parameter1_description_unit_converter">変換元の値</string>
+    <string name="function_help_return_value_unit_converter">変換後の値</string>
+    <!-- CurrencyConverter -->
+    <string name="function_help_description_currency_converter">現在の為替レートで通貨を <xliff:g id="converting_value_from">%1$s</xliff:g> から <xliff:g id="converting_value_to">%2$s</xliff:g> に変換します。為替レートは1日1回更新されます。</string>
+    <string name="function_help_parameter1_description_currency_converter">変換元の値</string>
+    <string name="function_help_return_value_currency_converter">変換後の値</string>
+    <!-- sum -->
+    <string name="function_help_description_sum">行参照間の合計を返します。</string>
+    <string name="function_help_parameter1_description_sum">開始位置の行参照</string>
+    <string name="function_help_parameter2_description_sum">終了位置の行参照</string>
+    <string name="function_help_return_value_sum">合計値</string>
+    <!-- avg -->
+    <string name="function_help_description_avg">行参照間の平均を返します。</string>
+    <string name="function_help_parameter1_description_avg">開始位置の行参照</string>
+    <string name="function_help_parameter2_description_avg">終了位置の行参照</string>
+    <string name="function_help_return_value_avg">平均値</string>
+    <!-- max -->
+    <string name="function_help_description_max">行参照間の最大値を返します。</string>
+    <string name="function_help_parameter1_description_max">開始位置の行参照</string>
+    <string name="function_help_parameter2_description_max">終了位置の行参照</string>
+    <string name="function_help_return_value_max">最大値</string>
+    <!-- min -->
+    <string name="function_help_description_min">行参照間の最小値を返します。</string>
+    <string name="function_help_parameter1_description_min">開始位置の行参照</string>
+    <string name="function_help_parameter2_description_min">終了位置の行参照</string>
+    <string name="function_help_return_value_min">最小値</string>
+    <!-- var -->
+    <string name="function_help_description_var">行参照間の分散を返します。</string>
+    <string name="function_help_parameter1_description_var">開始位置の行参照</string>
+    <string name="function_help_parameter2_description_var">終了位置の行参照</string>
+    <string name="function_help_return_value_var">分散値</string>
+    <!-- stdev -->
+    <string name="function_help_description_stdev">行参照間の標準偏差を返します。</string>
+    <string name="function_help_parameter1_description_stdev">開始位置の行参照</string>
+    <string name="function_help_parameter2_description_stdev">終了位置の行参照</string>
+    <string name="function_help_return_value_stdev">標準偏差値</string>
+    <!-- median -->
+    <string name="function_help_description_median">行参照間の中央値を返します。</string>
+    <string name="function_help_parameter1_description_median">開始位置の行参照</string>
+    <string name="function_help_parameter2_description_median">終了位置の行参照</string>
+    <string name="function_help_return_value_median">中央値</string>
+    <!-- pmt -->
+    <string name="function_help_description_pmt">一定利率の支払いが定期的に行われる場合の、ローンの定期支払額を算出します。</string>
+    <string name="function_help_parameter1_description_pmt">ローンの利率</string>
+    <string name="function_help_parameter2_description_pmt">ローン期間全体での支払回数の合計</string>
+    <string name="function_help_parameter3_description_pmt">ローンの現在価値、つまり、将来行われる一連の支払いを現時点で一括払いした場合の合計金額、または元金を指定します。</string>
+    <string name="function_help_parameter4_description_pmt">投資の将来価値、つまり最後の支払いを行った後に残る現金の収支を指定します。</string>
+    <string name="function_help_parameter5_description_pmt">いつ支払いが行われるかを指定します。0:各期の期末 1:各期の期首</string>
+    <string name="function_help_return_value_pmt">ローンの定期支払額</string>
+    <!-- ipmt -->
+    <string name="function_help_description_ipmt">定額の支払いを定期的に行い、利率が一定であると仮定して、投資期間内の指定された期に支払われる金利を返します。</string>
+    <string name="function_help_parameter1_description_ipmt">投資期間を通じて一定の利率を指定します。</string>
+    <string name="function_help_parameter2_description_ipmt">金利支払額を求める期を 1 ～ "期間" の範囲で指定します。</string>
+    <string name="function_help_parameter3_description_ipmt">投資期間全体での支払回数の合計を指定します。</string>
+    <string name="function_help_parameter4_description_ipmt">投資の現在価値、つまり将来行われる一連の支払いを、現時点で一括払いした場合の合計金額を指定します。</string>
+    <string name="function_help_parameter5_description_ipmt">投資の将来価値、つまり最後の支払いを行った後に残る現金の収支を指定します。</string>
+    <string name="function_help_parameter6_description_ipmt">いつ支払いが行われるかを指定します。0:各期の期末 1:各期の期首</string>
+    <string name="function_help_return_value_ipmt">投資期間内の指定された期に支払われる金利</string>
+    <!-- ppmt -->
+    <string name="function_help_description_ppmt">定額の支払いを定期的に行い、利率が一定であると仮定して、投資の指定した期に支払われる元金を返します。</string>
+    <string name="function_help_parameter1_description_ppmt">投資期間を通じて一定の利率を指定します。</string>
+    <string name="function_help_parameter2_description_ppmt">元金支払額を求める期を 1 ～期間の範囲で指定します。</string>
+    <string name="function_help_parameter3_description_ppmt">投資期間全体での支払回数の合計を指定します。</string>
+    <string name="function_help_parameter4_description_ppmt">将来行われる一連の支払いを、現時点で一括払いした場合の合計金額を指定します。</string>
+    <string name="function_help_parameter5_description_ppmt">投資の将来価値、つまり最後の支払いを行った後に残る現金の収支を指定します。</string>
+    <string name="function_help_parameter6_description_ppmt">いつ支払いが行われるかを指定します。0:各期の期末 1:各期の期首</string>
+    <string name="function_help_return_value_ppmt">投資の指定した期に支払われる元金</string>
+    <!-- fv -->
+    <string name="function_help_description_fv">一定の利率を基に投資の将来価値を計算します。</string>
+    <string name="function_help_parameter1_description_fv">投資期間を通じて一定の利率を指定します。</string>
+    <string name="function_help_parameter2_description_fv">投資期間全体での支払回数の合計を指定します。</string>
+    <string name="function_help_parameter3_description_fv">毎回の支払額を指定します。</string>
+    <string name="function_help_parameter4_description_fv">投資の現在価値、つまり将来行われる一連の支払いを、現時点で一括払いした場合の合計金額を指定します。</string>
+    <string name="function_help_parameter5_description_fv">いつ支払いが行われるかを指定します。0:各期の期末 1:各期の期首</string>
+    <string name="function_help_return_value_fv">投資の将来価値</string>
+    <!-- pv -->
+    <string name="function_help_description_pv">一定利率に基づいて、ローンまたは投資の現在価値を計算します。</string>
+    <string name="function_help_parameter1_description_pv">投資期間を通じて一定の利率を指定します。</string>
+    <string name="function_help_parameter2_description_pv">投資期間全体での支払回数の合計を指定します。</string>
+    <string name="function_help_parameter3_description_pv">毎回の支払額を指定します。</string>
+    <string name="function_help_parameter4_description_pv">投資の将来価値、つまり最後の支払いを行った後に残る現金の収支を指定します。</string>
+    <string name="function_help_parameter5_description_pv">いつ支払いが行われるかを指定します。0:各期の期末 1:各期の期首</string>
+    <string name="function_help_return_value_pv">投資の現在価値</string>
+    <!-- nper -->
+    <string name="function_help_description_nper">定額の支払いを定期的に行い、利率が一定であると仮定して、投資に必要な期間を返します。</string>
+    <string name="function_help_parameter1_description_nper">投資期間を通じて一定の利率を指定します。</string>
+    <string name="function_help_parameter2_description_nper">毎回の支払額を指定します。</string>
+    <string name="function_help_parameter3_description_nper">投資の現在価値、つまり将来行われる一連の支払いを、現時点で一括払いした場合の合計金額を指定します。</string>
+    <string name="function_help_parameter4_description_nper">投資の将来価値、つまり最後の支払いを行った後に残る現金の収支を指定します。</string>
+    <string name="function_help_parameter5_description_nper">いつ支払いが行われるかを指定します。0:各期の期末 1:各期の期首</string>
+    <string name="function_help_return_value_nper">投資に必要な期間</string>
+    <!-- rate -->
+    <string name="function_help_description_rate">一定期間の投資に対する利率を返します。 RATE では反復計算によって値が算出されるため、結果は 0 個以上になります。</string>
+    <string name="function_help_parameter1_description_rate">投資期間全体での支払回数の合計を指定します。</string>
+    <string name="function_help_parameter2_description_rate">毎回の支払額を指定します。</string>
+    <string name="function_help_parameter3_description_rate">投資の現在価値、つまり将来行われる一連の支払いを、現時点で一括払いした場合の合計金額を指定します。</string>
+    <string name="function_help_parameter4_description_rate">投資の将来価値、つまり最後の支払いを行った後に残る現金の収支を指定します。</string>
+    <string name="function_help_parameter5_description_rate">いつ支払いが行われるかを指定します。0:各期の期末 1:各期の期首</string>
+    <string name="function_help_parameter6_description_rate">利率がおよそどれくらいになるかを推定した値を指定します。</string>
+    <string name="function_help_return_value_rate">一定期間の投資に対する利率</string>
+</resources>

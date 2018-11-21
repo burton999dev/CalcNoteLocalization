@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--
+        設定画面の選択項目のリストとして表示されます。
+        最大文字数は50文字としていますが、25文字を超えると改行が発生するため25文字以内だとベターです。
+    -->
+    <!-- [CHAR LIMIT=50] 小数の端数の処理方法です。 -->
+    <string-array name="round_behavior_entries">
+        <item>切り上げ</item>
+        <item>切り捨て</item>
+        <item>四捨五入</item>
+        <item>銀行丸め</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] 小数の端数の処理方法です。 -->
+    <string-array name="tax_round_behavior_entries">
+        <item>切り上げ</item>
+        <item>切り捨て</item>
+        <item>四捨五入</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] 電卓のボタンを押した時に鳴る音の設定です。 -->
+    <string-array name="keypad_sound_entries">
+        <item>無音</item>
+        <item>効果音１</item>
+        <item>効果音２</item>
+        <item>効果音３</item>
+        <item>効果音４</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] ボタンに割り当てられたサブアクションを呼び出すための操作方法です。 -->
+    <string-array name="keypad_input_method_entries">
+        <item>ロングタップ</item>
+        <item>スワイプ</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] 電卓のボタンのフォントサイズです。 -->
+    <string-array name="button_font_size_entries">
+        <item>小</item>
+        <item>中</item>
+        <item>大</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] 電卓のメニューのフォントサイズです。 -->
+    <string-array name="keypad_menu_size_entries">
+        <item>小</item>
+        <item>中</item>
+        <item>大</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] 三角関数で使用する角度の単位です。 -->
+    <string-array name="angle_mode_entries">
+        <item>ラジアン</item>
+        <item>角度</item>
+        <item>グラード</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] 電卓の計算の精度の設定です。 -->
+    <string-array name="calculation_mode_entries">
+        <!-- デフォルトの設定です。非常に大きい数値や小さい数値の計算において誤差が発生する可能性があります。 -->
+        <item>通常</item>
+        <!-- 計算量が増えるため処理速度は低下しますが、その代わり誤差なく計算することができます。 -->
+        <item>高精度 (CPU負荷が増えます)</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] テキストの表示位置の設定です。 -->
+    <string-array name="result_alignment_entries">
+        <item>左寄せ</item>
+        <item>右寄せ</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] テキストエディタの前の行の答えを参照する時に使用する記号です。 -->
+    <string-array name="line_reference_symbol_entries" translatable="false">
+        <item translatable="false">${行番号}</item>
+        <item translatable="false">#{行番号}</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] テキストエディタのカーソル行の表示方法の設定です。 -->
+    <string-array name="caret_row_highlighting_entries">
+        <!-- 何も表示しない -->
+        <item>無効</item>
+        <!-- カーソル行の背景色を変更して強調表示 -->
+        <item>背景色モード</item>
+        <!-- カーソル行に下線を表示して強調表示 -->
+        <item>下線モード</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] 画面の表示向きの設定です。 -->
+    <string-array name="screen_orientation_entries">
+        <item>縦向き</item>
+        <item>横向き</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] フローティングウィジェットの起動方法です。 -->
+    <string-array name="floating_activation_method_entries">
+        <!-- 通知バーに表示された通知をタップすることで起動します -->
+        <item>通知から起動</item>
+        <!-- 常に画面上に表示されているフローティングボタンをタップして起動します -->
+        <!-- https://github.com/recruit-lifestyle/FloatingView -->
+        <item>フローティングボタンから起動</item>
+        <!-- ホーム画面に作成されたショートカットをタップして起動します -->
+        <item>ショートカットから起動</item>
+    </string-array>
+    <!-- [CHAR LIMIT=40] 日付のフォーマットの設定です。 -->
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <!-- ユーザーが自由にカスタマイズできる日付フォーマット -->
+        <item>カスタムフォーマット</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] ファイルのソート順の設定です。 -->
+    <string-array name="file_sort_condition_entries">
+        <item>更新日時で昇順ソート</item>
+        <item>更新日時で降順ソート</item>
+        <item>ファイル名で昇順ソート</item>
+        <item>ファイル名で降順ソート</item>
+    </string-array>
+</resources>

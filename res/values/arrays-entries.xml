@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="round_behavior_entries">
+        <item>Rounding up</item>
+        <item>Rounding down</item>
+        <item>Rounding off</item>
+        <item>Bankers rounding</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="tax_round_behavior_entries" translatable="false">
+        <item>Rounding up</item>
+        <item>Rounding down</item>
+        <item>Rounding off</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Settings for sounds when the calculator button is pressed. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="keypad_sound_entries">
+        <item>Mute</item>
+        <item>Sound effect 1</item>
+        <item>Sound effect 2</item>
+        <item>Sound effect 3</item>
+        <item>Sound effect 4</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Operation method for opening the subaction assigned to a button. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="keypad_input_method_entries">
+        <item>Long press</item>
+        <item>Swipe</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="button_font_size_entries">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Calculator menu font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="keypad_menu_size_entries" translatable="false">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Unit of angle used in trigonometric functions. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="angle_mode_entries">
+        <item>Radian</item>
+        <item>Degree</item>
+        <item>Gradian</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Calculation precision settings for the calculator. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="calculation_mode_entries">
+        <!-- The default setting. As it is calculated using floating point numbers, errors may occur in calculation of extremely large or small numerical values. -->
+        <item>Standard</item>
+        <!-- The processing speed may decrease due to an increase in the calculation load, but this will result in the calculations being conducted without error. -->
+        <item>High accuracy (CPU load increases)</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Text display positioning setting. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="result_alignment_entries">
+        <item>Left alignment</item>
+        <item>Right alignment</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Symbols used for line reference. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>LineNo<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>LineNo<xliff:g>}</xliff:g></item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Text editor cursor line display method setting. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="caret_row_highlighting_entries">
+        <item>Disabled</item>
+        <!-- Change and highlight the cursor line background color. -->
+        <item>Background color mode</item>
+        <!-- Underline the cursor line and highlight it. -->
+        <item>Underline mode</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Screen display orientation setting. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="screen_orientation_entries">
+        <item>Portrait orientation</item>
+        <item>Landscape orientation</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Floating widget activation method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="floating_activation_method_entries">
+        <!-- Activated by tapping the notification displayed in the notification bar. -->
+        <item>Activate from notification</item>
+        <!-- Activated by tapping the floating button permanently displayed on the screen. -->
+        <!-- https://github.com/recruit-lifestyle/FloatingView -->
+        <item>Activate from floating button</item>
+        <!-- Activated by tapping the shortcut placed on the home screen. -->
+        <item>Activate from shortcut</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Date format settings. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <!-- A date format that the user may freely customize. -->
+        <item>Custom Format</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] File sort order settings. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="file_sort_condition_entries">
+        <item>Sort in ascending order by update date</item>
+        <item>Sort in descending order by update date</item>
+        <item>Sort in ascending order by file name</item>
+        <item>Sort in descending order by file name</item>
+    </string-array>
+</resources>
