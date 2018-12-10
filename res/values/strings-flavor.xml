@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="flavor_version" translatable="false">Free</string>
+    <!-- [CHAR LIMIT=56] A written explanation that summarizes the setting screen and explains what the setting items signify. Explains that the floating widget is only available to Pro users. The free user needs to purchase the pro version to use the floating widget. -->
+    <string name="preference_summary_floating_widget">This feature is only available to Pro users</string>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preference_summary_floating_widget">この機能はPro版のみ利用可能です。</string>
+</resources>
