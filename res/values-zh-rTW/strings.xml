@@ -564,6 +564,8 @@
     <string name="preference_summary_use_currency_exchange">從網際網路取得匯率</string>
     <!-- [CHAR LIMIT=56] A written explanation that summarizes the setting screen and explains what the setting items signify. Explains that an optional plug-in must be purchased in order to use this function. -->
     <string name="preference_summary_backup_google_drive">需要外掛程式</string>
+    <!-- [CHAR LIMIT=56] A written explanation that summarizes the setting screen and explains what the setting items signify. Explains that this feature not available on this device. -->
+    <string name="preference_summary_backup_google_drive_not_supported">此裝置無此功能</string>
     <!-- [CHAR LIMIT=56] A written explanation that summarizes the setting screen and explains what the setting items signify. Explains that the widget will be permanently stationed on the status bar if the target settings are enabled. -->
     <string name="preference_summary_use_floating_widget">小工具固定於狀態欄</string>
     <!-- [CHAR LIMIT=240] Message displayed when copying calculation results etc. to the clipboard. -->

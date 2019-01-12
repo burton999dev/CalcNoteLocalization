@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
     CalcNote is an application that combines the respective functions of a calculator and a text editor.
-    For this reason, the text resources include both terms used in calculator applications and those used in text editors.
+    For this reason, the textExc.Tax resources include both terms used in calculator applications and those used in text editors.
     A short and simple translation with as formal of expressions as possible is desirable.
     The character limit is the number of characters for half-width characters. For double-byte characters such as Japanese and Chinese, this is halved.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
     <!-- [CHAR LIMIT=10] -->
     <string name="common_file">File</string>
     <!-- [CHAR LIMIT=60] Error message displayed when a required item for the registration process, is not entered. -->
@@ -21,7 +20,6 @@
     <string name="input_error_has_prohibition_character">Allowed characters are alphanumeric and underscore</string>
     <!-- [CHAR LIMIT=60] Error message displayed when cannot be registered due to the insertion of a blank space, which is not permitted in its registration process. -->
     <string name="input_error_has_whitespace">Space cannot be used</string>
-
     <!-- [CHAR LIMIT=24] Label for the "OK" button in the dialog. The max number of characters is 24 characters, but please make as short as possible. -->
     <string name="button_ok">OK</string>
     <!-- [CHAR LIMIT=24] Label for the "Cancel" button in the dialog. The max number of characters is 24 characters, but please make as short as possible. -->
@@ -50,22 +48,14 @@
     <string name="button_rate_ok">Rate It Now</string>
     <!-- [CHAR LIMIT=24] The label for the "No, Thanks" button in the dialog prompting users to rate the app. The max number of characters is 24 characters, but please make as short as possible. -->
     <string name="button_rate_no">No, Thanks</string>
-    <!-- [CHAR LIMIT=24] Label for the "Back" button in the dialog. The max number of characters is 24 characters, but please make as short as possible. -->
-    <string name="button_back">Back</string>
-    <!-- [CHAR LIMIT=24] Label for the "Next" button in the dialog. The max number of characters is 24 characters, but please make as short as possible. -->
-    <string name="button_next">Next</string>
-    <!-- [CHAR LIMIT=24] Label for the "Complete" button in the dialog. The max number of characters is 24 characters, but please make as short as possible. -->
-    <string name="button_complete">Complete</string>
     <!-- [CHAR LIMIT=30] The title for a checkbox. If checked, the dialog prompting users to rate the app will not be displayed again. The max number of characters is 24 characters, but please make as short as possible. -->
     <string name="checkbox_dont_show_again">Don\'t show this message again</string>
-
     <!-- [CHAR LIMIT=20] The title of a section on the side menu. List of drafts is displayed below this section. -->
     <string name="drawer_item_section_drafts">Drafts</string>
     <!-- [CHAR LIMIT=20] The title of a section on the side menu. List of saved files is displayed below this section. -->
     <string name="drawer_item_section_files">Saved Files</string>
     <!-- [CHAR LIMIT=20] The title of a section on the side menu. List of templates is displayed below this section. -->
     <string name="drawer_item_section_template">Templates</string>
-
     <!-- [CHAR LIMIT=48] The menu item to show the online help. This menu is displayed in the side menu. The maximum number of characters is 48, but if it exceeds 24 characters it will be inserted a line break. so it's better if it's 24 characters or less. -->
     <string name="drawer_menu_online_help">Online help</string>
     <!-- [CHAR LIMIT=48] The menu item to show the tutorial. This menu is displayed in the side menu. The maximum number of characters is 48, but if it exceeds 24 characters it will be inserted a line break. so it's better if it's 24 characters or less. -->
@@ -80,7 +70,7 @@
     <string name="drawer_menu_find">Find in Files</string>
     <!-- [CHAR LIMIT=48] The menu item to share a file. This menu is displayed in the side menu. The maximum number of characters is 48, but if it exceeds 24 characters it will be inserted a line break. so it's better if it's 24 characters or less. -->
     <string name="drawer_menu_share">Share</string>
-    <!-- [CHAR LIMIT=48] The menu item to format a mathematical expression. This menu is displayed in the side menu. The maximum number of characters is 48, but if it exceeds 24 characters it will be inserted a line break. so it's better if it's 24 characters or less. -->
+    <!-- [CHAR LIMIT=48] The menu item to format a mathematical expression.(Beautify an expression) This menu is displayed in the side menu. The maximum number of characters is 48, but if it exceeds 24 characters it will be inserted a line break. so it's better if it's 24 characters or less. -->
     <string name="drawer_menu_format_formula">Format expression</string>
     <!-- [CHAR LIMIT=48] The menu item to reverse the effects of a previous action. This menu is displayed in the side menu. The maximum number of characters is 48, but if it exceeds 24 characters it will be inserted a line break. so it's better if it's 24 characters or less. -->
     <string name="drawer_menu_undo">Undo</string>
@@ -90,12 +80,10 @@
     <string name="drawer_menu_print">Print</string>
     <!-- [CHAR LIMIT=48] The menu item to launch the file manager. The file manager can be managed files efficiently. This menu is displayed in the side menu. The maximum number of characters is 48, but if it exceeds 24 characters it will be inserted a line break. so it's better if it's 24 characters or less. -->
     <string name="drawer_menu_file_manager">File manager</string>
-
     <!-- [CHAR LIMIT=30] The menu item to show the help. -->
     <string name="menu_help">Help</string>
     <!-- [CHAR LIMIT=30] The menu item to select all list items. -->
     <string name="menu_select_all">Select all</string>
-
     <!-- [CHAR LIMIT=30] The title of the context menu to edit the selected list item. -->
     <string name="context_menu_edit">Edit</string>
     <!-- [CHAR LIMIT=30] The title of the context menu to delete the selected list item. -->
@@ -106,14 +94,12 @@
     <string name="context_menu_rename">Rename</string>
     <!-- [CHAR LIMIT=30] The title of the context menu to duplicate selected list item. -->
     <string name="context_menu_duplicate">Duplicate</string>
-
     <!-- [CHAR LIMIT=30] The title of the bottom navigation menu to delete selected files. https://material.io/develop/android/components/bottom-navigation-view/ -->
     <string name="bottom_navigation_menu_delete">Delete</string>
     <!-- [CHAR LIMIT=30] The title of the bottom navigation menu to rename selected files. https://material.io/develop/android/components/bottom-navigation-view/ -->
     <string name="bottom_navigation_menu_rename">Rename</string>
     <!-- [CHAR LIMIT=30] The title of the bottom navigation menu to backup selected files. https://material.io/develop/android/components/bottom-navigation-view/ -->
     <string name="bottom_navigation_menu_backup">Backup</string>
-
     <!-- [CHAR LIMIT=10] The label for the item that display method of the calculation result. The decimal number. -->
     <string name="result_decimal">Decimal</string>
     <!-- [CHAR LIMIT=10] The label for the item that display method of the calculation result. The hex-decimal number. -->
@@ -124,12 +110,11 @@
     <string name="result_binary">Binary</string>
     <!-- [CHAR LIMIT=10] The label for the item that display method of the calculation result. The scientific notation(https://en.wikipedia.org/wiki/Scientific_notation) -->
     <string name="result_exponential_notation">E notation</string>
-    <!-- [CHAR LIMIT=10] The label for the item that display method of the calculation result. The tax included value. -->
+    <!-- [CHAR LIMIT=10] The label for the item that display method of the calculation result. "Inc.Tax" is the abbreviation for "Tax Included". -->
     <string name="result_tax_included">Inc.Tax</string>
-    <!-- [CHAR LIMIT=10] The label for the item that display method of the calculation result. The tax excluded value. -->
+    <!-- [CHAR LIMIT=10] The label for the item that display method of the calculation result. "Exc.Tax" is the abbreviation for "Tax Excluded". -->
     <string name="result_tax_excluded">Exc.Tax</string>
     <string name="result_user_defined" translatable="false"></string>
-
     <!-- [CHAR LIMIT=20] The title of the grand total calculation. -->
     <string name="summarizer_label_total">Total</string>
     <!-- [CHAR LIMIT=20] The title of the average calculation. -->
@@ -144,7 +129,6 @@
     <string name="summarizer_label_tax_excluded">Tax Excluded</string>
     <!-- [CHAR LIMIT=20] Don't display the total. -->
     <string name="summarizer_label_hide">Hide</string>
-
     <!-- [CHAR LIMIT=8] The title of abbreviation of the grand total calculation. The maximum number of characters is only 8. so please use the abbreviation if possible. -->
     <string name="summarizer_short_label_total">Total</string>
     <!-- [CHAR LIMIT=8] The title of abbreviation of the average calculation. The maximum number of characters is only 8. so please use the abbreviation if possible. -->
@@ -158,7 +142,6 @@
     <!-- [CHAR LIMIT=8] The title of abbreviation of the tax excluded calculation. The maximum number of characters is only 8. so please use the abbreviation if possible. -->
     <string name="summarizer_short_label_tax_excluded">Exc.Tax</string>
     <string name="summarizer_short_label_hide" translatable="false"></string>
-
     <!-- [CHAR LIMIT=50] The name of the theme to customize the appearance of the app. The maximum number of characters is 50, but if it exceeds 25 characters it will be inserted a line break. so it's better if it's 25 characters or less. -->
     <string name="theme_default">Default</string>
     <!-- [CHAR LIMIT=50] The name of the theme to customize the appearance of the app. This is color name. The maximum number of characters is 50, but if it exceeds 25 characters it will be inserted a line break. so it's better if it's 25 characters or less. -->
@@ -181,7 +164,6 @@
     <string name="theme_brown">Brown</string>
     <!-- [CHAR LIMIT=50] The name of the theme to customize the appearance of the app. The maximum number of characters is 50, but if it exceeds 25 characters it will be inserted a line break. so it's better if it's 25 characters or less. -->
     <string name="theme_dark">Dark</string>
-
     <!-- [CHAR LIMIT=16] The name of the category for the unit of area. The max number of characters is 16 characters, but please make as short as possible. -->
     <string name="unit_category_area">Area</string>
     <!-- [CHAR LIMIT=16] The name of the category for the unit of length. The max number of characters is 16 characters, but please make as short as possible. -->
@@ -196,7 +178,6 @@
     <string name="unit_category_time">Time</string>
     <!-- [CHAR LIMIT=16] The name of the category for the unit of volume. The max number of characters is 16 characters, but please make as short as possible. -->
     <string name="unit_category_volume">Volume</string>
-
     <!-- [CHAR LIMIT=30] The unit of area. https://en.wikipedia.org/wiki/Square_kilometre -->
     <string name="unit_label_area_kilometres">Square Kilometre</string>
     <!-- [CHAR LIMIT=30] The unit of area. https://en.wikipedia.org/wiki/Square_metre -->
@@ -220,7 +201,6 @@
     <string name="unit_label_area_tan" translatable="false">Tan(JP)</string>
     <string name="unit_label_area_jou" translatable="false">Jou(JP)</string>
     <string name="unit_label_area_tsubo" translatable="false">Tsubo(JP)</string>
-
     <!-- [CHAR LIMIT=30] The unit of length. https://en.wikipedia.org/wiki/Kilometre -->
     <string name="unit_label_length_kilometre">Kilometre</string>
     <!-- [CHAR LIMIT=30] The unit of length. https://en.wikipedia.org/wiki/Mile -->
@@ -247,7 +227,6 @@
     <string name="unit_label_length_furlong">Furlong</string>
     <!-- [CHAR LIMIT=30] The unit of length. https://en.wikipedia.org/wiki/Light-year -->
     <string name="unit_label_length_light_year">Light Year</string>
-
     <!-- [CHAR LIMIT=30] The unit of weight. https://en.wikipedia.org/wiki/Kilogram -->
     <string name="unit_label_mass_kilogram">Kilogram</string>
     <!-- [CHAR LIMIT=30] The unit of weight. https://en.wikipedia.org/wiki/Pound_(mass) -->
@@ -268,7 +247,6 @@
     <string name="unit_label_mass_short_ton">Ton (US/short)</string>
     <!-- [CHAR LIMIT=30] The unit of weight. https://en.wikipedia.org/wiki/Long_ton -->
     <string name="unit_label_mass_long_ton">Ton (UK/long)</string>
-
     <!-- [CHAR LIMIT=30] The unit of speed. https://en.wikipedia.org/wiki/Kilometres_per_hour -->
     <string name="unit_label_speed_km_hr">Kilometre/hour</string>
     <!-- [CHAR LIMIT=30] The unit of speed. Kilometres per minute -->
@@ -283,7 +261,6 @@
     <string name="unit_label_speed_feet_sec">Foot/second</string>
     <!-- [CHAR LIMIT=30] The unit of speed. https://en.wikipedia.org/wiki/Knot_(unit) -->
     <string name="unit_label_speed_knot">Knot</string>
-
     <!-- [CHAR LIMIT=30] The unit of temperature. https://en.wikipedia.org/wiki/Celsius -->
     <string name="unit_label_temperature_celsius">Celsius</string>
     <!-- [CHAR LIMIT=30] The unit of temperature. https://en.wikipedia.org/wiki/Fahrenheit -->
@@ -302,7 +279,6 @@
     <string name="unit_label_temperature_romer">Rømer</string>
     <!-- [CHAR LIMIT=30] The unit of temperature. https://en.wikipedia.org/wiki/Gas_Mark -->
     <string name="unit_label_temperature_gas_mark">Gas Mark</string>
-
     <!-- [CHAR LIMIT=30] The unit of time. -->
     <string name="unit_label_time_year">Year</string>
     <!-- [CHAR LIMIT=30] The unit of time. -->
@@ -321,7 +297,6 @@
     <string name="unit_label_time_millisecond">Millisecond</string>
     <!-- [CHAR LIMIT=30] The unit of time. -->
     <string name="unit_label_time_nanosecond">Nanosecond</string>
-
     <!-- [CHAR LIMIT=30] The unit of volume. https://en.wikipedia.org/wiki/Teaspoon -->
     <string name="unit_label_volume_teaspoon">Teaspoon</string>
     <!-- [CHAR LIMIT=30] The unit of volume. https://en.wikipedia.org/wiki/Tablespoon -->
@@ -362,7 +337,6 @@
     <string name="unit_label_volume_cubic_foot">Cubic Foot</string>
     <!-- [CHAR LIMIT=30] The unit of volume. https://en.wikipedia.org/wiki/Cubic_yard -->
     <string name="unit_label_volume_cubic_yard">Cubic Yard</string>
-
     <!-- [CHAR LIMIT=10] Draft file name prefix. The actual file name is a character string obtained by adding a time stamp to this string. -->
     <string name="prefix_draft_file" translatable="false">Draft</string>
     <!-- [CHAR LIMIT=15] When calculation has resulted in an error, such as that from dividing by 0, an error message will be displayed in place of the calculation result. -->
@@ -387,7 +361,6 @@
     <string name="user_defined_function">User-defined Function</string>
     <!-- [CHAR LIMIT=25] The name of a feature allowing users to freely define templates, the same as template functions in Excel. -->
     <string name="user_defined_template">Template</string>
-
     <!-- [CHAR LIMIT=40] Character string displayed in a setting screen category. The category related to the overall application. The max number of characters is 40 characters, but please make as short as possible. -->
     <string name="preference_category_app_settings">Application Settings</string>
     <!-- [CHAR LIMIT=40] Character string displayed in a setting screen category. The category related to file backup and restoration settings. The max number of characters is 40 characters, but please make as short as possible. -->
@@ -408,7 +381,6 @@
     <string name="preference_category_appearance_button_settings">Keypad</string>
     <!-- [CHAR LIMIT=40] Character string displayed in a setting screen category. The category related to automatic backup functionality using plugins. The max number of characters is 40 characters, but please make as short as possible. -->
     <string name="preference_category_auto_backup_files">Auto File Backup</string>
-
     <!-- [CHAR LIMIT=50] The title of a setting for checkbox-type on the setting screen. When checked, the function that puts the screen to sleep when the OS has not been operated for a set period is disabled. -->
     <string name="preference_checkbox_title_no_screen_timeout">Disable screen timeout</string>
     <!-- [CHAR LIMIT=50] The title of a setting for checkbox-type on the setting screen. When unchecked, the action bar at the top of the screen is hidden. -->
@@ -425,7 +397,6 @@
     <string name="preference_checkbox_title_editor_show_ruled_line">Show ruled lines</string>
     <!-- [CHAR LIMIT=50] The title of a setting for checkbox-type on the setting screen. When checked, it will vibrate when the button is tapped. -->
     <string name="preference_checkbox_title_vibrate_on_touch">Vibrate on tap</string>
-
     <!-- [CHAR LIMIT=30] The title of a setting for checkbox-type on the setting screen. When checked, currency conversion (exchange rate conversion) will be enabled, and the exchange rate will be acquired from the Internet twice a day. -->
     <string name="preference_checkbox_title_use_currency_exchange">Use the currency converter</string>
     <!-- [CHAR LIMIT=30] The title of a setting for checkbox-type on the setting screen. When checked, spaces will automatically be inserted between numbers and operators when entering expressions. -->
@@ -436,7 +407,6 @@
     <string name="preference_checkbox_title_keypad_height_auto">Fit the height to soft keyboard</string>
     <!-- [CHAR LIMIT=30] The title of a setting for checkbox-type on the setting screen. When checked, the floating widget positioned in the notification area will be enabled. -->
     <string name="preference_checkbox_title_use_floating_widget">Enable floating widget</string>
-
     <!-- [CHAR LIMIT=38] The title of a setting on the setting screen. The file sort order setting. Can be sorted by file name or update date/time. -->
     <string name="preference_title_file_sort_condition">File sort order</string>
     <!-- [CHAR LIMIT=38] The title of a setting on the setting screen. The application language setting. The application language can be set as a different one than the set Android language. -->
@@ -589,7 +559,6 @@
     <string name="preference_title_customize_side_menu">Customize the side menu</string>
     <!-- [CHAR LIMIT=68] The title of a setting on the setting screen. When the calculation result is tapped, a dialog is displayed and a function is present that allows for the calculation results to be displayed with a hexadecimal number, with tax included, and the tax excluded. This settings to customize that dialog. -->
     <string name="preference_title_customize_results_dialog">Customize the results dialog</string>
-
     <!-- [CHAR LIMIT=56] A written explanation that summarizes the setting screen and explains what the setting items signify. It explains that it is necessary to restart the application in order to make target setting changes effective. -->
     <string name="preference_summary_keypad_height_auto">Need to restart app for the change to take effect</string>
     <!-- [CHAR LIMIT=56] A written explanation that summarizes the setting screen and explains what the setting items signify. Explains that the target setting is a setting for inputting function arguments. -->
@@ -600,9 +569,10 @@
     <string name="preference_summary_use_currency_exchange">Obtain exchange rates from the Internet</string>
     <!-- [CHAR LIMIT=56] A written explanation that summarizes the setting screen and explains what the setting items signify. Explains that an optional plug-in must be purchased in order to use this function. -->
     <string name="preference_summary_backup_google_drive">Plug-in required</string>
+    <!-- [CHAR LIMIT=56] A written explanation that summarizes the setting screen and explains what the setting items signify. Explains that this feature not available on this device. -->
+    <string name="preference_summary_backup_google_drive_not_supported">This feature not available on this device</string>
     <!-- [CHAR LIMIT=56] A written explanation that summarizes the setting screen and explains what the setting items signify. Explains that the widget will be permanently stationed on the status bar if the target settings are enabled. -->
     <string name="preference_summary_use_floating_widget">Widget stays in the status bar</string>
-
     <!-- [CHAR LIMIT=240] Message displayed when copying calculation results etc. to the clipboard. -->
     <string name="toast_copy_to_clipboard"><xliff:g id="copied_text">%1$s</xliff:g> copied to clipboard.</string>
     <!-- [CHAR LIMIT=240] Warning message displayed when trying to use an external application for the intention of opening online help materials, etc., and there is no application on the device that is able to perform an action. -->
@@ -651,7 +621,6 @@
     <string name="toast_failed_to_restore_files">Unable to restore files.</string>
     <!-- [CHAR LIMIT=240] Error message displayed when executing the file backup process when the number of files exceeds the maximum size that can be backed up due to too many files. -->
     <string name="toast_backup_file_too_large">There are too many files to backup. Please consider using <xliff:g id="app_name">\"CalcNotePlugin for GoogleDrive\"</xliff:g>.</string>
-
     <!-- [CHAR LIMIT=40] The Description for the input item on the registration screen. The label for the text box to input a "Keypad name". -->
     <string name="label_keypad_name">Keypad name</string>
     <!-- [CHAR LIMIT=40] The Description for the input item on the registration screen. The label for the text box to input a "Title". -->
@@ -700,12 +669,10 @@
     <string name="label_print_font_size">Font size</string>
     <!-- [CHAR LIMIT=40] The application screen has an editor area for entering calculation formulas and a results area for displaying the calculation formula answers. This a label for an item that sets the width of the printing editor area relative to the printing paper width. -->
     <string name="label_print_editor_width">Editor area width</string>
-
     <!-- [CHAR LIMIT=8] Displayed as a text box hint. Explains parameter name insertion. As it is clarified via another label that this text box is a text box-related input item, it is referred to here simply as "Name". -->
     <string name="hint_function_arg_name">Name</string>
     <!-- [CHAR LIMIT=20] Displayed as a text box hint. Explains parameter name insertion. As it is clarified via another label that this text box is a text box-related input item, it is referred to here simply as "Description". -->
     <string name="hint_function_arg_description">Description</string>
-
     <!-- [CHAR LIMIT=15] The user-defined function registration screen consists of 4 screens (TabView). This character string is displayed as the title of a tab. This means that this screen is for entering the definition information (function name and number of parameters) of the user-defined function. -->
     <string name="step_title_function_definition">Definition</string>
     <!-- [CHAR LIMIT=15] The user-defined function registration screen consists of 4 screens (TabView). This character string is displayed as the title of a tab. This means that it is a screen for inputting parameters of user-defined functions. -->
@@ -714,13 +681,12 @@
     <string name="step_title_function_code">Code</string>
     <!-- [CHAR LIMIT=15] The user-defined function registration screen consists of 4 screens (TabView). This character string is displayed as the title of a tab. This means that it is a screen for testing user-defined functions. -->
     <string name="step_title_function_test">Test</string>
-
     <!-- [CHAR LIMIT=34] String displayed as the title of the action bar. A list of categories of actions that can be assigned to buttons is displayed on this screen. -->
     <string name="toolbar_title_button_action_category">Action categories</string>
     <!-- [CHAR LIMIT=34] String displayed as the title of the action bar. A list of actions that can be assigned to buttons is displayed on this screen. -->
     <string name="toolbar_title_button_action">Actions</string>
     <!-- [CHAR LIMIT=34] String displayed as the title of the action bar. A list of unit categories (area, volume, length, etc.) is displayed on this screen. -->
-    <string name="toolbar_title_unit_category">Unit conversion categories</string>
+    <string name="toolbar_title_unit_category">Unit categories</string>
     <!-- [CHAR LIMIT=34] String displayed as the title of the action bar. Screen for selecting the conversion source unit for the unit conversion function. -->
     <string name="toolbar_title_unit_from">Unit prior to conversion</string>
     <!-- [CHAR LIMIT=34] String displayed as the title of the action bar. Screen for selecting the conversion destination unit for the unit conversion function. -->
@@ -729,7 +695,6 @@
     <string name="toolbar_title_currency_from">Currency prior to conversion</string>
     <!-- [CHAR LIMIT=34] String displayed as the title of the action bar. Screen for selecting the conversion the destination currency for the currency conversion function. -->
     <string name="toolbar_title_currency_to">Currency after conversion</string>
-
     <!-- [CHAR LIMIT=25] Dialog title. Dialog entering the filename and confirming file saving. -->
     <string name="dialog_title_filename_input">Save file</string>
     <!-- [CHAR LIMIT=25] Dialog title. Dialog entering the template name and confirming template saving. -->
@@ -748,7 +713,6 @@
     <string name="dialog_title_warning">Warning</string>
     <!-- [CHAR LIMIT=25] Dialog title. Dialog confirming reset to the initial setting. -->
     <string name="dialog_title_restore_defaults">Restore default settings</string>
-
     <!-- [CHAR LIMIT=200] Message displayed in the dialog. -->
     <string name="dialog_message_rate">Thank you very much for using <xliff:g id="app_name">CalcNote</xliff:g>. If you like this app, would you mind taking a moment to rate it? Your review will motivate me to bring more innovative for you.</string>
     <!-- [CHAR LIMIT=200] Message displayed in the dialog. -->
@@ -769,7 +733,6 @@
     <string name="dialog_message_reset_auto_backup">The synchronization state will be reset. Do you want to proceed?<xliff:g id="line_break">\n</xliff:g>This operation is usually required when the Google Drive account sync destination has changed.</string>
     <!-- [CHAR LIMIT=200] Message displayed in the dialog. -->
     <string name="dialog_message_restore_defaults_appearance">The appearance settings will be reset.<xliff:g id="line_break">\n</xliff:g>Do you want to proceed?</string>
-
     <!-- [CHAR LIMIT=28] The print options. If the checkbox is checked, the mathematical expression will be formulated in a way that is easier to see. -->
     <string name="checkbox_print_option_is_formatting">Format an expression</string>
     <!-- [CHAR LIMIT=28] The print options. If the checkbox is checked, it will print not only the expression, but also the calculation result. -->
@@ -778,14 +741,12 @@
     <string name="checkbox_print_option_is_output_total">Output a total line</string>
     <!-- [CHAR LIMIT=28] The print options. If the checkbox is checked, the ruled lines will be printed. -->
     <string name="checkbox_print_option_is_output_ruled_line">Output ruled lines</string>
-
     <!-- [CHAR LIMIT=30] Title of dialog for file search. -->
     <string name="title_find_in_files">Find in files</string>
-    <!-- [CHAR LIMIT=30] Displayed as the release note title when the application is updated. -->
+    <!-- [CHAR LIMIT=25] Displayed as the release note title when the application is updated. -->
     <string name="changelog_title">What’s new in <xliff:g id="app_name">CalcNote</xliff:g></string>
     <!-- [CHAR LIMIT=200] Message asking for a review of the application. -->
     <string name="changelog_review_request"><xliff:g id="app_name">CalcNote</xliff:g> is developed as a hobby, and motivation can be difficult to maintain. Your excellent review will motivate me to continue to improve the <xliff:g id="app_name">CalcNote</xliff:g>. Thank you for your immense support.</string>
-
     <!-- [CHAR LIMIT=300] Description displayed in the tutorial that explains how to use application. It explains that pressing the save button saves the edited content and completes the registration process. -->
     <string name="help_custom_save">Finally, tap the Save button to complete.</string>
     <!-- [CHAR LIMIT=300] Description displayed in the tutorial that explains how to use application. -->
@@ -857,7 +818,7 @@
     <!-- [CHAR LIMIT=300] Description displayed in the tutorial that explains how to use application. -->
     <string name="help_custom_function_arg_value">Enter an argument value for a test.</string>
     <!-- [CHAR LIMIT=300] Description displayed in the tutorial that explains how to use application. -->
-    <string name="help_custom_function_test">Execute the function with the specified parameter. Please confirm that the result is correct.</string>
+    <string name="help_custom_function_test">Execute the function with the specified argument. Please confirm that the result is correct.</string>
     <!-- [CHAR LIMIT=300] Description displayed in the tutorial that explains how to use application. This expression means mathematical expression. -->
     <string name="help_custom_template_list_creating">By saving a regularly-used expression as templates, you can easily create a file based on the template instead of creating a file from scratch.</string>
     <!-- [CHAR LIMIT=300] Description displayed in the tutorial that explains how to use application. -->
@@ -888,10 +849,8 @@
     <string name="help_tutorial_11">You can show the side menu onto the screen by swiping from the left edge of the screen or by tapping the menu icon on the action bar.</string>
     <!-- [CHAR LIMIT=300] Description displayed in the tutorial that explains how to use application. -->
     <string name="help_tutorial_12">Please refer to online help for the detailed usage of the <xliff:g id="app_name">CalcNote</xliff:g>.</string>
-
     <!-- [CHAR LIMIT=40] The user can freely customize the date format -->
     <string name="date_format_custom">Custom format</string>
-
     <!-- [CHAR LIMIT=50] Category for actions assigned to buttons. This category contains numbers such as those between "0" and "9" and "00" and "000". -->
     <string name="button_action_category_number">Numbers</string>
     <!-- [CHAR LIMIT=50] Category for actions assigned to buttons. This category contains operators such as "+", "-", "/", etc. -->
@@ -914,7 +873,6 @@
     <string name="button_action_category_command">Commands</string>
     <!-- [CHAR LIMIT=50] Category for actions assigned to buttons. This category contains other actions. -->
     <string name="button_action_category_others">Others</string>
-
     <!-- [CHAR LIMIT=50] Name of a keypad for a general calculator equipped with numeric keypads, arithmetic operations, etc. The maximum number of characters is 50, but if it exceeds 25 characters it will be inserted a line break. so it's better if it's 25 characters or less. -->
     <string name="keypad_name_numeric">Numeric keypad</string>
     <!-- [CHAR LIMIT=50] Name of a keypad for a scientific calculator equipped with trigonometric functions ("sin", "cos", "tan"), mathematical functions ("log", "exp") etc. The maximum number of characters is 50, but if it exceeds 25 characters it will be inserted a line break. so it's better if it's 25 characters or less. -->
@@ -927,14 +885,12 @@
     <string name="keypad_name_currency_converter">Currency converter keypad</string>
     <!-- [CHAR LIMIT=50] Name of a keypad for a general calculator equipped with a numeric keypad and arithmetic operations used when the screen is in landscape orientation. The maximum number of characters is 50, but if it exceeds 25 characters it will be inserted a line break. so it's better if it's 25 characters or less. -->
     <string name="keypad_name_landscape">Landscape orientation keypad</string>
-
     <!-- [CHAR LIMIT=13] Name of a command clearing all expressions that are being edited. -->
     <string name="command_clear_all">Clear all</string>
     <!-- [CHAR LIMIT=13] Name of a command deleting the line that is being edited. -->
     <string name="command_clear_line">Remove a line</string>
     <!-- [CHAR LIMIT=13] Name of a command selecting the expressions that are being edited. -->
     <string name="command_select">Select</string>
-
     <!-- [CHAR LIMIT=50] Inserts ":". The expression on the left side of ":" are processed as comments and are not calculated. -->
     <string name="pad_description_left_comment">Left side comment</string>
     <!-- [CHAR LIMIT=50] Inserts ";". The expression on the right side of ";" are processed as comments and are not calculated. -->
@@ -997,4 +953,10 @@
     <string name="pad_description_input_variables">Select an available variable from the list and insert</string>
     <!-- [CHAR LIMIT=25] Displays the application language in accordance with the OS language setting. For example, if the language in the Android settings is set to "Japanese", then the application language will also be "Japanese". Users can also select a language different from that of the language setting of the OS. -->
     <string name="language_default">System\'s Language</string>
+    <!--[CHAR LIMIT=24] Label for the "Back" button in the wizard dialog. The max number of characters is 24 characters, but please make as short as possible.-->
+    <string name="button_back">Back</string>
+    <!--[CHAR LIMIT=24] Label for the "Next" button in the wizard dialog. The max number of characters is 24 characters, but please make as short as possible.-->
+    <string name="button_next">Next</string>
+    <!--[CHAR LIMIT=24] Label for the "Complete" button in the wizard dialog. The max number of characters is 24 characters, but please make as short as possible.-->
+    <string name="button_complete">Complete</string>
 </resources>

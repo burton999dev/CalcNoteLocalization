@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="locale" translatable="false">ja</string>
+    <string name="help_url" translatable="false">https://github.com/burton999dev/CalcNoteHelp/blob/master/documents/ja/index.md</string>
+    <string name="date_format_custom_help_link">https://docs.oracle.com/javase/jp/8/docs/api/java/text/SimpleDateFormat.html</string>
+</resources>

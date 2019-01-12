@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- [CHAR LIMIT=40] The label for the text box to input a "Incorrect translation". If the current translation is incorrect, The user can submit a correct translation for the application to the developer. -->
+    <string name="label_incorrect_translation">틀린 번역</string>
+    <!-- [CHAR LIMIT=40] The label for the text box to input a "Correct translation". If the current translation is incorrect, The user can submit a correct translation for the application to the developer. -->
+    <string name="label_correct_translation">맞는 번역</string>
+    <!-- [CHAR LIMIT=40] The label for the text box to input a "Reason". If the current translation is incorrect, The user can submit a correct translation for the application to the developer. This is a reason why the user needs to fix the translation. -->
+    <string name="label_reason">사유</string>
+    <!-- [CHAR LIMIT=68] The title of a setting on the setting screen. Send feedback about translation to the developer. -->
+    <string name="preference_title_send_feedback">번역에 대한 피드백 보내기</string>
+    <!-- [CHAR LIMIT=240] Message displayed when the sending the feedback is complete. -->
+    <string name="toast_thanks_feed_back">의견주셔서 감사합니다.</string>
+    <!-- [CHAR LIMIT=200] Message displayed in the dialog. -->
+    <string name="dialog_message_send_feedback">틀린 번역을 발견하거나 더 나은 번역에 대한 의견이 있으시면 말씀해주시겠습니까? <xliff:g id="app_name">CalcNote</xliff:g>의 발전을 위해 여러분의 의견은 매우 소중하답니다. 의견은 <xliff:g id="feedback_url">https://github.com/burton999dev/CalcNoteLocalization</xliff:g>(으)로 제출됩니다</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="unit_symbol_area_tan">Tan</string>
+    <string name="unit_symbol_area_jou">Jou</string>
+    <string name="unit_symbol_area_tsubo">Tsubo</string>
+</resources>

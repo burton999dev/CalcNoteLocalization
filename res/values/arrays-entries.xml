@@ -4,6 +4,7 @@
     <string-array name="round_behavior_entries">
         <item>Rounding up</item>
         <item>Rounding down</item>
+        <!-- "Rounding off" is "Round half away from zero". see https://en.wikipedia.org/wiki/Rounding -->
         <item>Rounding off</item>
         <item>Bankers rounding</item>
     </string-array>
@@ -56,7 +57,7 @@
         <item>Left alignment</item>
         <item>Right alignment</item>
     </string-array>
-    <!-- [CHAR LIMIT=50] Symbols used for line reference. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <!-- [CHAR LIMIT=50] Symbols used for line reference. This is displayed as a list of selection items on the setting screen. The character limit excluding the xliff tag is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. You should translate "LineNo" part. "LineNo" means "Line Number". -->
     <string-array name="line_reference_symbol_entries">
         <item><xliff:g>${</xliff:g>LineNo<xliff:g>}</xliff:g></item>
         <item><xliff:g>#{</xliff:g>LineNo<xliff:g>}</xliff:g></item>

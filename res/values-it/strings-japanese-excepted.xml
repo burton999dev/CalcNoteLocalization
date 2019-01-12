@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- [CHAR LIMIT=40] The label for the text box to input a "Incorrect translation". If the current translation is incorrect, The user can submit a correct translation for the application to the developer. -->
+    <string name="label_incorrect_translation">Traduzione non corretta</string>
+    <!-- [CHAR LIMIT=40] The label for the text box to input a "Correct translation". If the current translation is incorrect, The user can submit a correct translation for the application to the developer. -->
+    <string name="label_correct_translation">Traduzione corretta</string>
+    <!-- [CHAR LIMIT=40] The label for the text box to input a "Reason". If the current translation is incorrect, The user can submit a correct translation for the application to the developer. This is a reason why the user needs to fix the translation. -->
+    <string name="label_reason">Motivo</string>
+    <!-- [CHAR LIMIT=68] The title of a setting on the setting screen. Send feedback about translation to the developer. -->
+    <string name="preference_title_send_feedback">Invia feedback sulla traduzione</string>
+    <!-- [CHAR LIMIT=240] Message displayed when the sending the feedback is complete. -->
+    <string name="toast_thanks_feed_back">Grazie per il tuo feedback.</string>
+    <!-- [CHAR LIMIT=200] Message displayed in the dialog. -->
+    <string name="dialog_message_send_feedback">Se trovi una traduzione sbagliata o ne vuoi proporre una migliore, potresti segnalarcela? Il tuo aiuto migliorerà ulteriormente <xliff:g id="app_name"> CalcNote</xliff:g>. Il feedback sarà inviato a <xliff:g id="feedback_url">https://github.com/burton999dev/CalcNoteLocalization</xliff:g></string>
+</resources>

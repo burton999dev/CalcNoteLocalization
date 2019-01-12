@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="unit_symbol_area_tan">反</string>
+    <string name="unit_symbol_area_jou">畳</string>
+    <string name="unit_symbol_area_tsubo">坪</string>
+</resources>

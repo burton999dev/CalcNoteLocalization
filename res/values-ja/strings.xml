@@ -600,6 +600,8 @@
     <string name="preference_summary_use_currency_exchange">インターネットからレートを取得します。</string>
     <!-- [CHAR LIMIT=56] 設定画面のサマリとして表示され、設定項目の意味を説明する文章です。この機能を使用するには別売りのプラグインを購入する必要があることを説明しています。 -->
     <string name="preference_summary_backup_google_drive">プラグインが必要です</string>
+    <!-- [CHAR LIMIT=56] 設定画面のサマリとして表示され、設定項目の意味を説明する文章です。お使いの端末ではこの機能は利用できないことを説明しています。 -->
+    <string name="preference_summary_backup_google_drive_not_supported">この端末では利用できません</string>
     <!-- [CHAR LIMIT=56] 設定画面のサマリとして表示され、設定項目の意味を説明する文章です。対象の設定を有効にした場合にウィジェットがステータスバーに常駐することを説明しています。 -->
     <string name="preference_summary_use_floating_widget">ステータスバーに常駐します</string>
 
