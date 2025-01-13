@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="round_behavior_entries">
+        <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Yukarıya yuvarlama</item>
+        <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Aşağıya yuvarlama</item>
+        <!--[CHAR LIMIT=50] A decimal fraction processing method. "Rounding off" is "Round half away from zero". see https://en.wikipedia.org/wiki/Rounding This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
+        <item>Yuvarlama</item>
+        <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Bankacı yuvarlaması</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="tax_round_behavior_entries">
+        <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Yukarıya yuvarlama</item>
+        <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Aşağıya yuvarlama</item>
+        <!--[CHAR LIMIT=50] A decimal fraction processing method. "Rounding off" is "Round half away from zero". see https://en.wikipedia.org/wiki/Rounding This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
+        <item>Yuvarlama</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Settings for sounds when the calculator button is pressed. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="keypad_sound_entries">
+        <!-- [CHAR LIMIT=50] Settings for sounds when the calculator button is pressed. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Sesi kapat</item>
+        <!-- [CHAR LIMIT=50] Settings for sounds when the calculator button is pressed. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Ses efekti 1</item>
+        <!-- [CHAR LIMIT=50] Settings for sounds when the calculator button is pressed. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Ses efekti 2</item>
+        <!-- [CHAR LIMIT=50] Settings for sounds when the calculator button is pressed. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Ses efekti 3</item>
+        <!-- [CHAR LIMIT=50] Settings for sounds when the calculator button is pressed. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Ses efekti 4</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Operation method for opening the subaction assigned to a button. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="keypad_input_method_entries">
+        <!-- [CHAR LIMIT=50] Operation method for opening the subaction assigned to a button. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Uzun basın</item>
+        <!-- [CHAR LIMIT=50] Operation method for opening the subaction assigned to a button. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Kaydırın</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="button_font_size_entries">
+        <!-- [CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Küçük</item>
+        <!-- [CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Orta</item>
+        <!-- [CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Büyük</item>
+        <!--[CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. The abbreviation for this word is XL.-->
+        <item>Ekstra Büyük</item>
+        <!--[CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. The abbreviation for this word is XXL.-->
+        <item>İki Katı Ekstra Büyük</item>
+        <!--[CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. The abbreviation for this word is XXXL.-->
+        <item>Üç Katı Ekstra Büyük</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Calculator menu font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="keypad_menu_size_entries">
+        <!-- [CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Küçük</item>
+        <!-- [CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Orta</item>
+        <!-- [CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Büyük</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Unit of angle used in trigonometric functions. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="angle_mode_entries">
+        <!-- [CHAR LIMIT=50] Unit of angle used in trigonometric functions. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Radyan</item>
+        <!-- [CHAR LIMIT=50] Unit of angle used in trigonometric functions. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Derece</item>
+        <!-- [CHAR LIMIT=50] Unit of angle used in trigonometric functions. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Gradyan</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Calculation precision settings for the calculator. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="calculation_mode_entries">
+        <!--[CHAR LIMIT=50] Calculation precision settings for the calculator. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. The default setting. As it is calculated using floating point numbers, errors may occur in calculation of extremely large or small numerical values.-->
+        <item>Standart</item>
+        <!--[CHAR LIMIT=50] Calculation precision settings for the calculator. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. The processing speed may decrease due to an increase in the calculation load, but this will result in the calculations being conducted without error.-->
+        <item>Yüksek doğruluk (işlemci yükü artar)</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Text display positioning setting. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="result_alignment_entries">
+        <!--[CHAR LIMIT=50] Text display positioning setting. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
+        <item>Sola hizalama</item>
+        <!--[CHAR LIMIT=50] Text display positioning setting. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
+        <item>Sağa hizalama</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Symbols used for line reference. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="line_reference_symbol_entries">
+        <!--[CHAR LIMIT=50] Symbols used for line reference. This is displayed as a list of selection items on the setting screen. The character limit excluding the xliff tag is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. You should translate "LineNo" part. "LineNo" means "Line Number".-->
+        <item><xliff:g>${</xliff:g>LineNo<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>LineNo<xliff:g>}</xliff:g></item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Text editor cursor line display method setting. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="caret_row_highlighting_entries">
+        <!--[CHAR LIMIT=50] Text editor cursor line display method setting. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
+        <item>Devre dışı bırakıldı</item>
+        <!--[CHAR LIMIT=50] Text editor cursor line display method setting. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. Change and highlight the cursor line background color.-->
+        <item>Arka plan rengi modu</item>
+        <!--[CHAR LIMIT=50] Text editor cursor line display method setting. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. Underline the cursor line and highlight it.-->
+        <item>Altçizgi modu</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Screen display orientation setting. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="screen_orientation_entries">
+        <!--[CHAR LIMIT=50] Screen display orientation setting. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
+        <item>Dikey mod</item>
+        <!--[CHAR LIMIT=50] Screen display orientation setting. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
+        <item>Yatay mod</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Floating widget activation method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="floating_activation_method_entries">
+        <!--[CHAR LIMIT=50] Floating widget activation method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. Activated by tapping the notification displayed in the notification bar.-->
+        <item>Bildirimden etkinleştir</item>
+        <!--[CHAR LIMIT=50] Floating widget activation method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. Activated by tapping the floating button permanently displayed on the screen. See https://github.com/recruit-lifestyle/FloatingView-->
+        <item>Kayan düğmeden etkinleştir</item>
+        <!--[CHAR LIMIT=50] Floating widget activation method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. Activated by tapping the shortcut placed on the home screen.-->
+        <item>Kısayoldan etkinleştir</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Date format settings. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <!--A date format that the user may freely customize.-->
+        <item>Özel Biçim</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] File sort order settings. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="file_sort_condition_entries">
+        <item>Oluşturma tarihine göre artan olarak sırala</item>
+        <item>Oluşturma tarihine göre azalan olarak sırala</item>
+        <item>Güncelleme tarihine göre artan olarak sırala</item>
+        <item>Güncelleme tarihine göre azalan olarak sırala</item>
+        <item>Dosya adına göre artan olarak sırala</item>
+        <item>Dosya adına göre azalan olarak sırala</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Dark UI mode settings. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="dark_ui_mode_entries" translatable="false">
+        <item>Sistem varsayılanı</item>
+        <item>Koyu</item>
+        <item>Açık</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Summarizer type settings. Sets how the total row is calculated. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="summarizer_type_entries">
+        <item>Toplam</item>
+        <item>Ortalama</item>
+        <item>Varyans</item>
+        <item>Standart Sapma</item>
+        <item>Vergi Dahil</item>
+        <item>Vergi Hariç</item>
+        <item>Gizle</item>
+    </string-array>
+</resources>

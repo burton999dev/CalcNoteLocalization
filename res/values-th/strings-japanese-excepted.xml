@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- [CHAR LIMIT=40] The label for the text box to input a "Incorrect translation". If the current translation is incorrect, The user can submit a correct translation for the application to the developer. -->
+    <string name="label_incorrect_translation">คำแปลไม่ถูกต้อง</string>
+    <!-- [CHAR LIMIT=40] The label for the text box to input a "Correct translation". If the current translation is incorrect, The user can submit a correct translation for the application to the developer. -->
+    <string name="label_correct_translation">คำแปลที่ถูกต้อง</string>
+    <!-- [CHAR LIMIT=40] The label for the text box to input a "Reason". If the current translation is incorrect, The user can submit a correct translation for the application to the developer. This is a reason why the user needs to fix the translation. -->
+    <string name="label_reason">เหตุผล</string>
+    <!-- [CHAR LIMIT=240] Message displayed when the sending the feedback is complete. -->
+    <string name="toast_thanks_feed_back">ขอบคุณสำหรับคำติชม</string>
+    <!-- [CHAR LIMIT=200] Message displayed in the dialog. -->
+    <string name="dialog_message_send_feedback">หากคุณพบว่ามีคำแปลไม่ถูกต้องหรือมีคำแปลที่ดีกว่านี้ กรุณาส่งคำแปลที่ถูกต้องมาให้ได้หรือไม่ ความร่วมมือของคุณจะทำให้ <xliff:g id="app_name">CalcNote</xliff:g> ยิ่งดีขึ้น คำติชมจะถูกส่งไปยัง <xliff:g id="feedback_url">https://github.com/burton999dev/CalcNoteLocalization</xliff:g></string>
+</resources>

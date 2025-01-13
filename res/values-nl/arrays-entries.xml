@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="round_behavior_entries">
+        <item>Afronden omhoog</item>
+        <item>Afronden omlaag</item>
+        <item>Afronden weg van nul</item>
+        <item>Bankiersafronding</item>
+    </string-array>
+    <string-array name="tax_round_behavior_entries">
+        <item>Afronden omhoog</item>
+        <item>Afronden omlaag</item>
+        <item>Afronden weg van nul</item>
+    </string-array>
+    <string-array name="keypad_sound_entries">
+        <item>Stil</item>
+        <item>Geluidseffect 1</item>
+        <item>Geluidseffect 2</item>
+        <item>Geluidseffect 3</item>
+        <item>Geluidseffect 4</item>
+    </string-array>
+    <string-array name="keypad_input_method_entries">
+        <item>Lang indrukken</item>
+        <item>Swipen</item>
+    </string-array>
+    <string-array name="button_font_size_entries">
+        <item>Klein</item>
+        <item>Middel</item>
+        <item>Groot</item>
+        <item>Extra Groot</item>
+        <item>Dubbel Extra Groot</item>
+        <item>Driedubbel Extra Groot</item>
+    </string-array>
+    <string-array name="keypad_menu_size_entries">
+        <item>Klein</item>
+        <item>Middel</item>
+        <item>Groot</item>
+    </string-array>
+    <string-array name="angle_mode_entries">
+        <item>Radiaal</item>
+        <item>Graden</item>
+        <item>Gon</item>
+    </string-array>
+    <string-array name="calculation_mode_entries">
+        <item>Standaard</item>
+        <item>Hoge nauwkeurigheid (meer CPU-belasting)</item>
+    </string-array>
+    <string-array name="result_alignment_entries">
+        <item>Links uitlijnen</item>
+        <item>Rechts uitlijnen</item>
+    </string-array>
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>RegelNr<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>RegelNr<xliff:g>}</xliff:g></item>
+    </string-array>
+    <string-array name="caret_row_highlighting_entries">
+        <item>Uitgeschakeld</item>
+        <item>Achtergrondkleurmodus</item>
+        <item>Onderstreepmodus</item>
+    </string-array>
+    <string-array name="screen_orientation_entries">
+        <item>Portretstand</item>
+        <item>Liggend</item>
+    </string-array>
+    <string-array name="floating_activation_method_entries">
+        <item>Activeren via melding</item>
+        <item>Activeren via zwevende knop</item>
+        <item>Activeren via snelkoppeling</item>
+    </string-array>
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>Aangepast formaat</item>
+    </string-array>
+    <string-array name="file_sort_condition_entries">
+        <item>Oplopend sorteren op aanmaakdatum</item>
+        <item>Aflopend sorteren op aanmaakdatum</item>
+        <item>Oplopend sorteren op bijwerkingsdatum</item>
+        <item>Aflopend sorteren op bijwerkingsdatum</item>
+        <item>Oplopend sorteren op bestandsnaam</item>
+        <item>Aflopend sorteren op bestandsnaam</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>Systeemstandaard</item>
+        <item>Donker</item>
+        <item>Licht</item>
+    </string-array>
+    <string-array name="summarizer_type_entries">
+        <item>Totaal</item>
+        <item>Gemiddelde</item>
+        <item>Variantie</item>
+        <item>Standaarddeviatie</item>
+        <item>Inclusief BTW</item>
+        <item>Exclusief BTW</item>
+        <item>Verbergen</item>
+    </string-array>
+</resources>

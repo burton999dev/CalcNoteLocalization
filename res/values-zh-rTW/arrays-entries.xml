@@ -2,16 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
     <string-array name="round_behavior_entries">
-        <item>四捨五入</item>
-        <item>向下捨入</item>
         <item>向上捨入</item>
+        <item>向下捨入</item>
+        <item>四捨五入</item>
         <item>銀行進位法</item>
     </string-array>
     <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
     <string-array name="tax_round_behavior_entries">
-        <item>四捨五入</item>
-        <item>向下捨入</item>
         <item>向上捨入</item>
+        <item>向下捨入</item>
+        <item>四捨五入</item>
     </string-array>
     <!-- [CHAR LIMIT=50] Settings for sounds when the calculator button is pressed. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
     <string-array name="keypad_sound_entries">
@@ -38,6 +38,9 @@
         <item>小</item>
         <item>中</item>
         <item>大</item>
+        <item>超大</item>
+        <item>雙倍大</item>
+        <item>三倍大</item>
     </string-array>
     <!-- [CHAR LIMIT=50] Calculator menu font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
     <string-array name="keypad_menu_size_entries">
@@ -116,13 +119,27 @@
     </string-array>
     <!-- [CHAR LIMIT=50] File sort order settings. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
     <string-array name="file_sort_condition_entries">
-        <!--[CHAR LIMIT=50] File sort order settings. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
+        <item>依創建日期由舊至新排序</item>
+        <item>依創建日期由新至舊排序</item>
         <item>依更新日期由舊至新排序</item>
-        <!--[CHAR LIMIT=50] File sort order settings. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
         <item>依更新日期由新至舊排序</item>
-        <!--[CHAR LIMIT=50] File sort order settings. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
         <item>依檔案名稱升冪排序</item>
-        <!--[CHAR LIMIT=50] File sort order settings. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
         <item>依檔案名稱降冪排序</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Dark UI mode settings. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="dark_ui_mode_entries" translatable="false">
+        <item>系統預設</item>
+        <item>深色</item>
+        <item>淺色</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Summarizer type settings. Sets how the total row is calculated. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="summarizer_type_entries">
+        <item>總計</item>
+        <item>平均</item>
+        <item>變異數</item>
+        <item>標準差</item>
+        <item>含稅</item>
+        <item>不含稅</item>
+        <item>隱藏</item>
     </string-array>
 </resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preference_title_gdpr_warning">Piiratud funktsionaalsus reklaaminõusoleku puudumise tõttu</string>
+    <string name="preference_title_manage_gdpr_consent">Muuda GDPR-nõusolekut</string>
+    <string name="preference_summary_manage_gdpr_consent">Juurdepääsuks sellele seadele lülita välja reklaamiblokeerija</string>
+    <string name="gdpr_long_warning_message">Lugupeetud kasutaja,\n\nMa olen pühendunud teie privaatsuse kaitsmisele ja GDPR-i (Isikuandmete kaitse üldmäärus) nõuete järgimisele. Rakenduse arendamise toetamiseks ja parema kasutajakogemuse pakkumiseks vajan teie nõusolekut, et kuvada minu rakenduses isikupärastatud reklaame. Need reklaamid on minu tuluvoo oluline osa, mis võimaldab jätkata teenuse pakkumist ja hooldamist.\n\nHetkel puudub mul teie nõusolek isikupärastatud reklaamide kuvamiseks. See piirang mõjutab minu võimet toetada rakenduse jätkusuutlikkust reklaamitulu kaudu. Seetõttu on mõned rakenduse funktsioonid piiratud, kuni olete isikupärastatud reklaamide näitamisega nõustunud.\n\nMa mõistan teie andmekaitse olulisust ning kinnitan, et kogu andmetöötlus toimub kooskõlas GDPR-i nõuetega. Isikupärastatud reklaamide näitamisega nõustumisel aitate te rakendust ülal hoida ja tagada parema kasutajakogemuse.\n\nTe saate oma nõusolekut igal ajal rakenduse seadete kaudu muuta. Lisateabe saamiseks selle kohta, kuidas ma teie andmeid kasutan ja millised on teie õigused GDPR-i alusel, lugege minu privaatsuspoliitikat.\n\nTänan mõistva suhtumise ja jätkuva toe eest.\n\nLugupidamisega,\n</string>
+    <string name="button_give_gdpr_consent">Anna nõusolek</string>
+</resources>

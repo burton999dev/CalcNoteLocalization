@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="round_behavior_entries">
+        <item>Rotunjire în sus</item>
+        <item>Rotunjire în jos</item>
+        <item>Rotunjire departe de zero</item>
+        <item>Rotunjire bancară</item>
+    </string-array>
+    <string-array name="tax_round_behavior_entries">
+        <item>Rotunjire în sus</item>
+        <item>Rotunjire în jos</item>
+        <item>Rotunjire departe de zero</item>
+    </string-array>
+    <string-array name="keypad_sound_entries">
+        <item>Fără sunet</item>
+        <item>Efect sonor 1</item>
+        <item>Efect sonor 2</item>
+        <item>Efect sonor 3</item>
+        <item>Efect sonor 4</item>
+    </string-array>
+    <string-array name="keypad_input_method_entries">
+        <item>Apăsare lungă</item>
+        <item>Glisare</item>
+    </string-array>
+    <string-array name="button_font_size_entries">
+        <item>Mic</item>
+        <item>Mediu</item>
+        <item>Mare</item>
+        <item>Extra mare</item>
+        <item>Dublu extra mare</item>
+        <item>Triplu extra mare</item>
+    </string-array>
+    <string-array name="keypad_menu_size_entries">
+        <item>Mic</item>
+        <item>Mediu</item>
+        <item>Mare</item>
+    </string-array>
+    <string-array name="angle_mode_entries">
+        <item>Radiani</item>
+        <item>Grade</item>
+        <item>Gradiani</item>
+    </string-array>
+    <string-array name="calculation_mode_entries">
+        <item>Standard</item>
+        <item>Precizie înaltă (încărcare CPU crescută)</item>
+    </string-array>
+    <string-array name="result_alignment_entries">
+        <item>Aliniere la stânga</item>
+        <item>Aliniere la dreapta</item>
+    </string-array>
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>NrLinie<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>NrLinie<xliff:g>}</xliff:g></item>
+    </string-array>
+    <string-array name="caret_row_highlighting_entries">
+        <item>Dezactivat</item>
+        <item>Mod culoare fundal</item>
+        <item>Mod subliniere</item>
+    </string-array>
+    <string-array name="screen_orientation_entries">
+        <item>Orientare portret</item>
+        <item>Orientare peisaj</item>
+    </string-array>
+    <string-array name="floating_activation_method_entries">
+        <item>Activează din notificare</item>
+        <item>Activează din buton plutitor</item>
+        <item>Activează din scurtătură</item>
+    </string-array>
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>Format personalizat</item>
+    </string-array>
+    <string-array name="file_sort_condition_entries">
+        <item>Sortare crescătoare după data creării</item>
+        <item>Sortare descrescătoare după data creării</item>
+        <item>Sortare crescătoare după data modificării</item>
+        <item>Sortare descrescătoare după data modificării</item>
+        <item>Sortare crescătoare după numele fișierului</item>
+        <item>Sortare descrescătoare după numele fișierului</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>Implicit sistem</item>
+        <item>Întunecat</item>
+        <item>Luminos</item>
+    </string-array>
+    <string-array name="summarizer_type_entries">
+        <item>Total</item>
+        <item>Medie</item>
+        <item>Varianță</item>
+        <item>Deviație standard</item>
+        <item>Cu taxă</item>
+        <item>Fără taxă</item>
+        <item>Ascundeți</item>
+    </string-array>
+</resources>

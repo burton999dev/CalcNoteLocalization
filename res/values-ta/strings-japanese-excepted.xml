@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="label_incorrect_translation">தவறான மொழிபெயர்ப்பு</string>
+    <string name="label_correct_translation">சரியான மொழிபெயர்ப்பு</string>
+    <string name="label_reason">காரணம்</string>
+    <string name="toast_thanks_feed_back">உங்கள் கருத்துக்கு நன்றி.</string>
+    <string name="dialog_message_send_feedback">தவறான மொழிபெயர்ப்பு இருந்தால் அல்லது சிறந்ததாக உள்ளிருந்தால், சரியான மொழிபெயர்ப்பை வழங்க முடியுமா? உமது ஒத்துழைப்பால் <xliff:g id="app_name">CalcNote</xliff:g> மேலும் மேம்படும். கருத்து <xliff:g id="feedback_url">https://github.com/burton999dev/CalcNoteLocalization</xliff:g> வழியாக பகிரப்படும்.</string>
+</resources>

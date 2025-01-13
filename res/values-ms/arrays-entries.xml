@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="round_behavior_entries">
+        <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Pembundaran ke atas</item>
+        <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Pembundaran ke bawah</item>
+        <!--[CHAR LIMIT=50] A decimal fraction processing method. "Rounding off" is "Round half away from zero". see https://en.wikipedia.org/wiki/Rounding This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
+        <item>Pembundaran keluar</item>
+        <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Pembundaran juruwang</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="tax_round_behavior_entries">
+        <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Pembundaran ke atas</item>
+        <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Pembundaran ke bawah</item>
+        <!--[CHAR LIMIT=50] A decimal fraction processing method. "Rounding off" is "Round half away from zero". see https://en.wikipedia.org/wiki/Rounding This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
+        <item>Pembundaran keluar</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Settings for sounds when the calculator button is pressed. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="keypad_sound_entries">
+        <!-- [CHAR LIMIT=50] Settings for sounds when the calculator button is pressed. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Bisu</item>
+        <!-- [CHAR LIMIT=50] Settings for sounds when the calculator button is pressed. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Kesan bunyi 1</item>
+        <!-- [CHAR LIMIT=50] Settings for sounds when the calculator button is pressed. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Kesan bunyi 2</item>
+        <!-- [CHAR LIMIT=50] Settings for sounds when the calculator button is pressed. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Kesan bunyi 3</item>
+        <!-- [CHAR LIMIT=50] Settings for sounds when the calculator button is pressed. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Kesan bunyi 4</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Operation method for opening the subaction assigned to a button. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="keypad_input_method_entries">
+        <!-- [CHAR LIMIT=50] Operation method for opening the subaction assigned to a button. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Tekan lama</item>
+        <!-- [CHAR LIMIT=50] Operation method for opening the subaction assigned to a button. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Leret</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="button_font_size_entries">
+        <!-- [CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Kecil</item>
+        <!-- [CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Sederhana</item>
+        <!-- [CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Besar</item>
+        <!--[CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. The abbreviation for this word is XL.-->
+        <item>Lebih Besar</item>
+        <!--[CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. The abbreviation for this word is XXL.-->
+        <item>Dua Kali Lebih Besar</item>
+        <!--[CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. The abbreviation for this word is XXXL.-->
+        <item>Tiga Kali Lebih Besar</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Calculator menu font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="keypad_menu_size_entries">
+        <!-- [CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Kecil</item>
+        <!-- [CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Sederhana</item>
+        <!-- [CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Besar</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Unit of angle used in trigonometric functions. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="angle_mode_entries">
+        <!-- [CHAR LIMIT=50] Unit of angle used in trigonometric functions. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Radian</item>
+        <!-- [CHAR LIMIT=50] Unit of angle used in trigonometric functions. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Darjah</item>
+        <!-- [CHAR LIMIT=50] Unit of angle used in trigonometric functions. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Kecerunan</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Calculation precision settings for the calculator. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="calculation_mode_entries">
+        <!--[CHAR LIMIT=50] Calculation precision settings for the calculator. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. The default setting. As it is calculated using floating point numbers, errors may occur in calculation of extremely large or small numerical values.-->
+        <item>Standard</item>
+        <!--[CHAR LIMIT=50] Calculation precision settings for the calculator. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. The processing speed may decrease due to an increase in the calculation load, but this will result in the calculations being conducted without error.-->
+        <item>Ketepatan tinggi (muatan CPU meningkat)</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Text display positioning setting. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="result_alignment_entries">
+        <!--[CHAR LIMIT=50] Text display positioning setting. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
+        <item>Jajaran kiri</item>
+        <!--[CHAR LIMIT=50] Text display positioning setting. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
+        <item>Jajaran kanan</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Symbols used for line reference. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="line_reference_symbol_entries">
+        <!--[CHAR LIMIT=50] Symbols used for line reference. This is displayed as a list of selection items on the setting screen. The character limit excluding the xliff tag is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. You should translate "LineNo" part. "LineNo" means "Line Number".-->
+        <item><xliff:g>${</xliff:g>NoBaris<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>NoBaris<xliff:g>}</xliff:g></item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Text editor cursor line display method setting. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="caret_row_highlighting_entries">
+        <!--[CHAR LIMIT=50] Text editor cursor line display method setting. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
+        <item>Dinyahdayakan</item>
+        <!--[CHAR LIMIT=50] Text editor cursor line display method setting. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. Change and highlight the cursor line background color.-->
+        <item>Mod warna latar belakang</item>
+        <!--[CHAR LIMIT=50] Text editor cursor line display method setting. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. Underline the cursor line and highlight it.-->
+        <item>Mod garis bawah</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Screen display orientation setting. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="screen_orientation_entries">
+        <!--[CHAR LIMIT=50] Screen display orientation setting. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
+        <item>Orientasi potret</item>
+        <!--[CHAR LIMIT=50] Screen display orientation setting. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
+        <item>Orientasi landskap</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Floating widget activation method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="floating_activation_method_entries">
+        <!--[CHAR LIMIT=50] Floating widget activation method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. Activated by tapping the notification displayed in the notification bar.-->
+        <item>Aktifkan daripada pemberitahuan</item>
+        <!--[CHAR LIMIT=50] Floating widget activation method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. Activated by tapping the floating button permanently displayed on the screen. See https://github.com/recruit-lifestyle/FloatingView-->
+        <item>Aktifkan daripada butang terapung</item>
+        <!--[CHAR LIMIT=50] Floating widget activation method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. Activated by tapping the shortcut placed on the home screen.-->
+        <item>Aktifkan daripada pintasan</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Date format settings. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <!--A date format that the user may freely customize.-->
+        <item>Format Tersuai</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] File sort order settings. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="file_sort_condition_entries">
+        <item>Isih susunan menaik mengikut tarikh cipta</item>
+        <item>Isih susunan menurun mengikut tarikh cipta</item>
+        <item>Isih susunan menaik mengikut tarikh kemas kini</item>
+        <item>Isih susunan menurun mengikut tarikh kemas kini</item>
+        <item>Isih susunan menaik mengikut nama fail</item>
+        <item>Isih susunan menurun mengikut nama fail</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Dark UI mode settings. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="dark_ui_mode_entries" translatable="false">
+        <item>Tetapan asal sistem</item>
+        <item>Gelap</item>
+        <item>Cerah</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Summarizer type settings. Sets how the total row is calculated. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="summarizer_type_entries">
+        <item>Jumlah</item>
+        <item>Purata</item>
+        <item>Varians</item>
+        <item>Sisihan Standard</item>
+        <item>Dengan Cukai</item>
+        <item>Tanpa Cukai</item>
+        <item>Sembunyikan</item>
+    </string-array>
+</resources>

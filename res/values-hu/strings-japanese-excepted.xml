@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="label_incorrect_translation">Hibás fordítás</string>
+    <string name="label_correct_translation">Helyes fordítás</string>
+    <string name="label_reason">Indok</string>
+    <string name="toast_thanks_feed_back">Köszönöm a visszajelzést.</string>
+    <string name="dialog_message_send_feedback">Ha hibás fordítást találsz, vagy jobbat javasolnál, kérlek, oszd meg a helyes fordítást. Az együttműködésed még jobbá teszi a <xliff:g id="app_name">CalcNote</xliff:g>-t. A visszajelzéseket a <xliff:g id="feedback_url">https://github.com/burton999dev/CalcNoteLocalization</xliff:g> oldalon kérem.</string>
+</resources>

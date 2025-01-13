@@ -2,23 +2,23 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
     <string-array name="round_behavior_entries">
-        <!--[CHAR LIMIT=50] A decimal fraction processing method. "Rounding off" is "Round half away from zero". see https://en.wikipedia.org/wiki/Rounding This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
-        <item>반올림</item>
-        <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
-        <item>버림</item>
         <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
         <item>올림</item>
+        <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>버림</item>
+        <!--[CHAR LIMIT=50] A decimal fraction processing method. "Rounding off" is "Round half away from zero". see https://en.wikipedia.org/wiki/Rounding This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
+        <item>반올림</item>
         <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
         <item>은행원의 반올림</item>
     </string-array>
     <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
     <string-array name="tax_round_behavior_entries">
-        <!--[CHAR LIMIT=50] A decimal fraction processing method. "Rounding off" is "Round half away from zero". see https://en.wikipedia.org/wiki/Rounding This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
-        <item>반올림</item>
-        <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
-        <item>버림</item>
         <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
         <item>올림</item>
+        <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>버림</item>
+        <!--[CHAR LIMIT=50] A decimal fraction processing method. "Rounding off" is "Round half away from zero". see https://en.wikipedia.org/wiki/Rounding This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
+        <item>반올림</item>
     </string-array>
     <!-- [CHAR LIMIT=50] Settings for sounds when the calculator button is pressed. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
     <string-array name="keypad_sound_entries">
@@ -48,6 +48,12 @@
         <item>중</item>
         <!-- [CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
         <item>대</item>
+        <!--[CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. The abbreviation for this word is XL.-->
+        <item>XL</item>
+        <!--[CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. The abbreviation for this word is XXL.-->
+        <item>XXL</item>
+        <!--[CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. The abbreviation for this word is XXXL.-->
+        <item>XXXL</item>
     </string-array>
     <!-- [CHAR LIMIT=50] Calculator menu font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
     <string-array name="keypad_menu_size_entries">
@@ -131,13 +137,27 @@
     </string-array>
     <!-- [CHAR LIMIT=50] File sort order settings. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
     <string-array name="file_sort_condition_entries">
-        <!--[CHAR LIMIT=50] File sort order settings. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
+        <item>생성 날짜에 따라 오름차순으로 정렬</item>
+        <item>생성 날짜에 따라 내림차순으로 정렬</item>
         <item>업데이트 날짜에 따라 오름차순으로 정렬</item>
-        <!--[CHAR LIMIT=50] File sort order settings. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
         <item>업데이트 날짜에 따라 내림차순으로 정렬</item>
-        <!--[CHAR LIMIT=50] File sort order settings. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
         <item>파일명에 따라 오름차순으로 정렬</item>
-        <!--[CHAR LIMIT=50] File sort order settings. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
         <item>파일명에 따라 내림차순으로 정렬</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Dark UI mode settings. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="dark_ui_mode_entries" translatable="false">
+        <item>시스템 기본값</item>
+        <item>어둡게</item>
+        <item>밝게</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Summarizer type settings. Sets how the total row is calculated. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="summarizer_type_entries">
+        <item>총계</item>
+        <item>평균</item>
+        <item>분산</item>
+        <item>표준 편차</item>
+        <item>세금 포함</item>
+        <item>세금 제외</item>
+        <item>숨기기</item>
     </string-array>
 </resources>

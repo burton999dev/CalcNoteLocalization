@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="round_behavior_entries">
+        <item>ઉપર ગોળકરણ</item>
+        <item>નીચે ગોળકરણ</item>
+        <item>અડધા પર ગોળકરણ</item>
+        <item>બેંકર ગોળકરણ</item>
+    </string-array>
+    <string-array name="tax_round_behavior_entries">
+        <item>ઉપર ગોળકરણ</item>
+        <item>નીચે ગોળકરણ</item>
+        <item>અડધા પર ગોળકરણ</item>
+    </string-array>
+    <string-array name="keypad_sound_entries">
+        <item>મૌન</item>
+        <item>ધ્વનિ અસર 1</item>
+        <item>ધ્વનિ અસર 2</item>
+        <item>ધ્વનિ અસર 3</item>
+        <item>ધ્વનિ અસર 4</item>
+    </string-array>
+    <string-array name="keypad_input_method_entries">
+        <item>દીર્ઘ દબાવ</item>
+        <item>સ્વાઇપ</item>
+    </string-array>
+    <string-array name="button_font_size_entries">
+        <item>નાનું</item>
+        <item>મધ્યમ</item>
+        <item>મોટું</item>
+        <item>અતિ મોટું</item>
+        <item>બે ગણું અતિ મોટું</item>
+        <item>ત્રણ ગણું અતિ મોટું</item>
+    </string-array>
+    <string-array name="keypad_menu_size_entries">
+        <item>નાનું</item>
+        <item>મધ્યમ</item>
+        <item>મોટું</item>
+    </string-array>
+    <string-array name="angle_mode_entries">
+        <item>રેડિયન</item>
+        <item>ડિગ્રી</item>
+        <item>ગ્રેડિયન</item>
+    </string-array>
+    <string-array name="calculation_mode_entries">
+        <item>માનક</item>
+        <item>ઉચ્ચ ચોકસાઈ (CPU ભાર વધે)</item>
+    </string-array>
+    <string-array name="result_alignment_entries">
+        <item>ડાબે ગોઠવણી</item>
+        <item>જમણે ગોઠવણી</item>
+    </string-array>
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>લાઇન નંબર<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>લાઇન નંબર<xliff:g>}</xliff:g></item>
+    </string-array>
+    <string-array name="caret_row_highlighting_entries">
+        <item>નિસ્ક્રિય</item>
+        <item>પીછળાભૂમિ રંગ મોડ</item>
+        <item>અંડરલાઇન મોડ</item>
+    </string-array>
+    <string-array name="screen_orientation_entries">
+        <item>ઉભી દિશા</item>
+        <item>આડવી દિશા</item>
+    </string-array>
+    <string-array name="floating_activation_method_entries">
+        <item>નોટિફિકેશનથી સક્રિય કરો</item>
+        <item>ફ્લોટિંગ બટનથી સક્રિય કરો</item>
+        <item>શોર્ટકટથી સક્રિય કરો</item>
+    </string-array>
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>કસ્ટમ સ્વરૂપ</item>
+    </string-array>
+    <string-array name="file_sort_condition_entries">
+        <item>બનાવેલ તારીખે ચઢતી ગોઠવણી</item>
+        <item>બનાવેલ તારીખે ઊતરતી ગોઠવણી</item>
+        <item>અપડેટ તારીખે ચઢતી ગોઠવણી</item>
+        <item>અપડેટ તારીખે ઊતરતી ગોઠવણી</item>
+        <item>ફાઈલ નામે ચઢતી ગોઠવણી</item>
+        <item>ફાઈલ નામે ઊતરતી ગોઠવણી</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>સિસ્ટમ મૂળભૂત</item>
+        <item>ડાર્ક</item>
+        <item>લાઇટ</item>
+    </string-array>
+    <string-array name="summarizer_type_entries">
+        <item>કુલ</item>
+        <item>સરેરાશ</item>
+        <item>વેરિયન્સ</item>
+        <item>સ્ટાન્ડર્ડ ડિવીએશન</item>
+        <item>ટેક્સ સાથે</item>
+        <item>ટેક્સ સિવાય</item>
+        <item>છુપાવો</item>
+    </string-array>
+</resources>

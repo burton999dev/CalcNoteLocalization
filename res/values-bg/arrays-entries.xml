@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="round_behavior_entries">
+        <item>Закръгляне нагоре</item>
+        <item>Закръгляне надолу</item>
+        <item>Закръгляне далеч от нулата</item>
+        <item>Банкерско закръгляне</item>
+    </string-array>
+    <string-array name="tax_round_behavior_entries">
+        <item>Закръгляне нагоре</item>
+        <item>Закръгляне надолу</item>
+        <item>Закръгляне далеч от нулата</item>
+    </string-array>
+    <string-array name="keypad_sound_entries">
+        <item>Без звук</item>
+        <item>Звуков ефект 1</item>
+        <item>Звуков ефект 2</item>
+        <item>Звуков ефект 3</item>
+        <item>Звуков ефект 4</item>
+    </string-array>
+    <string-array name="keypad_input_method_entries">
+        <item>Дълго натискане</item>
+        <item>Плъзване</item>
+    </string-array>
+    <string-array name="button_font_size_entries">
+        <item>Малък</item>
+        <item>Среден</item>
+        <item>Голям</item>
+        <item>Много голям</item>
+        <item>Двойно по-голям</item>
+        <item>Тройно по-голям</item>
+    </string-array>
+    <string-array name="keypad_menu_size_entries">
+        <item>Малък</item>
+        <item>Среден</item>
+        <item>Голям</item>
+    </string-array>
+    <string-array name="angle_mode_entries">
+        <item>Радиан</item>
+        <item>Градус</item>
+        <item>Градиан</item>
+    </string-array>
+    <string-array name="calculation_mode_entries">
+        <item>Стандартен</item>
+        <item>Висока точност (повишен CPU товар)</item>
+    </string-array>
+    <string-array name="result_alignment_entries">
+        <item>Подравняване вляво</item>
+        <item>Подравняване вдясно</item>
+    </string-array>
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>Номер на ред<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>Номер на ред<xliff:g>}</xliff:g></item>
+    </string-array>
+    <string-array name="caret_row_highlighting_entries">
+        <item>Изключено</item>
+        <item>Цветен фон</item>
+        <item>Подчертаване</item>
+    </string-array>
+    <string-array name="screen_orientation_entries">
+        <item>Портретен режим</item>
+        <item>Пейзажен режим</item>
+    </string-array>
+    <string-array name="floating_activation_method_entries">
+        <item>Активиране чрез известие</item>
+        <item>Активиране с плаващ бутон</item>
+        <item>Активиране с пряк път</item>
+    </string-array>
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>Персонализиран формат</item>
+    </string-array>
+    <string-array name="file_sort_condition_entries">
+        <item>По дата на създаване (възх.)</item>
+        <item>По дата на създаване (низх.)</item>
+        <item>По дата на обновяване (възх.)</item>
+        <item>По дата на обновяване (низх.)</item>
+        <item>По име на файл (възх.)</item>
+        <item>По име на файл (низх.)</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>Системно по подразбиране</item>
+        <item>Тъмен</item>
+        <item>Светъл</item>
+    </string-array>
+    <string-array name="summarizer_type_entries">
+        <item>Общо</item>
+        <item>Средно</item>
+        <item>Вариация</item>
+        <item>Стандартно отклонение</item>
+        <item>С включен данък</item>
+        <item>Без данък</item>
+        <item>Скрий</item>
+    </string-array>
+</resources>

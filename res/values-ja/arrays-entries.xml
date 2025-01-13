@@ -35,6 +35,9 @@
         <item>小</item>
         <item>中</item>
         <item>大</item>
+        <item>特大</item>
+        <item>超特大</item>
+        <item>最特大</item>
     </string-array>
     <!-- [CHAR LIMIT=50] 電卓のメニューのフォントサイズです。 -->
     <string-array name="keypad_menu_size_entries">
@@ -108,9 +111,27 @@
     </string-array>
     <!-- [CHAR LIMIT=50] ファイルのソート順の設定です。 -->
     <string-array name="file_sort_condition_entries">
+        <item>作成日時で昇順ソート</item>
+        <item>作成日時で降順ソート</item>
         <item>更新日時で昇順ソート</item>
         <item>更新日時で降順ソート</item>
         <item>ファイル名で昇順ソート</item>
         <item>ファイル名で降順ソート</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] ダークテーマの設定です。 -->
+    <string-array name="dark_ui_mode_entries">
+        <item>システムのデフォルト</item>
+        <item>ダーク</item>
+        <item>ライト</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] 合計行の計算方法の設定です。 -->
+    <string-array name="summarizer_type_entries">
+        <item>合計</item>
+        <item>平均</item>
+        <item>分散</item>
+        <item>標準偏差</item>
+        <item>税込</item>
+        <item>税別</item>
+        <item>非表示</item>
     </string-array>
 </resources>

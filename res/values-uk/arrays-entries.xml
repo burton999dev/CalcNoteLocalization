@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="round_behavior_entries">
+        <item>Заокруглення вгору</item>
+        <item>Заокруглення вниз</item>
+        <item>Заокруглення від нуля</item>
+        <item>Банківське заокруглення</item>
+    </string-array>
+    <string-array name="tax_round_behavior_entries">
+        <item>Заокруглення вгору</item>
+        <item>Заокруглення вниз</item>
+        <item>Заокруглення від нуля</item>
+    </string-array>
+    <string-array name="keypad_sound_entries">
+        <item>Без звуку</item>
+        <item>Звуковий ефект 1</item>
+        <item>Звуковий ефект 2</item>
+        <item>Звуковий ефект 3</item>
+        <item>Звуковий ефект 4</item>
+    </string-array>
+    <string-array name="keypad_input_method_entries">
+        <item>Довге натискання</item>
+        <item>Змахування</item>
+    </string-array>
+    <string-array name="button_font_size_entries">
+        <item>Малий</item>
+        <item>Середній</item>
+        <item>Великий</item>
+        <item>Дуже великий</item>
+        <item>Подвійно великий</item>
+        <item>Потрійно великий</item>
+    </string-array>
+    <string-array name="keypad_menu_size_entries">
+        <item>Малий</item>
+        <item>Середній</item>
+        <item>Великий</item>
+    </string-array>
+    <string-array name="angle_mode_entries">
+        <item>Радіани</item>
+        <item>Градуси</item>
+        <item>Градіани</item>
+    </string-array>
+    <string-array name="calculation_mode_entries">
+        <item>Стандартний</item>
+        <item>Висока точність (збільшує навантаження ЦП)</item>
+    </string-array>
+    <string-array name="result_alignment_entries">
+        <item>Вирівнювання зліва</item>
+        <item>Вирівнювання справа</item>
+    </string-array>
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>Номер рядка<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>Номер рядка<xliff:g>}</xliff:g></item>
+    </string-array>
+    <string-array name="caret_row_highlighting_entries">
+        <item>Вимкнено</item>
+        <item>Режим кольору тла</item>
+        <item>Режим підкреслення</item>
+    </string-array>
+    <string-array name="screen_orientation_entries">
+        <item>Портретна орієнтація</item>
+        <item>Альбомна орієнтація</item>
+    </string-array>
+    <string-array name="floating_activation_method_entries">
+        <item>Активувати з повідомлення</item>
+        <item>Активувати з плаваючої кнопки</item>
+        <item>Активувати з ярлика</item>
+    </string-array>
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>Користувацький формат</item>
+    </string-array>
+    <string-array name="file_sort_condition_entries">
+        <item>Сортувати за датою створення (за зростанням)</item>
+        <item>Сортувати за датою створення (за спаданням)</item>
+        <item>Сортувати за датою оновлення (за зростанням)</item>
+        <item>Сортувати за датою оновлення (за спаданням)</item>
+        <item>Сортувати за назвою файлу (за зростанням)</item>
+        <item>Сортувати за назвою файлу (за спаданням)</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>Системний стандарт</item>
+        <item>Темний</item>
+        <item>Світлий</item>
+    </string-array>
+    <string-array name="summarizer_type_entries">
+        <item>Разом</item>
+        <item>Середнє</item>
+        <item>Дисперсія</item>
+        <item>Стандартне відхил.</item>
+        <item>Податок включений</item>
+        <item>Податок виключений</item>
+        <item>Приховати</item>
+    </string-array>
+</resources>

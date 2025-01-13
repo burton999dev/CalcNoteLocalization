@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="toast_cannot_customize_appearance_dark_miui">Jika anda mengaktifkan mod gelap pada MIUI Xiaomi, penyesuaian rupa dalam CalcNote tidak disokong. Tetapan telah diset semula.</string>
+    <string name="dialog_title_app_update_required">Pengemaskinian aplikasi diperlukan</string>
+    <string name="dialog_message_app_update_required">Versi baru aplikasi kini tersedia. Untuk mengakses ciri dan kemas kini keselamatan terkini, sila kemas kini aplikasi. Jika anda tidak dapat mengemas kini kerana masalah sambungan atau masalah lain, sila semak sambungan anda dan cuba lagi. Sila ambil perhatian bahawa anda tidak akan dapat menggunakan aplikasi tanpa kemas kini ini. Kami menghargai pengertian dan kerjasama anda.</string>
+
+    <string name="context_menu_history">Jejak Perubahan</string>
+    <string name="context_menu_restore">Pulihkan</string>
+    <string name="context_menu_permanently_delete">Padam Selamanya</string>
+    <string name="toast_file_is_restored">Fail berjaya dipulihkan.</string>
+    <string name="toast_failed_to_restore_file">Tidak dapat memulihkan fail.</string>
+    <string name="toast_failed_to_permanently_delete">Tidak dapat memadam selamanya.</string>
+
+    <string name="dialog_message_confirm_permanently_delete_all_deleted_files">Adakah anda pasti mahu memadam selamanya semua fail yang telah dipadam?</string>
+
+    <string name="pad_description_checkbox">Kotak semak</string>
+
+    <string name="pad_description_ans">Masukkan hasil dari baris di atas</string>
+
+    <string name="user_defined_list">Senarai Ditakrifkan Pengguna</string>
+    <string name="label_list_name">Nama senarai</string>
+    <string name="label_list_values">Item senarai</string>
+    <string name="empty_list_items_not_found">Senarai kosong</string>
+    <string name="label_list_item_value">Nilai item</string>
+    <string name="label_list_item_description">Huraian item</string>
+    <string name="toast_user_defined_list_limitation">Hanya satu senarai ditakrifkan pengguna boleh dicipta dalam versi percuma</string>
+
+    <string name="help_custom_list1">Dengan mencipta senarai ditakrifkan pengguna, anda boleh mengatur item yang kerap digunakan ke dalam senarai, memudahkan penyertaan data.</string>
+    <string name="help_custom_list2">Sebagai contoh, menyenaraikan perbelanjaan bulanan tetap boleh memudahkan pengurusan bajet.</string>
+    <string name="help_custom_list3">Senarai yang dicipta boleh ditugaskan kepada butang dalam tetapan \"Sesuaikan pad kunci\".</string>
+    <string name="help_custom_list_name">Masukkan nama senarai yang akan dipaparkan pada butang.</string>
+    <string name="help_custom_list_items">Tambah item senarai. Anda boleh menetapkan ungkapan dan deskripsi sebarangan untuk setiap item.</string>
+
+    <string name="result_twos_complement_binary">Pelengkap Dua</string>
+    <string name="toast_need_to_test_user_defined_function">Sila jalankan ujian pelaksanaan untuk mengesahkan fungsi sebelum menyimpan.</string>
+    <string name="pad_description_find_in_file">Cari dalam Fail Semasa</string>
+    <string name="drawer_menu_find_in_file">Cari dalam Fail Semasa</string>
+    <string name="button_replace">Ganti</string>
+    <string name="button_replace_all">Ganti Semua</string>
+
+    <string name="toast_warning_show_action_bar">Walaupun bar tindakan disorok, anda masih boleh memaparkan menu sisi dengan mengusap dari tepi kiri skrin ke tengah.</string>
+    <string name="checkbox_print_option_is_replace_line_reference">Gantikan rujukan baris dengan nilai</string>
+    <string name="preference_title_auto_rotate_screen_enabled">Putar Layar Secara Automatik</string>
+    <string name="label_portrait_keypads">Pad Kunci Mod Potret</string>
+    <string name="label_landscape_keypads">Pad Kunci Mod Landskap</string>
+
+    <string name="dialog_title_rename_file">Namakan semula fail</string>
+    <string name="dialog_title_copy_file">Salin fail</string>
+
+    <string name="preference_title_open_youtube">Video Tip Pantas</string>
+
+    <string name="toast_landscape_keypad_not_supported">Pad kunci mod landskap tidak disokong dalam keadaan peranti semasa.</string>
+
+    <string name="template_placeholder_short_date">Format tarikh pendek</string>
+    <string name="template_placeholder_short_time">Format masa pendek</string>
+    <string name="template_placeholder_short_date_time">Format tarikh dan masa pendek</string>
+    <string name="template_placeholder_medium_date">Format tarikh sederhana</string>
+    <string name="template_placeholder_medium_time">Format masa sederhana</string>
+    <string name="template_placeholder_medium_date_time">Format tarikh dan masa sederhana</string>
+    <string name="template_placeholder_long_date">Format tarikh panjang</string>
+    <string name="template_placeholder_long_time">Format masa panjang</string>
+    <string name="template_placeholder_long_date_time">Format tarikh dan masa panjang</string>
+    <string name="template_placeholder_year">Tahun</string>
+    <string name="template_placeholder_month">Bulan</string>
+    <string name="template_placeholder_month_no_zero">Bulan tanpa angka sifar di depan</string>
+    <string name="template_placeholder_month_abbreviated">Nama bulan yang disingkat</string>
+    <string name="template_placeholder_day">Hari dalam bulan</string>
+    <string name="template_placeholder_day_no_zero">Hari dalam bulan tanpa angka sifar di depan</string>
+    <string name="template_placeholder_day_of_week">Nama penuh hari dalam minggu</string>
+    <string name="template_placeholder_day_of_week_short">Nama pendek hari dalam minggu</string>
+    <string name="template_placeholder_hour_24">Jam dalam format 24 jam</string>
+    <string name="template_placeholder_hour_12">Jam dalam format 12 jam</string>
+    <string name="template_placeholder_minute">Minit</string>
+    <string name="template_placeholder_second">Saat</string>
+    <string name="template_placeholder_ampm">Penunjuk AM/PM</string>
+    <string name="menu_add_placeholder">Tambah Placeholder</string>
+    <string name="template_placeholder_description_text">Digantikan dengan teks yang dimasukkan semasa membuat fail</string>
+    <string name="template_placeholder_description_list">Digantikan dengan teks yang dipilih dari senarai semasa membuat fail</string>
+    <string name="label_placeholder_name">Nama Placeholder</string>
+    <string name="label_placeholder_values">Item senarai (dipisahkan dengan koma)</string>
+
+    <string name="toast_interstitial_ad_will_appear">Iklan skrin penuh akan muncul apabila anda kembali ke skrin utama.</string>
+
+    <string name="pad_description_toggle_comments">Komen atau batal komen banyak pengiraan serentak</string>
+    <string name="dialog_title_toggle_comment">Togol Komen</string>
+
+    <string name="preference_title_checkbox_behavior">Tingkah laku kotak semak</string>
+    <string name="label_checkbox_state_checked">Ditandakan</string>
+    <string name="label_checkbox_state_unchecked">Tidak ditandakan</string>
+    <string name="label_checkbox_behavior_do">Kira</string>
+    <string name="label_checkbox_behavior_skip">Langkau pengiraan</string>
+</resources>

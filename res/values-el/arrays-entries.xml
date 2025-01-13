@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="round_behavior_entries">
+        <item>Στρογγυλοποίηση προς τα επάνω</item>
+        <item>Στρογγυλοποίηση προς τα κάτω</item>
+        <item>Στρογγυλοποίηση μακριά από το μηδέν</item>
+        <item>Τραπεζική στρογγυλοποίηση</item>
+    </string-array>
+    <string-array name="tax_round_behavior_entries">
+        <item>Στρογγυλοποίηση προς τα επάνω</item>
+        <item>Στρογγυλοποίηση προς τα κάτω</item>
+        <item>Στρογγυλοποίηση μακριά από το μηδέν</item>
+    </string-array>
+    <string-array name="keypad_sound_entries">
+        <item>Σίγαση</item>
+        <item>Ηχητικό εφέ 1</item>
+        <item>Ηχητικό εφέ 2</item>
+        <item>Ηχητικό εφέ 3</item>
+        <item>Ηχητικό εφέ 4</item>
+    </string-array>
+    <string-array name="keypad_input_method_entries">
+        <item>Παρατεταμένο πάτημα</item>
+        <item>Σάρωση</item>
+    </string-array>
+    <string-array name="button_font_size_entries">
+        <item>Μικρό</item>
+        <item>Μεσαίο</item>
+        <item>Μεγάλο</item>
+        <item>Πολύ μεγάλο</item>
+        <item>Διπλά πολύ μεγάλο</item>
+        <item>Τριπλά πολύ μεγάλο</item>
+    </string-array>
+    <string-array name="keypad_menu_size_entries">
+        <item>Μικρό</item>
+        <item>Μεσαίο</item>
+        <item>Μεγάλο</item>
+    </string-array>
+    <string-array name="angle_mode_entries">
+        <item>Ακτίνιο</item>
+        <item>Μοίρα</item>
+        <item>Γκράδιο</item>
+    </string-array>
+    <string-array name="calculation_mode_entries">
+        <item>Κανονικό</item>
+        <item>Υψηλή ακρίβεια (αυξάνει το φορτίο CPU)</item>
+    </string-array>
+    <string-array name="result_alignment_entries">
+        <item>Αριστερή στοίχιση</item>
+        <item>Δεξιά στοίχιση</item>
+    </string-array>
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>Αρ.Γραμμής<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>Αρ.Γραμμής<xliff:g>}</xliff:g></item>
+    </string-array>
+    <string-array name="caret_row_highlighting_entries">
+        <item>Απενεργοποιημένο</item>
+        <item>Χρώμα φόντου</item>
+        <item>Υπογράμμιση</item>
+    </string-array>
+    <string-array name="screen_orientation_entries">
+        <item>Κατακόρυφη προβολή</item>
+        <item>Οριζόντια προβολή</item>
+    </string-array>
+    <string-array name="floating_activation_method_entries">
+        <item>Ενεργοποίηση από ειδοποίηση</item>
+        <item>Ενεργοποίηση από πλωτό κουμπί</item>
+        <item>Ενεργοποίηση από συντόμευση</item>
+    </string-array>
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>Προσαρμοσμένη μορφή</item>
+    </string-array>
+    <string-array name="file_sort_condition_entries">
+        <item>Αύξουσα ταξινόμηση κατά ημερομηνία δημιουργίας</item>
+        <item>Φθίνουσα ταξινόμηση κατά ημερομηνία δημιουργίας</item>
+        <item>Αύξουσα ταξινόμηση κατά ημερομηνία ενημέρωσης</item>
+        <item>Φθίνουσα ταξινόμηση κατά ημερομηνία ενημέρωσης</item>
+        <item>Αύξουσα ταξινόμηση κατά όνομα αρχείου</item>
+        <item>Φθίνουσα ταξινόμηση κατά όνομα αρχείου</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>Προεπιλογή συστήματος</item>
+        <item>Σκούρο</item>
+        <item>Φωτεινό</item>
+    </string-array>
+    <string-array name="summarizer_type_entries">
+        <item>Σύνολο</item>
+        <item>Μέσος όρος</item>
+        <item>Διασπορά</item>
+        <item>Τυπική απόκλιση</item>
+        <item>Με ΦΠΑ</item>
+        <item>Χωρίς ΦΠΑ</item>
+        <item>Απόκρυψη</item>
+    </string-array>
+</resources>

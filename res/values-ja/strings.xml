@@ -14,6 +14,8 @@
     <!-- [CHAR LIMIT=60] -->
     <string name="input_error_already_in_use">入力された文字は既に使われています</string>
     <!-- [CHAR LIMIT=60] -->
+    <string name="select_error_already_in_use">選択された記号は既に使われています</string>
+    <!-- [CHAR LIMIT=60] -->
     <string name="input_error_start_with_numeric">文字の先頭は数字以外を指定してください。</string>
     <!-- [CHAR LIMIT=60] 登録処理で使用できない文字が入力されいて登録できない場合に表示するエラーメッセージです。 -->
     <string name="input_error_has_prohibited_characters"><xliff:g id="prohibition_characters">[+-*/%$&amp;|~&lt;&gt;!√^=()@]</xliff:g> は定数名に使用できません。</string>
@@ -80,6 +82,8 @@
     <string name="drawer_menu_find">ファイルの検索</string>
     <!-- [CHAR LIMIT=48] 編集中のファイルを共有します。 -->
     <string name="drawer_menu_share">共有</string>
+    <!-- [CHAR LIMIT=48] 編集中のファイルのショートカットをホーム画面に作成します。 -->
+    <string name="drawer_menu_shortcut">ショートカットの作成</string>
     <!-- [CHAR LIMIT=48] 計算式の数字と演算子の間にスペースなどを追加して、より見やすくなるように計算式を整形します。 -->
     <string name="drawer_menu_format_formula">式を整形</string>
     <!-- [CHAR LIMIT=48] 直前の入力操作を取り消して、元に戻します。 -->
@@ -95,7 +99,6 @@
     <string name="menu_help">ヘルプ</string>
     <!-- [CHAR LIMIT=30] チェックボックスのリストを全て選択状態にします。 -->
     <string name="menu_select_all">全てを選択</string>
-
     <!-- [CHAR LIMIT=30] 選択項目を編集します。 -->
     <string name="context_menu_edit">編集</string>
     <!-- [CHAR LIMIT=30] 選択項目を削除します。 -->
@@ -106,14 +109,12 @@
     <string name="context_menu_rename">リネーム</string>
     <!-- [CHAR LIMIT=30] 選択項目をコピーします。 -->
     <string name="context_menu_duplicate">コピーを作成</string>
-
     <!-- [CHAR LIMIT=30] ファイルを削除 -->
     <string name="bottom_navigation_menu_delete">削除</string>
     <!-- [CHAR LIMIT=30] ファイルの名前を変更 -->
     <string name="bottom_navigation_menu_rename">リネーム</string>
     <!-- [CHAR LIMIT=30] ファイルをバックアップ -->
     <string name="bottom_navigation_menu_backup">バックアップ</string>
-
     <!-- [CHAR LIMIT=10] 計算結果の表示方法です。 -->
     <string name="result_decimal">10進数</string>
     <!-- [CHAR LIMIT=10] 計算結果の表示方法です。 -->
@@ -190,13 +191,18 @@
     <string name="unit_category_mass">質量/重さ</string>
     <!-- [CHAR LIMIT=16] 単位変換機能のカテゴリに表示される文字列です。速度の単位を単位変換するカテゴリです。 -->
     <string name="unit_category_speed">速度</string>
+    <!-- [CHAR LIMIT=16] 単位変換機能のカテゴリに表示される文字列です。燃費の単位を単位変換するカテゴリです。 -->
+    <string name="unit_category_fuel">燃費</string>
     <!-- [CHAR LIMIT=16] 単位変換機能のカテゴリに表示される文字列です。温度の単位を単位変換するカテゴリです。 -->
     <string name="unit_category_temperature">温度</string>
     <!-- [CHAR LIMIT=16] 単位変換機能のカテゴリに表示される文字列です。時間の単位を単位変換するカテゴリです。 -->
     <string name="unit_category_time">時間</string>
     <!-- [CHAR LIMIT=16] 単位変換機能のカテゴリに表示される文字列です。体積の単位を単位変換するカテゴリです。 -->
     <string name="unit_category_volume">体積</string>
-
+    <!-- [CHAR LIMIT=16] 単位変換機能のカテゴリに表示される文字列です。圧力の単位を単位変換するカテゴリです。 -->
+    <string name="unit_category_pressure">圧力</string>
+    <!-- [CHAR LIMIT=16] 単位変換機能のカテゴリに表示される文字列です。仕事の単位を単位変換するカテゴリです。 -->
+    <string name="unit_category_work">仕事</string>
     <!-- [CHAR LIMIT=30] 面積の単位です。https://en.wikipedia.org/wiki/Square_kilometre -->
     <string name="unit_label_area_kilometres">平方キロメートル (km\u00B2)</string>
     <!-- [CHAR LIMIT=30] 面積の単位です。https://en.wikipedia.org/wiki/Square_metre -->
@@ -217,9 +223,6 @@
     <string name="unit_label_area_inch">平方インチ (in\u00B2)</string>
     <!-- [CHAR LIMIT=30] 面積の単位です。https://en.wikipedia.org/wiki/Acre -->
     <string name="unit_label_area_acre">エーカー</string>
-    <string name="unit_label_area_tan">反</string>
-    <string name="unit_label_area_jou">畳</string>
-    <string name="unit_label_area_tsubo">坪</string>
 
     <!-- [CHAR LIMIT=30] 距離/長さの単位です。https://en.wikipedia.org/wiki/Kilometre -->
     <string name="unit_label_length_kilometre">キロメートル (km)</string>
@@ -363,6 +366,66 @@
     <!-- [CHAR LIMIT=30] 体積の単位です。https://en.wikipedia.org/wiki/Cubic_yard -->
     <string name="unit_label_volume_cubic_yard">立方ヤード (yd\u00B3)</string>
 
+    <!-- [CHAR LIMIT=30] 燃費の単位です。 https://en.wikipedia.org/wiki/Fuel_economy_in_automobiles -->
+    <string name="unit_label_fuel_kilometre_per_litre">キロメートル毎リットル km/L</string>
+    <!-- [CHAR LIMIT=30] 燃費の単位です。 https://en.wikipedia.org/wiki/Fuel_economy_in_automobiles -->
+    <string name="unit_label_fuel_mile_per_litre">マイル毎リットル (MPL)</string>
+    <!-- [CHAR LIMIT=30] 燃費の単位です。 https://en.wikipedia.org/wiki/Fuel_economy_in_automobiles -->
+    <string name="unit_label_fuel_mile_per_gallon">マイル毎ガロン MPG (米)</string>
+    <!-- [CHAR LIMIT=30] 燃費の単位です。 https://en.wikipedia.org/wiki/Fuel_economy_in_automobiles -->
+    <string name="unit_label_fuel_mile_per_uk_gallon">マイル毎ガロン MPG (英)</string>
+    <!-- [CHAR LIMIT=30] 燃費の単位です。 https://en.wikipedia.org/wiki/Fuel_economy_in_automobiles -->
+    <string name="unit_label_fuel_litre_per_100kilometre">リットル毎100キロメートル L/100km</string>
+    <!-- [CHAR LIMIT=30] 燃費の単位です。 https://en.wikipedia.org/wiki/Fuel_economy_in_automobiles -->
+    <string name="unit_label_fuel_gallon_per_100mile">ガロン毎100マイル (米)</string>
+    <!-- [CHAR LIMIT=30] 圧力の単位です。 https://en.wikipedia.org/wiki/Pascal_(unit) -->
+    <string name="unit_label_pressure_pascal">パスカル</string>
+    <!-- [CHAR LIMIT=30] 圧力の単位です。 https://en.wikipedia.org/wiki/Pascal_(unit) -->
+    <string name="unit_label_pressure_hectopascal">ヘクトパスカル</string>
+    <!-- [CHAR LIMIT=30] 圧力の単位です。 https://en.wikipedia.org/wiki/Bar_(unit) -->
+    <string name="unit_label_pressure_bar">バール</string>
+    <!-- [CHAR LIMIT=30] 圧力の単位です。 https://www.sensorsone.com/cmhg-centimetres-mercury-0-deg-c-pressure-unit/ -->
+    <string name="unit_label_pressure_centimetre_of_mercury">水銀柱センチメートル</string>
+    <!-- [CHAR LIMIT=30] 圧力の単位です。 https://en.wikipedia.org/wiki/Inch_of_mercury -->
+    <string name="unit_label_pressure_inch_of_mercury">水銀柱インチ</string>
+    <!-- [CHAR LIMIT=30] 圧力の単位です。 https://en.wikipedia.org/wiki/Centimetre_or_millimetre_of_water -->
+    <string name="unit_label_pressure_centimetre_of_water">水柱センチメートル</string>
+    <!-- [CHAR LIMIT=30] 圧力の単位です。 https://en.wikipedia.org/wiki/Inch_of_water -->
+    <string name="unit_label_pressure_inch_of_water">水柱インチ</string>
+    <!-- [CHAR LIMIT=30] 圧力の単位です。 https://en.wikipedia.org/wiki/Pound_per_square_inch -->
+    <string name="unit_label_pressure_pound_per_square_inch">重量ポンド毎平方インチ</string>
+    <!-- [CHAR LIMIT=30] 圧力の単位です。 https://en.wikipedia.org/wiki/Pound_per_square_inch -->
+    <string name="unit_label_pressure_pound_per_square_foot">重量ポンド毎平方フィート</string>
+    <!-- [CHAR LIMIT=30] 圧力の単位です。 https://en.wikipedia.org/wiki/Standard_atmosphere_(unit) -->
+    <string name="unit_label_pressure_atm">標準気圧</string>
+    <!-- [CHAR LIMIT=30] 圧力の単位です。 https://en.wikipedia.org/wiki/Kilogram-force_per_square_centimetre -->
+    <string name="unit_label_pressure_kilogram_per_square_centimetre">重量キログラム毎平方センチメートル</string>
+    <!-- [CHAR LIMIT=30] 圧力の単位です。 https://en.wikipedia.org/wiki/Torr -->
+    <string name="unit_label_pressure_torr">トル</string>
+    <!-- [CHAR LIMIT=30] 仕事の単位です。 https://en.wikipedia.org/wiki/Work_(physics). https://en.wikipedia.org/wiki/Joule -->
+    <string name="unit_label_work_joule">ジュール</string>
+    <!-- [CHAR LIMIT=30] 仕事の単位です。 https://en.wikipedia.org/wiki/Work_(physics). https://en.wikipedia.org/wiki/Joule#Kilojoule -->
+    <string name="unit_label_work_kilojoule">キロジュール</string>
+    <!-- [CHAR LIMIT=30] 仕事の単位です。 https://en.wikipedia.org/wiki/Work_(physics). https://en.wikipedia.org/wiki/Calorie -->
+    <string name="unit_label_work_calorie">カロリー</string>
+    <!-- [CHAR LIMIT=30] 仕事の単位です。 https://en.wikipedia.org/wiki/Work_(physics). https://en.wikipedia.org/wiki/Calorie -->
+    <string name="unit_label_work_kilocalorie">キロカロリー</string>
+    <!-- [CHAR LIMIT=30] 仕事の単位です。 https://en.wikipedia.org/wiki/Work_(physics). https://en.wikipedia.org/wiki/Kilowatt-hour -->
+    <string name="unit_label_work_watt_hour">ワット時</string>
+    <!-- [CHAR LIMIT=30] 仕事の単位です。 https://en.wikipedia.org/wiki/Work_(physics). https://en.wikipedia.org/wiki/Kilowatt-hour -->
+    <string name="unit_label_work_kilowatt_hour">キロワット時</string>
+    <!-- [CHAR LIMIT=30] 仕事の単位です。 https://en.wikipedia.org/wiki/Work_(physics). https://shorturl.at/oqFUW -->
+    <string name="unit_label_work_kilogram_force_meter">重量キログラムメートル</string>
+    <!-- [CHAR LIMIT=30] 仕事の単位です。 https://en.wikipedia.org/wiki/Work_(physics). https://en.wikipedia.org/wiki/Pound-foot_(torque) -->
+    <string name="unit_label_work_pound_force_inch">重量ポンドインチ</string>
+    <!-- [CHAR LIMIT=30] 仕事の単位です。 https://en.wikipedia.org/wiki/Work_(physics). https://en.wikipedia.org/wiki/Pound-foot_(torque) -->
+    <string name="unit_label_work_pound_force_foot">重量ポンドフィート</string>
+    <!-- [CHAR LIMIT=30] 仕事の単位です。 https://en.wikipedia.org/wiki/Work_(physics). https://en.wikipedia.org/wiki/British_thermal_unit -->
+    <string name="unit_label_work_british_thermal_unit">英熱量</string>
+    <!-- [CHAR LIMIT=30] 仕事の単位です。 https://en.wikipedia.org/wiki/Work_(physics). https://en.wikipedia.org/wiki/Tonne_of_oil_equivalent -->
+    <string name="unit_label_work_tonne_of_oil_equivalent">石油換算トン</string>
+    <!-- [CHAR LIMIT=30] 仕事の単位です。 https://en.wikipedia.org/wiki/Work_(physics). https://en.wikipedia.org/wiki/Newton-metre -->
+    <string name="unit_label_work_newton_metre">ニュートンメートル</string>
     <!-- [CHAR LIMIT=10] 下書きファイルの名前の接頭語です。実際のファイル名はこの文字列の後にタイムスタンプを追加した文字列です。(例)「下書き YYYYMMDDHHMISS」 -->
     <string name="prefix_draft_file">下書き</string>
     <!-- [CHAR LIMIT=15] 0除算など、計算がエラーとなった場合に計算結果の代わりに表示されるエラーメッセージです。 -->
@@ -378,7 +441,7 @@
     <!-- [CHAR LIMIT=36] 通知エリアに表示されるメッセージです。通知エリアをタップするとウィジェットが起動することをユーザーに説明する文です。 -->
     <string name="notification_default_text">タップしてウィジェットを起動します</string>
     <!-- [CHAR LIMIT=6] これに続く文章が例であることを表します -->
-    <string name="prefix_example">例)&#160;</string>
+    <string name="prefix_example">例:</string>
     <!-- [CHAR LIMIT=25] ユーザーが自由に定数を定義できる機能の名前です。 -->
     <string name="user_defined_constant">ユーザー定義定数</string>
     <!-- [CHAR LIMIT=25] ユーザーが自由にアクションを定義できる機能の名前です。アクションとはボタンに割り当てることのできる操作です。 -->
@@ -398,6 +461,8 @@
     <string name="preference_category_tax_settings">税率の設定</string>
     <!-- [CHAR LIMIT=40] 設定画面のカテゴリに表示される文字列です。アクションバーの外観のカスタマイズに関するカテゴリです。 -->
     <string name="preference_category_appearance_actionbar_settings">アクションバー</string>
+    <!-- [CHAR LIMIT=40] 設定画面のカテゴリに表示される文字列です。アプリの背景のカスタマイズに関するカテゴリです。 -->
+    <string name="preference_category_appearance_background">背景</string>
     <!-- [CHAR LIMIT=40] 設定画面のカテゴリに表示される文字列です。エディタの外観のカスタマイズに関するカテゴリです。 -->
     <string name="preference_category_appearance_editor_settings">エディタ</string>
     <!-- [CHAR LIMIT=40] 設定画面のカテゴリに表示される文字列です。シンタックスハイライトのカスタマイズに関するカテゴリです。 -->
@@ -451,6 +516,8 @@
     <string name="preference_title_computation_round_behavior">小数点端数処理</string>
     <!-- [CHAR LIMIT=38] 計算結果の表示位置の設定です。右寄せ、左寄せの中から選択します。 -->
     <string name="preference_title_computation_result_alignment">結果の表示位置</string>
+    <!-- [CHAR LIMIT=38] 合計行に表示する内容の設定です。合計行に合計、平均、分散など様々な計算結果を表示できます。 -->
+    <string name="preference_title_computation_summarizer">合計行のカスタマイズ</string>
     <!-- [CHAR LIMIT=38] 計算結果の表示形式の設定です。カンマ区切り(1,234,567.89) や ドット区切り(1.234.567,89) など、国ごとに異なる様々な形式をサポートしています。 -->
     <string name="preference_title_computation_format">結果の表示形式</string>
     <!-- [CHAR LIMIT=38] 日付の表示形式の設定です。 「yyyy/MM/dd」や「dd/MM/yyyy」など、国ごとに異なる様々な形式をサポートしています。 -->
@@ -467,6 +534,8 @@
     <string name="preference_title_tax_rate">消費税率(%)</string>
     <!-- [CHAR LIMIT=38] エディタのフォントサイズの設定です。 -->
     <string name="preference_title_editor_text_size">フォントサイズ</string>
+    <!-- [CHAR LIMIT=38] エディタの行間の設定です。 -->
+    <string name="preference_title_editor_line_spacing">行間</string>
     <!-- [CHAR LIMIT=38] エディタのフォントファミリーの設定です。 -->
     <string name="preference_title_editor_font_type">フォント</string>
     <!-- [CHAR LIMIT=38] エディタ上で現在編集中の行をどのように強調表示するかの設定です。「無効(強調表示しない)」「背景色モード(背景色を変えて強調表示)」「下線モード(下線を引いて強調表示)」の中から選択できます。 -->
@@ -509,6 +578,10 @@
     <string name="preference_title_editor_text_color">エディタの文字色</string>
     <!-- [CHAR LIMIT=68] 計算結果が負数(マイナス)だった場合の、文字色の設定です。 -->
     <string name="preference_title_editor_negative_text_color">エディタの負数の文字色</string>
+    <!-- [CHAR LIMIT=38] アプリの画面の背景画像 -->
+    <string name="preference_title_background_image">背景画像</string>
+    <!-- [CHAR LIMIT=38] アプリ画面の不透明度の設定です。この値を小さい値にすると、アプリの画面は、より透明になります。 -->
+    <string name="preference_title_background_alpha_channel">不透明度</string>
     <!-- [CHAR LIMIT=68] 行番号の背景色の設定です。 -->
     <string name="preference_title_line_no_background_color">行番号の背景色</string>
     <!-- [CHAR LIMIT=68] 行番号の文字色の設定です。 -->
@@ -581,15 +654,20 @@
     <string name="preference_title_backup_restore_screen">ファイルのバックアップ/復元</string>
     <!-- [CHAR LIMIT=68] アプリの外観を変更するテーマの設定です。 -->
     <string name="preference_title_theme">テーマ</string>
+    <!-- [CHAR LIMIT=68] The title of a setting on the setting screen. This is a dark theme setting. -->
+    <string name="preference_title_dark_theme">ダークテーマ</string>
     <!-- [CHAR LIMIT=68] 設定画面のカテゴリの名前です。フローティングウィジェットについてのカテゴリです。 -->
     <string name="preference_title_floating_widget">フローティングウィジェット</string>
     <!-- [CHAR LIMIT=68] 設定画面のカテゴリの名前です。ユーザー拡張機能についてのカテゴリです。ユーザー拡張機能を使うと、ユーザーの用途に応じた機能をユーザー自身で追加できます。ユーザー拡張機能には「ユーザー定義定数」「ユーザー定義アクション」「ユーザー定義関数」「テンプレート」の4種類があります。 -->
     <string name="preference_title_custom_extension">ユーザー拡張機能</string>
+    <!-- [CHAR LIMIT=68] アクションバーのメニューの順番を変更したり、不要なメニューを非表示にしたりする機能です。 -->
+    <string name="preference_title_customize_action_bar">アクションバーのカスタマイズ</string>
     <!-- [CHAR LIMIT=68] サイドメニューのメニューの順番を変更したり、不要なメニューを非表示にしたりする機能です。 -->
     <string name="preference_title_customize_side_menu">サイドメニューのカスタマイズ</string>
     <!-- [CHAR LIMIT=68] 計算結果をタップすると、ダイアログが表示され、計算結果の税込/税別表示や16進数表示ができる機能があり、その表示されるダイアログをカスタマイズする機能です。 -->
     <string name="preference_title_customize_results_dialog">結果ダイアログのカスタマイズ</string>
-
+    <!-- [CHAR LIMIT=68] 小数点や区切り文字をカスタマイズする機能です。 -->
+    <string name="preference_title_grammar_definition">文法のカスタマイズ</string>
     <!-- [CHAR LIMIT=56] 設定画面のサマリとして表示され、設定項目の意味を説明する文章です。対象の設定の変更を有効にするには、アプリの再起動が必要なことを説明しています。 -->
     <string name="preference_summary_keypad_height_auto">変更にはアプリの再起動が必要です</string>
     <!-- [CHAR LIMIT=56] 設定画面のサマリとして表示され、設定項目の意味を説明する文章です。対象の設定は関数の引数を入力するための設定であることを説明しています。 -->
@@ -604,7 +682,8 @@
     <string name="preference_summary_backup_google_drive_not_supported">この端末では利用できません</string>
     <!-- [CHAR LIMIT=56] 設定画面のサマリとして表示され、設定項目の意味を説明する文章です。対象の設定を有効にした場合にウィジェットがステータスバーに常駐することを説明しています。 -->
     <string name="preference_summary_use_floating_widget">ステータスバーに常駐します</string>
-
+    <!-- [CHAR LIMIT=68] 開発者にフィードバックを送る機能です。 -->
+    <string name="preference_title_send_feedback">フィードバックを送信</string>
     <!-- [CHAR LIMIT=240] 計算結果などをクリップボードにコピーした際に表示するメッセージです。 -->
     <string name="toast_copy_to_clipboard"><xliff:g id="copied_text">%1$s</xliff:g> をクリップボードにコピーしました</string>
     <!-- [CHAR LIMIT=240] オンラインヘルプなどインテントを使って外部アプリで開こうとした時に、端末にHTMLを表示できるアプリが存在しない場合に表示する警告メッセージです。 -->
@@ -641,6 +720,8 @@
     <string name="toast_failed_to_reset_sync_status">同期状態のリセットに失敗しました。</string>
     <!-- [CHAR LIMIT=240] フローティングウィジェットの機能を有効化するためにAndroid「他のアプリの上に重ねて表示」の権限を許可する必要があることを伝えるメッセージです。「他のアプリの上に重ねて表示」の部分は実際のAndroiodで各言語にローカライズされている文言を使ってください。 -->
     <string name="toast_need_permission_system_alert_window">\"他のアプリの上に重ねて表示\"の権限を許可してください。</string>
+    <!-- [CHAR LIMIT=240] フローティングウィジェットの機能を有効化するためにAndroid「通知の表示」の権限を許可する必要があることを伝えるメッセージです。「通知の表示」の部分は実際のAndroiodで各言語にローカライズされている文言を使ってください。 -->
+    <string name="toast_need_permission_post_notifications">\"通知の表示\"の権限を許可してください。</string>
     <!-- [CHAR LIMIT=240] 登録処理で必須項目である「Javascriptのコード」が入力されていない場合に表示するエラーメッセージです。 -->
     <string name="toast_need_to_input_function_code">コードを入力してください。</string>
     <!-- [CHAR LIMIT=240] 設定のインポート処理が正常に完了したときに表示するメッセージです。 -->
@@ -649,10 +730,8 @@
     <string name="toast_failed_to_import_settings">設定のインポートに失敗しました。</string>
     <!-- [CHAR LIMIT=240] ファイルのリストア処理が正常に完了したときに表示するメッセージです。 -->
     <string name="toast_restored_files">ファイルをリストアしました。</string>
-    <!-- [CHAR LIMIT=240] ファイルのリストア処理が正常に完了しなかった時に表示するエラーメッセージです。 -->
-    <string name="toast_failed_to_restore_files">ファイルのリストアに失敗しました。</string>
     <!-- [CHAR LIMIT=240] ファイルのバックアップ処理を実行した時に、ファイル数が多すぎてバックアップできる最大サイズを超えてしまった場合に表示するエラーメッセージです。 -->
-    <string name="toast_backup_file_too_large">バックアップ対象のファイルが多すぎます。\"計算式電卓プラグイン for Googleドライブ\"の使用を検討してください。</string>
+    <string name="toast_backup_file_too_large">バックアップ対象のファイルが多すぎます。\"計算式電卓プラグイン for ドライブ\"の使用を検討してください。</string>
 
     <!-- [CHAR LIMIT=40] 登録画面にある入力項目の説明です。キーパッドの名前を入力するテキストボックスのラベルです。 -->
     <string name="label_keypad_name">キーパッド名</string>
@@ -733,7 +812,7 @@
     <string name="toolbar_title_currency_to">変換先の通貨</string>
 
     <!-- [CHAR LIMIT=25] ダイアログのタイトルです。ファイル名を入力してファイルの保存を確認するダイアログです。 -->
-    <string name="dialog_title_filename_input">ファイルの保存</string>
+    <string name="dialog_title_save_file">ファイルの保存</string>
     <!-- [CHAR LIMIT=25] ダイアログのタイトルです。テンプレート名を入力してテンプレートの保存を確認するダイアログです。 -->
     <string name="dialog_title_template_input">テンプレートの保存</string>
     <!-- [CHAR LIMIT=25] ダイアログのタイトルです。開くファイルを選択させるダイアログです。 -->
@@ -780,13 +859,15 @@
     <string name="checkbox_print_option_is_output_total">合計行を出力する</string>
     <!-- [CHAR LIMIT=28] 編集中のファイルを印刷する時のオプションです。チェックボックスをオンにすると罫線を印刷します。 -->
     <string name="checkbox_print_option_is_output_ruled_line">罫線を出力する</string>
+    <!-- [CHAR LIMIT=28] 編集中のファイルを印刷する時のオプションです。チェックボックスをオンにすると行番号を印刷します。 -->
+    <string name="checkbox_print_option_is_output_line_no">行番号を出力する</string>
 
     <!-- [CHAR LIMIT=30] ファイルを検索するダイアログのタイトルです。 -->
     <string name="title_find_in_files">ファイルの検索</string>
     <!-- [CHAR LIMIT=25] アプリがアップデートされた時に表示するリリースノートのタイトルとして表示します。 -->
     <string name="changelog_title">今回のアップデート内容</string>
     <!-- [CHAR LIMIT=200] アプリのレビューをお願いするメッセージです。 -->
-    <string name="changelog_review_request">CalcNoteは個人が趣味で開発しているアプリなので、開発のモチベーションを保つのにとても苦労しています。\nそんな私のやる気を倍増してくれるのが、皆さまが書いてくれるGooglePlayストアのレビューです。\nもしCalcNoteを気に入ってくれた方は、レビューを書いて応援していただけると嬉しいです。</string>
+    <string name="changelog_review_request">CalcNoteは趣味で開発しているアプリなので、開発のモチベーションを保つのにとても苦労しています。\nもしCalcNoteを気に入ってくれた方は、レビューを書いて応援していただけると大変励みになります。\nまたアプリを友達に薦めたりSNSで紹介していただけると嬉しいです。</string>
 
     <!-- [CHAR LIMIT=300] アプリの操作説明のためのチュートリアルで表示される説明文です。保存ボタンを押すと、編集内容が保存され登録処理が完了することを説明しています。 -->
     <string name="help_custom_save">最後に保存ボタンを押して完了です。</string>
@@ -887,7 +968,7 @@
     <!-- [CHAR LIMIT=300] アプリの操作説明のためのチュートリアルで表示される説明文です。 -->
     <string name="help_tutorial_10">キーパッドは左右にスワイプすることで切り替えることができます。キー配列は設定で自由に変更できます。</string>
     <!-- [CHAR LIMIT=300] アプリの操作説明のためのチュートリアルで表示される説明文です。 -->
-    <string name="help_tutorial_11">画面の左端か右に向かってスワイプするとサイドメニューが表示されます。メニューから<xliff:g id="app_name">CalcNote</xliff:g>の様々な機能にアクセスできます。</string>
+    <string name="help_tutorial_11">画面の左端から右に向かってスワイプするとサイドメニューが表示されます。メニューから<xliff:g id="app_name">CalcNote</xliff:g>の様々な機能にアクセスできます。</string>
     <!-- [CHAR LIMIT=300] アプリの操作説明のためのチュートリアルで表示される説明文です。 -->
     <string name="help_tutorial_12">さらに詳しい使い方はオンラインヘルプを参照してください。</string>
 
@@ -918,17 +999,17 @@
     <string name="button_action_category_others">その他</string>
 
     <!-- [CHAR LIMIT=50] テンキーや四則演算などが配置されている一般的な電卓用のキーパッドの名前です。 -->
-    <string name="keypad_name_numeric">通常電卓用パッド</string>
+    <string name="keypad_name_numeric">通常電卓用キーパッド</string>
     <!-- [CHAR LIMIT=50] 三角関数(sin, cos, tan)や数学関数(log, exp)などが配置されている関数電卓用のキーパッドの名前です。 -->
-    <string name="keypad_name_math">関数電卓用パッド</string>
+    <string name="keypad_name_math">関数電卓用キーパッド</string>
     <!-- [CHAR LIMIT=50] 2進数、8進数、16進数やビット演算用の演算子が配置されているキーパッドの名前です。 -->
-    <string name="keypad_name_bit_operation">ビット演算用パッド</string>
+    <string name="keypad_name_bit_operation">ビット演算用キーパッド</string>
     <!-- [CHAR LIMIT=50] 単位変換を行うためのキーパッドの名前です。 -->
-    <string name="keypad_name_unit_converter">単位変換パッド</string>
+    <string name="keypad_name_unit_converter">単位変換キーパッド</string>
     <!-- [CHAR LIMIT=50] 為替レートを元に通貨変換を行うためのキーパッドの名前です。 -->
-    <string name="keypad_name_currency_converter">通貨変換パッド</string>
+    <string name="keypad_name_currency_converter">通貨変換キーパッド</string>
     <!-- [CHAR LIMIT=50] 画面が横向きの場合に使用するテンキーや四則演算などが配置されている一般的な電卓用のキーパッドの名前です。 -->
-    <string name="keypad_name_landscape">横向き用パッド</string>
+    <string name="keypad_name_landscape">横向き用キーパッド</string>
 
     <!-- [CHAR LIMIT=13] 編集中の計算式を全て削除するコマンドの名前です。 -->
     <string name="command_clear_all">全削除</string>
@@ -946,7 +1027,12 @@
     <!-- [CHAR LIMIT=50] 小数点 '.' を入力します。 -->
     <string name="pad_description_decimal_point">小数点</string>
     <!-- [CHAR LIMIT=50] 関数の引数の区切り文字 ',' を入力します。 -->
-    <string name="pad_description_comma">引数区切り文字</string>
+    <string name="pad_description_argument_separator">引数区切り文字</string>
+    <!-- [CHAR LIMIT=50] 桁の区切り文字 "," を入力します。 -->
+    <string name="pad_description_thousands_separator">桁区切り文字</string>
+    <!-- [CHAR LIMIT=50] 行参照 '$' を入力します。 -->
+    <string name="pad_description_line_reference">行参照</string>
+
     <!-- [CHAR LIMIT=50] 1文字削除します。 -->
     <string name="pad_description_backspace">1文字削除</string>
     <!-- [CHAR LIMIT=50] 直前の入力操作を取り消して、元に戻します。 -->
@@ -985,18 +1071,79 @@
     <string name="pad_description_move_first">カーソルを先頭に移動</string>
     <!-- [CHAR LIMIT=50] カーソルを行の末尾に移動します。 -->
     <string name="pad_description_move_last">カーソルを行末に移動</string>
+    <!-- [CHAR LIMIT=60] カーソルをファイルの先頭に移動します。 -->
+    <string name="pad_description_move_beginning_file">カーソルをファイルの先頭に移動</string>
+    <!-- [CHAR LIMIT=60] カーソルをファイルの終端に移動します。 -->
+    <string name="pad_description_move_end_file">カーソルをファイルの終端に移動</string>
     <!-- [CHAR LIMIT=50] 現在のカーソルから、行の先頭の間にある文字を選択します。 -->
     <string name="pad_description_select_first">カーソル位置から行頭まで選択</string>
     <!-- [CHAR LIMIT=50] 現在のカーソルから、行の末尾の間にある文字を選択します。 -->
     <string name="pad_description_select_last">カーソル位置から行末まで選択</string>
+    <string name="pad_description_select_all">全てを選択</string>
     <!-- [CHAR LIMIT=50] 半角スペースを入力します。 -->
     <string name="pad_description_whitespace">半角スペース</string>
     <!-- [CHAR LIMIT=50] 小計を計算する機能です。 -->
     <string name="pad_description_subtotal">小計</string>
     <!-- [CHAR LIMIT=50] 日付をコメントとして入力する機能です。 -->
     <string name="pad_description_input_date_comment">日付コメントの入力</string>
+    <!-- [CHAR LIMIT=50] 現在日付(時刻)を挿入する機能です。 -->
+    <string name="pad_description_insert_now">現在日付を挿入</string>
     <!-- [CHAR LIMIT=50] 編集中のファイルで定義されている変数を一覧から選択して入力する機能です。 -->
     <string name="pad_description_input_variables">変数を一覧から選択して入力</string>
     <!-- [CHAR LIMIT=25] アプリの言語をOSの言語設定に従って表示します。例えばAndroidの設定で言語を'日本語'に設定している場合、アプリの言語も'日本語'になるという意味です。ユーザーはOSの言語設定とは異なる言語を選択することもできます。 -->
     <string name="language_default" translatable="false">端末の設定に従う</string>
+    <!--[CHAR LIMIT=40] The label for the text box to input message that users send as feedback. -->
+    <string name="label_feedback_message">詳細</string>
+    <!--[CHAR LIMIT=40] The label for the text box to input the steps to reproduce a bug. This is displayed in the screen where users submit bug reports. -->
+    <string name="label_bug_report_steps">再現手順</string>
+    <!--[CHAR LIMIT=40] The label for the text box to input the behavior user expected. This is displayed in the screen where users submit bug reports. -->
+    <string name="label_bug_report_expected">期待する動作</string>
+    <!--[CHAR LIMIT=40] The label for the text box to input the actual behavior due to bug. This is displayed in the screen where users submit bug reports. -->
+    <string name="label_bug_report_actual">実際の動作</string>
+    <!--[CHAR LIMIT=40] Kinds of feedback from user. -->
+    <string name="label_feedback_type">フィードバックの種類</string>
+    <!--[CHAR LIMIT=800] The description about sending feedback. -->
+    <string name="feedback_description">いつもCalcNoteをお使い頂き大変ありがとうございます。\n開発者は必ず全てのお問い合わせに目を通しています。質問には可能な限り返信するようにしています。\nバグ報告の場合は、バグの詳細を教えていただくために返信することがあります。\n頂いた要望は基本的に前向きに検討いたしますが、技術的な問題や、その他、様々な理由で実装をお約束することはできませんのでご了承ください。\n開発者にとってアプリを使って頂いてる皆様からのご意見は大変貴重で嬉しいものです。何かお気づきの点がありましたらお気軽にフィードバックを送っていただけると幸いです。</string>
+    <!--[CHAR LIMIT=30] Kinds of feedback from user. -->
+    <string name="feedback_type_question">質問</string>
+    <!--[CHAR LIMIT=30] Kinds of feedback from user. -->
+    <string name="feedback_type_bug_report">バグ報告</string>
+    <!--[CHAR LIMIT=30] Kinds of feedback from user. -->
+    <string name="feedback_type_feature_request">要望</string>
+    <!--[CHAR LIMIT=26] The name of the symbol for , -->
+    <string name="symbol_comma">カンマ</string>
+    <!--[CHAR LIMIT=26] The name of the symbol for . -->
+    <string name="symbol_period">ピリオド</string>
+    <!--[CHAR LIMIT=26] The name of the symbol for : -->
+    <string name="symbol_colon">コロン</string>
+    <!--[CHAR LIMIT=26] The name of the symbol for ; -->
+    <string name="symbol_semicolon">セミコロン</string>
+    <!--[CHAR LIMIT=26] The name of the symbol for @ -->
+    <string name="symbol_at_sign">アットマーク</string>
+    <!--[CHAR LIMIT=26] The name of the symbol for $ -->
+    <string name="symbol_dollar">ドル記号</string>
+    <!--[CHAR LIMIT=26] The name of the symbol for # -->
+    <string name="symbol_sharp">シャープ</string>
+    <!--[CHAR LIMIT=26] The name of the symbol for ' -->
+    <string name="symbol_single_quotation">シングルクォート</string>
+    <!--[CHAR LIMIT=26] The name of the symbol for " -->
+    <string name="symbol_double_quotation">ダブルクォート</string>
+    <!--[CHAR LIMIT=26] The name of the symbol for ? -->
+    <string name="symbol_question">クエスチョンマーク</string>
+    <!--[CHAR LIMIT=26] The name of the symbol for ` -->
+    <string name="symbol_grave_accent">バッククォート</string>
+    <!--[CHAR LIMIT=30] The label for the dropdown to enter kinds of symbol. User can change symbol to use for the decimal point. -->
+    <string name="grammar_label_decimal_point" translatable="false">小数点</string>
+    <!--[CHAR LIMIT=30] The label for the dropdown to enter kinds of symbol. User can change symbol to use for the thousands separator. -->
+    <string name="grammar_label_thousands_separator">桁区切り文字</string>
+    <!--[CHAR LIMIT=30] The label for the dropdown to enter kinds of symbol. User can change symbol to use for the separator of the argument of the function. -->
+    <string name="grammar_label_argument_separator" translatable="false">引数区切り文字</string>
+    <!--[CHAR LIMIT=30] The label for the dropdown to enter kinds of symbol. User can change symbol to use for the line reference. -->
+    <string name="grammar_label_line_reference">行参照</string>
+    <!--[CHAR LIMIT=30] The label for the dropdown to enter kinds of symbol. User can change symbol to use for the intermediate expression. -->
+    <string name="grammar_label_intermediate_expression" translatable="false">中間式</string>
+    <!--[CHAR LIMIT=30] The label for the dropdown to enter kinds of symbol. User can change symbol to use for the left side comment. -->
+    <string name="grammar_label_left_comment" translatable="false">左側コメント</string>
+    <!--[CHAR LIMIT=30] The label for the dropdown to enter kinds of symbol. User can change symbol to use for the right side comment. -->
+    <string name="grammar_label_right_comment" translatable="false">右側コメント</string>
 </resources>

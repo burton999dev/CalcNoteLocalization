@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="round_behavior_entries">
+        <item>अधिकाकडे गोलकरण</item>
+        <item>कमीकडे गोलकरण</item>
+        <item>अर्धे शून्यापासून दूर गोलकरण</item>
+        <item>बँकर शैली गोलकरण</item>
+    </string-array>
+    <string-array name="tax_round_behavior_entries">
+        <item>अधिकाकडे गोलकरण</item>
+        <item>कमीकडे गोलकरण</item>
+        <item>अर्धे शून्यापासून दूर गोलकरण</item>
+    </string-array>
+    <string-array name="keypad_sound_entries">
+        <item>मूक</item>
+        <item>ध्वनी प्रभाव 1</item>
+        <item>ध्वनी प्रभाव 2</item>
+        <item>ध्वनी प्रभाव 3</item>
+        <item>ध्वनी प्रभाव 4</item>
+    </string-array>
+    <string-array name="keypad_input_method_entries">
+        <item>दीर्घ दाब</item>
+        <item>स्वाइप</item>
+    </string-array>
+    <string-array name="button_font_size_entries">
+        <item>लहान</item>
+        <item>मध्यम</item>
+        <item>मोठे</item>
+        <item>अतिरिक्त मोठे</item>
+        <item>दुप्पट अतिरिक्त मोठे</item>
+        <item>तिप्पट अतिरिक्त मोठे</item>
+    </string-array>
+    <string-array name="keypad_menu_size_entries">
+        <item>लहान</item>
+        <item>मध्यम</item>
+        <item>मोठे</item>
+    </string-array>
+    <string-array name="angle_mode_entries">
+        <item>रेडियन</item>
+        <item>डिग्री</item>
+        <item>ग्रॅडियन</item>
+    </string-array>
+    <string-array name="calculation_mode_entries">
+        <item>मानक</item>
+        <item>उच्च अचूकता (CPU भार वाढतो)</item>
+    </string-array>
+    <string-array name="result_alignment_entries">
+        <item>डावीकडे संरेखित</item>
+        <item>उजवीकडे संरेखित</item>
+    </string-array>
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>ओळ क्रमांक<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>ओळ क्रमांक<xliff:g>}</xliff:g></item>
+    </string-array>
+    <string-array name="caret_row_highlighting_entries">
+        <item>अक्षम</item>
+        <item>पार्श्वभूमी रंग मोड</item>
+        <item>अधोरेखित मोड</item>
+    </string-array>
+    <string-array name="screen_orientation_entries">
+        <item>उभी मांडणी</item>
+        <item>आडी मांडणी</item>
+    </string-array>
+    <string-array name="floating_activation_method_entries">
+        <item>सूचनेतून सक्रिय करा</item>
+        <item>फ्लोटिंग बटणातून सक्रिय करा</item>
+        <item>शॉर्टकटमधून सक्रिय करा</item>
+    </string-array>
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>सानुकूल स्वरूप</item>
+    </string-array>
+    <string-array name="file_sort_condition_entries">
+        <item>निर्मिती दिनांक वाढत्या क्रमाने</item>
+        <item>निर्मिती दिनांक घटत्या क्रमाने</item>
+        <item>अपडेट दिनांक वाढत्या क्रमाने</item>
+        <item>अपडेट दिनांक घटत्या क्रमाने</item>
+        <item>फाईल नाव वाढत्या क्रमाने</item>
+        <item>फाईल नाव घटत्या क्रमाने</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>सिस्टम डीफॉल्ट</item>
+        <item>डार्क</item>
+        <item>लाइट</item>
+    </string-array>
+    <string-array name="summarizer_type_entries">
+        <item>एकूण</item>
+        <item>सरासरी</item>
+        <item>विचलन</item>
+        <item>प्रमाणित विचलन</item>
+        <item>कर समाविष्ट</item>
+        <item>कर वगळले</item>
+        <item>लपवा</item>
+    </string-array>
+</resources>

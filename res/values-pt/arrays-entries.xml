@@ -2,20 +2,20 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
     <string-array name="round_behavior_entries">
-        <!--[CHAR LIMIT=50] A decimal fraction processing method. "Rounding off" is "Round half away from zero". see https://en.wikipedia.org/wiki/Rounding This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
-        <item>Arredondar</item>
-        <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
-        <item>Arredondar por defeito</item>
         <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
         <item>Arredondar por excesso</item>
+        <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+        <item>Arredondar por defeito</item>
+        <!--[CHAR LIMIT=50] A decimal fraction processing method. "Rounding off" is "Round half away from zero". see https://en.wikipedia.org/wiki/Rounding This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
+        <item>Arredondar</item>
         <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
         <item>Arrendondar para par</item>
     </string-array>
     <!-- [CHAR LIMIT=50] A decimal fraction processing method. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
     <string-array name="tax_round_behavior_entries">
-        <item>Arredondar</item>
-        <item>Arredondar por defeito</item>
         <item>Arredondar por excesso</item>
+        <item>Arredondar por defeito</item>
+        <item>Arredondar</item>
     </string-array>
     <!-- [CHAR LIMIT=50] Settings for sounds when the calculator button is pressed. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
     <string-array name="keypad_sound_entries">
@@ -45,6 +45,12 @@
         <item>Médio</item>
         <!-- [CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
         <item>Grande</item>
+        <!--[CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. The abbreviation for this word is XL.-->
+        <item>Extra grande</item>
+        <!--[CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. The abbreviation for this word is XXL.-->
+        <item>Extra extra grande</item>
+        <!--[CHAR LIMIT=50] Calculator button font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. The abbreviation for this word is XXXL.-->
+        <item>Extra extra extra grande</item>
     </string-array>
     <!-- [CHAR LIMIT=50] Calculator menu font size. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
     <string-array name="keypad_menu_size_entries">
@@ -125,13 +131,27 @@
     </string-array>
     <!-- [CHAR LIMIT=50] File sort order settings. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
     <string-array name="file_sort_condition_entries">
-        <!--[CHAR LIMIT=50] File sort order settings. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
+        <item>Ascendente por data de criação</item>
+        <item>Descendente por data de criação</item>
         <item>Ascendente por data de atualização</item>
-        <!--[CHAR LIMIT=50] File sort order settings. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
         <item>Descendente por data de atualização</item>
-        <!--[CHAR LIMIT=50] File sort order settings. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
         <item>Ascendente por nome do ficheiro</item>
-        <!--[CHAR LIMIT=50] File sort order settings. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break.-->
         <item>Descendente por nome do ficheiro</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Dark UI mode settings. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="dark_ui_mode_entries" translatable="false">
+        <item>Predef. do sistema</item>
+        <item>Escuro</item>
+        <item>Claro</item>
+    </string-array>
+    <!-- [CHAR LIMIT=50] Summarizer type settings. Sets how the total row is calculated. This is displayed as a list of selection items on the setting screen. The maximum number of characters is 50, but it is preferable to have 25 or less, as exceeding 25 characters will result in a line break. -->
+    <string-array name="summarizer_type_entries">
+        <item>Total</item>
+        <item>Média</item>
+        <item>Variância</item>
+        <item>Desvio padrão</item>
+        <item>IVA incluído</item>
+        <item>IVA não incluído</item>
+        <item>Esconder</item>
     </string-array>
 </resources>

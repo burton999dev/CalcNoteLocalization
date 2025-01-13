@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- [CHAR LIMIT=38] The title of a setting on the setting screen. Indicates that app functionality is restricted due to GDPR non-consent.. -->
+    <string name="preference_title_gdpr_warning">Limited functionality due to no ad consent</string>
+    <!-- [CHAR LIMIT=38] The title of a setting on the setting screen. Tap this setting to reconfigure your GDPR consent or non-consent.. -->
+    <string name="preference_title_manage_gdpr_consent">Manage GDPR Consent</string>
+    <!-- [CHAR LIMIT=56] Warning that GDPR consent text may not display properly in environments using ad blockers. -->
+    <string name="preference_summary_manage_gdpr_consent">Please disable ad blocker to access this setting</string>
+    <!-- [CHAR LIMIT=3000] Message requesting GDPR consent as ad revenue is necessary for app development and maintenance. -->
+    <string name="gdpr_long_warning_message">Dear User,\n\nI am committed to protecting your privacy and complying with the General Data Protection Regulation (GDPR). In order to support the app\'s development and provide a better user experience, I require your consent to display personalized ads within my app. These personalized ads are a vital part of my revenue stream and enable me to continue providing and maintaining this service.\n\nCurrently, I do not have your consent to display personalized ads. This limitation affects my ability to support the app through advertising revenue, which is essential for its sustainability. As a result, certain features of the app are restricted until consent for personalized ads is provided.\n\nI understand the importance of your data privacy and assure you that all data processing will be conducted in compliance with GDPR guidelines. By agreeing to the display of personalized ads, you help sustain the app and ensure a better user experience.\n\nYou can modify your consent at any time through the app settings. For more information on how I use your data and your rights under GDPR, please refer to my privacy policy.\n\nThank you for understanding and for your continued support.\n\nSincerely,\n</string>
+    <!-- [CHAR LIMIT=24] Label for the "Give Consent" button. The max number of characters is 24 characters, but please make as short as possible. -->
+    <string name="button_give_gdpr_consent">Give Consent</string>
+</resources>

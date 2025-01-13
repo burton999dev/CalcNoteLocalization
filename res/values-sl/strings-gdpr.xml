@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preference_title_gdpr_warning">Omejena funkcionalnost zaradi neodobritve oglasov</string>
+    <string name="preference_title_manage_gdpr_consent">Upravljaj GDPR soglasje</string>
+    <string name="preference_summary_manage_gdpr_consent">Onemogočite blokiranje oglasov, da dostopite do te nastavitve</string>
+    <string name="gdpr_long_warning_message">Dragi uporabnik,\n\nZavezujem se k varovanju vaše zasebnosti in spoštovanju Splošne uredbe o varstvu podatkov (GDPR). Da bi podprl razvoj aplikacije in zagotovil boljšo uporabniško izkušnjo, potrebujem vaše soglasje za prikaz personaliziranih oglasov v svoji aplikaciji. Ti prilagojeni oglasi so ključni del mojega vira prihodkov in mi omogočajo nadaljnje zagotavljanje in vzdrževanje te storitve.\n\nTrenutno nimam vašega soglasja za prikaz personaliziranih oglasov. Ta omejitev vpliva na mojo zmožnost podpore aplikacije z oglasnimi prihodki, ki so bistveni za njeno vzdrževanje. Posledično so nekatere funkcije aplikacije omejene, dokler ne pridobim soglasja za personalizirane oglase.\n\nRazumem pomen varstva vaših osebnih podatkov in zagotavljam, da bo vsa obdelava podatkov potekala v skladu s smernicami GDPR. S soglašanjem s prikazom prilagojenih oglasov pomagate ohranjati aplikacijo in zagotavljati boljšo uporabniško izkušnjo.\n\nSvoje soglasje lahko kadar koli spremenite v nastavitvah aplikacije. Za več informacij o tem, kako uporabljam vaše podatke in o vaših pravicah v okviru GDPR, prosim preverite mojo politiko zasebnosti.\n\nHvala za razumevanje in za vašo nadaljnjo podporo.\n\nS spoštovanjem,\n</string>
+    <string name="button_give_gdpr_consent">Daj soglasje</string>
+</resources>

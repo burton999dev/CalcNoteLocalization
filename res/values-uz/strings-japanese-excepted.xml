@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="label_incorrect_translation">Noto\'g\'ri tarjima</string>
+    <string name="label_correct_translation">To\'g\'ri tarjima</string>
+    <string name="label_reason">Sabab</string>
+    <string name="toast_thanks_feed_back">Mulohazangiz uchun rahmat.</string>
+    <string name="dialog_message_send_feedback">Iltimos, agar noto\'g\'ri tarjima topsangiz yoki yaxshiroq tarjima taklif qila olsangiz, to\'g\'ri versiyani yuboring. Sizning hamkorligingiz <xliff:g id="app_name">CalcNote</xliff:g> ni yanada yaxshilashga yordam beradi. Mulohaza <xliff:g id="feedback_url">https://github.com/burton999dev/CalcNoteLocalization</xliff:g> ga yuboriladi.</string>
+</resources>

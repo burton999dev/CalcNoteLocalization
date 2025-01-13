@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="toast_cannot_customize_appearance_dark_miui">Jika Anda mengaktifkan mode gelap di MIUI Xiaomi, penyesuaian tampilan di CalcNote tidak didukung. Pengaturan telah direset.</string>
+    <string name="dialog_title_app_update_required">Pembaruan aplikasi diperlukan</string>
+    <string name="dialog_message_app_update_required">Versi baru aplikasi ini tersedia. Untuk mengakses fitur dan pembaruan keamanan terbaru, harap perbarui aplikasi. Jika Anda tidak dapat memperbarui karena masalah koneksi atau masalah lainnya, harap periksa koneksi Anda dan coba lagi. Harap dicatat bahwa Anda tidak akan dapat menggunakan aplikasi ini tanpa pembaruan ini. Kami menghargai pengertian dan kerja sama Anda.</string>
+
+    <string name="context_menu_history">Jejak Perubahan</string>
+    <string name="context_menu_restore">Pulihkan</string>
+    <string name="context_menu_permanently_delete">Hapus Permanen</string>
+    <string name="toast_file_is_restored">File berhasil dipulihkan.</string>
+    <string name="toast_failed_to_restore_file">Tidak dapat memulihkan file.</string>
+    <string name="toast_failed_to_permanently_delete">Tidak dapat menghapus permanen.</string>
+
+    <string name="dialog_message_confirm_permanently_delete_all_deleted_files">Apakah Anda yakin ingin menghapus permanen semua file yang telah dihapus?</string>
+
+    <string name="pad_description_checkbox">Kotak centang</string>
+
+    <string name="pad_description_ans">Sisipkan hasil dari baris di atas</string>
+
+    <string name="user_defined_list">Daftar pengguna</string>
+    <string name="label_list_name">Nama daftar</string>
+    <string name="label_list_values">Item daftar</string>
+    <string name="empty_list_items_not_found">Daftar kosong</string>
+    <string name="label_list_item_value">Nilai item</string>
+    <string name="label_list_item_description">Deskripsi item</string>
+    <string name="toast_user_defined_list_limitation">Hanya satu daftar pengguna yang dapat dibuat dalam versi gratis</string>
+
+    <string name="help_custom_list1">Dengan membuat daftar yang ditentukan pengguna, Anda dapat mengatur item yang sering digunakan ke dalam daftar, memudahkan entri data.</string>
+    <string name="help_custom_list2">Sebagai contoh, mencantumkan pengeluaran tetap bulanan dapat mempermudah manajemen anggaran.</string>
+    <string name="help_custom_list3">Daftar yang dibuat dapat ditugaskan ke tombol di pengaturan \"Sesuaikan keypad\".</string>
+    <string name="help_custom_list_name">Masukkan nama daftar yang akan ditampilkan di tombol.</string>
+    <string name="help_custom_list_items">Tambahkan item daftar. Anda dapat menetapkan ekspresi dan deskripsi sewenang-wenang untuk setiap item.</string>
+
+    <string name="result_twos_complement_binary">Komplemen Dua</string>
+    <string name="toast_need_to_test_user_defined_function">Silakan jalankan eksekusi tes untuk memverifikasi fungsi sebelum menyimpan.</string>
+    <string name="pad_description_find_in_file">Temukan di File Saat Ini</string>
+    <string name="drawer_menu_find_in_file">Temukan di File Saat Ini</string>
+    <string name="button_replace">Ganti</string>
+    <string name="button_replace_all">Ganti Semua</string>
+
+    <string name="toast_warning_show_action_bar">Meskipun bilah tindakan tersembunyi, Anda masih dapat menampilkan menu sisi dengan menggeser dari tepi kiri layar ke tengah.</string>
+    <string name="checkbox_print_option_is_replace_line_reference">Ganti referensi baris dengan nilai</string>
+    <string name="preference_title_auto_rotate_screen_enabled">Rotasi Otomatis Layar</string>
+    <string name="label_portrait_keypads">Keypad Orientasi Potret</string>
+    <string name="label_landscape_keypads">Keypad Orientasi Lanskap</string>
+
+    <string name="dialog_title_rename_file">Ganti nama file</string>
+    <string name="dialog_title_copy_file">Salin file</string>
+
+    <string name="preference_title_open_youtube">Video Tutorial Singkat</string>
+
+    <string name="toast_landscape_keypad_not_supported">Keypad orientasi lanskap tidak didukung dalam kondisi perangkat saat ini.</string>
+
+    <string name="template_placeholder_short_date">Format tanggal pendek</string>
+    <string name="template_placeholder_short_time">Format waktu pendek</string>
+    <string name="template_placeholder_short_date_time">Format tanggal dan waktu pendek</string>
+    <string name="template_placeholder_medium_date">Format tanggal sedang</string>
+    <string name="template_placeholder_medium_time">Format waktu sedang</string>
+    <string name="template_placeholder_medium_date_time">Format tanggal dan waktu sedang</string>
+    <string name="template_placeholder_long_date">Format tanggal panjang</string>
+    <string name="template_placeholder_long_time">Format waktu panjang</string>
+    <string name="template_placeholder_long_date_time">Format tanggal dan waktu panjang</string>
+    <string name="template_placeholder_year">Tahun</string>
+    <string name="template_placeholder_month">Bulan</string>
+    <string name="template_placeholder_month_no_zero">Bulan tanpa nol di depan</string>
+    <string name="template_placeholder_month_abbreviated">Nama bulan disingkat</string>
+    <string name="template_placeholder_day">Hari dalam bulan</string>
+    <string name="template_placeholder_day_no_zero">Hari dalam bulan tanpa nol di depan</string>
+    <string name="template_placeholder_day_of_week">Nama hari dalam seminggu lengkap</string>
+    <string name="template_placeholder_day_of_week_short">Nama hari dalam seminggu pendek</string>
+    <string name="template_placeholder_hour_24">Jam dalam format 24 jam</string>
+    <string name="template_placeholder_hour_12">Jam dalam format 12 jam</string>
+    <string name="template_placeholder_minute">Menit</string>
+    <string name="template_placeholder_second">Detik</string>
+    <string name="template_placeholder_ampm">Indikator AM/PM</string>
+    <string name="menu_add_placeholder">Tambah Placeholder</string>
+    <string name="template_placeholder_description_text">Diganti dengan teks yang dimasukkan saat membuat file</string>
+    <string name="template_placeholder_description_list">Diganti dengan teks yang dipilih dari daftar saat membuat file</string>
+    <string name="label_placeholder_name">Nama Placeholder</string>
+    <string name="label_placeholder_values">Item daftar (dipisahkan dengan koma)</string>
+
+    <string name="toast_interstitial_ad_will_appear">Iklan layar penuh akan muncul saat Anda kembali ke layar utama.</string>
+
+    <string name="pad_description_toggle_comments">Komentar/batal komentar banyak perhitungan</string>
+    <string name="dialog_title_toggle_comment">Alihkan Komentar</string>
+
+    <string name="preference_title_checkbox_behavior">Perilaku Kotak Centang</string>
+    <string name="label_checkbox_state_checked">Dicentang</string>
+    <string name="label_checkbox_state_unchecked">Tidak Dicentang</string>
+    <string name="label_checkbox_behavior_do">Hitung</string>
+    <string name="label_checkbox_behavior_skip">Lewati perhitungan</string>
+</resources>

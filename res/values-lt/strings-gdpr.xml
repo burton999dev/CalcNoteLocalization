@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preference_title_gdpr_warning">Ribotas funkcionalumas dėl nesutikimo su skelbimais</string>
+    <string name="preference_title_manage_gdpr_consent">Tvarkyti GDPR sutikimą</string>
+    <string name="preference_summary_manage_gdpr_consent">Norėdami pasiekti šį nustatymą, išjunkite skelbimų blokatorių</string>
+    <string name="gdpr_long_warning_message">Mielas vartotojau,\n\nEsu pasiryžęs užtikrinti jūsų privatumą ir laikytis Bendrojo duomenų apsaugos reglamento (BDAR). Norėdamas palaikyti programėlės plėtrą ir pagerinti vartotojo patirtį, man reikalingas jūsų sutikimas rodyti suasmenintus skelbimus mano programėlėje. Šie suasmeninti skelbimai yra svarbi mano pajamų dalis, kuri leidžia ir toliau teikti bei prižiūrėti šią paslaugą.\n\nŠiuo metu neturiu jūsų sutikimo rodyti suasmenintus skelbimus. Dėl to negaliu užtikrinti programėlės išlaikymo pajamomis iš reklamos, kas yra būtina jos tęstinumui. Todėl tam tikros programėlės funkcijos bus ribotos, kol nebus suteiktas sutikimas rodyti suasmenintus skelbimus.\n\nSuprantu jūsų duomenų privatumo svarbą ir užtikrinu, kad visi duomenų apdorojimo veiksmai bus atliekami laikantis BDAR gairių. Sutikdami su suasmenintų skelbimų rodymu, padedate išlaikyti programėlę ir pagerinti vartotojo patirtį.\n\nJūs galite bet kada pakeisti savo sutikimą programėlės nustatymuose. Daugiau informacijos apie tai, kaip naudoju jūsų duomenis ir kokios yra jūsų teisės pagal BDAR, rasite mano privatumo politikoje.\n\nDėkoju už supratingumą ir tolesnę paramą.\n\nPagarbiai,\n</string>
+    <string name="button_give_gdpr_consent">Suteikti sutikimą</string>
+</resources>

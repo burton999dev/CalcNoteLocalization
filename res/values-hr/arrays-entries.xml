@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="round_behavior_entries">
+        <item>Zaokruži gore</item>
+        <item>Zaokruži dolje</item>
+        <item>Zaokruži daleko od nule</item>
+        <item>Bankarsko zaokruživanje</item>
+    </string-array>
+    <string-array name="tax_round_behavior_entries">
+        <item>Zaokruži gore</item>
+        <item>Zaokruži dolje</item>
+        <item>Zaokruži daleko od nule</item>
+    </string-array>
+    <string-array name="keypad_sound_entries">
+        <item>Bez zvuka</item>
+        <item>Zvučni efekt 1</item>
+        <item>Zvučni efekt 2</item>
+        <item>Zvučni efekt 3</item>
+        <item>Zvučni efekt 4</item>
+    </string-array>
+    <string-array name="keypad_input_method_entries">
+        <item>Dugi pritisak</item>
+        <item>Prevlačenje</item>
+    </string-array>
+    <string-array name="button_font_size_entries">
+        <item>Malo</item>
+        <item>Srednje</item>
+        <item>Veliko</item>
+        <item>Ekstra veliko</item>
+        <item>Dvostruko ekstra veliko</item>
+        <item>Trostruko ekstra veliko</item>
+    </string-array>
+    <string-array name="keypad_menu_size_entries">
+        <item>Malo</item>
+        <item>Srednje</item>
+        <item>Veliko</item>
+    </string-array>
+    <string-array name="angle_mode_entries">
+        <item>Radijan</item>
+        <item>Stupanj</item>
+        <item>Gradijan</item>
+    </string-array>
+    <string-array name="calculation_mode_entries">
+        <item>Standardno</item>
+        <item>Visoka točnost (veće opterećenje CPU-a)</item>
+    </string-array>
+    <string-array name="result_alignment_entries">
+        <item>Poravnanje lijevo</item>
+        <item>Poravnanje desno</item>
+    </string-array>
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>BrLinije<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>BrLinije<xliff:g>}</xliff:g></item>
+    </string-array>
+    <string-array name="caret_row_highlighting_entries">
+        <item>Onemogućeno</item>
+        <item>Način pozadinske boje</item>
+        <item>Način podcrtavanja</item>
+    </string-array>
+    <string-array name="screen_orientation_entries">
+        <item>Okomita orijentacija</item>
+        <item>Vodoravna orijentacija</item>
+    </string-array>
+    <string-array name="floating_activation_method_entries">
+        <item>Aktivirati iz obavijesti</item>
+        <item>Aktivirati iz plutajuće tipke</item>
+        <item>Aktivirati putem prečaca</item>
+    </string-array>
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>Prilagođeni format</item>
+    </string-array>
+    <string-array name="file_sort_condition_entries">
+        <item>Sortiraj uzlazno po datumu kreiranja</item>
+        <item>Sortiraj silazno po datumu kreiranja</item>
+        <item>Sortiraj uzlazno po datumu ažuriranja</item>
+        <item>Sortiraj silazno po datumu ažuriranja</item>
+        <item>Sortiraj uzlazno po nazivu datoteke</item>
+        <item>Sortiraj silazno po nazivu datoteke</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>Prema sustavu</item>
+        <item>Tamno</item>
+        <item>Svijetlo</item>
+    </string-array>
+    <string-array name="summarizer_type_entries">
+        <item>Ukupno</item>
+        <item>Prosjek</item>
+        <item>Varijanca</item>
+        <item>Standardna devijacija</item>
+        <item>Porez uključen</item>
+        <item>Bez poreza</item>
+        <item>Sakrij</item>
+    </string-array>
+</resources>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- [CHAR LIMIT=240] Warning message informing that due to a Xiaomi MIUI bug, CalcNote's appearance customization features are unavailable when using the OS dark mode setting. -->
+    <string name="toast_cannot_customize_appearance_dark_miui">If you have enabled dark mode on Xiaomi\'s MIUI, appearance customization in CalcNote is not supported. Settings have been reset.</string>
+    <!-- [CHAR LIMIT=25] Title of the dialog shown when a mandatory app update is required. -->
+    <string name="dialog_title_app_update_required">App Update Required</string>
+    <!-- [CHAR LIMIT=400] Message content of the dialog shown when a mandatory app update is required. -->
+    <string name="dialog_message_app_update_required">A new version of the app is available. To access the latest features and security updates, please update the app. If you are unable to update due to connectivity issues or any other problems, please check your connection and try again. Please note that you won\'t be able to use the app without this update. We appreciate your understanding and cooperation.</string>
+
+    <!-- [CHAR LIMIT=30] The title of the context menu to show the file change histories. -->
+    <string name="context_menu_history">Track Changes</string>
+    <!-- [CHAR LIMIT=30] The title of the context menu to restore deleted item. -->
+    <string name="context_menu_restore">Restore</string>
+    <!-- [CHAR LIMIT=30] The title of the context menu to delete a deleted item permanently. -->
+    <string name="context_menu_permanently_delete">Permanently Delete</string>
+    <!-- [CHAR LIMIT=240] Message displayed when the restoring of a file is complete. -->
+    <string name="toast_file_is_restored">File restored successfully.</string>
+    <!-- [CHAR LIMIT=240] Error message displayed when the file restoration process did not complete as normal. -->
+    <string name="toast_failed_to_restore_files">Unable to restore files.</string>
+    <!-- [CHAR LIMIT=240] Error message displayed when the user attempts to permanently delete a file, but the operation fails. -->
+    <string name="toast_failed_to_permanently_delete">Unable to permanently delete.</string>
+
+    <!-- [CHAR LIMIT=200] Message displayed in the dialog. -->
+    <string name="dialog_message_confirm_permanently_delete_all_deleted_files">Are you sure you want to permanently delete all deleted files?</string>
+
+    <!-- [CHAR LIMIT=50] Enter a checkbox. -->
+    <string name="pad_description_checkbox">Checkbox</string>
+
+    <!-- [CHAR LIMIT=50] Insert result from the line above. -->
+    <string name="pad_description_ans">Insert result from the line above</string>
+
+    <!-- [CHAR LIMIT=25] The name of a feature allowing the user to define list freely. Users can define a list of texts and expressions that they frequently enter, which can be easily entered by simply selecting them. -->
+    <string name="user_defined_list">User-defined List</string>
+    <!-- [CHAR LIMIT=40] The Description for the input item on the user-defined-list registration screen. The label for the text box to input an "List name". -->
+    <string name="label_list_name">List Name</string>
+    <!-- [CHAR LIMIT=40] The Description for the input item on the user-defined-list registration screen. The label for the ListView to add an "List Items". -->
+    <string name="label_list_values">List Items</string>
+    <!-- [CHAR LIMIT=30] A message displayed when list items is not added yet. -->
+    <string name="empty_list_items_not_found">List is empty</string>
+    <!-- [CHAR LIMIT=40] The Description for the input item on the user-defined-list registration screen. The label for the text box to add an "value of list item". -->
+    <string name="label_list_item_value">Value</string>
+    <!-- [CHAR LIMIT=40] The Description for the input item on the user-defined-list registration screen. The label for the text box to add an "description of list item". -->
+    <string name="label_list_item_description">Description</string>
+    <!-- [CHAR LIMIT=100] Message informing free version users that functionality is limited and only one user-defined list can be registered. -->
+    <string name="toast_user_defined_list_limitation">Only one user-defined list can be created in the free version</string>
+
+    <!-- [CHAR LIMIT=150] Description displayed in the tutorial that explains how to use application. -->
+    <string name="help_custom_list1">By creating a user-defined list, you can organize frequently used items into a list, simplifying data entry.</string>
+    <!-- [CHAR LIMIT=150] Description displayed in the tutorial that explains how to use application. -->
+    <string name="help_custom_list2">For example, listing fixed monthly expenses can simplify budget management.</string>
+    <!-- [CHAR LIMIT=150] Description displayed in the tutorial that explains how to use application. -->
+    <string name="help_custom_list3">The created list can be assigned to a button in the <xliff:g id="ref_preference_title_customize_keypad">"Customize Keypad"</xliff:g> settings.</string>
+    <!-- [CHAR LIMIT=150] Description displayed in the tutorial that explains how to use application. -->
+    <string name="help_custom_list_name">Enter the list name to be displayed on the button.</string>
+    <!-- [CHAR LIMIT=150] Description displayed in the tutorial that explains how to use application. -->
+    <string name="help_custom_list_items">Add list items. You can set arbitrary expressions and descriptions for each item.</string>
+
+    <!-- [CHAR LIMIT=20] The label for the item that display method of the calculation result. The tow's complement. -->
+    <string name="result_twos_complement_binary">Two\'s complement</string>
+    <!-- [CHAR LIMIT=100] Warning message requesting users to test their user-defined functions before saving them. -->
+    <string name="toast_need_to_test_user_defined_function">Please run a test execution to verify the function before saving.</string>
+    <!-- [CHAR LIMIT=50] Search function that looks for specified keywords within the currently open file. -->
+    <string name="pad_description_find_in_file">Find in Current File</string>
+    <!-- [CHAR LIMIT=48] Search function that looks for specified keywords within the currently open file. -->
+    <string name="drawer_menu_find_in_file">Find in Current File</string>
+    <!-- [CHAR LIMIT=20] Label for the "Replace" button in the dialog. The max number of characters is 20 characters, but please make as short as possible. -->
+    <string name="button_replace">Replace</string>
+    <!-- [CHAR LIMIT=20] Label for the "Replace All" button in the dialog. The max number of characters is 20 characters, but please make as short as possible. -->
+    <string name="button_replace_all">Replace All</string>
+
+    <!-- [CHAR LIMIT=200] Warning message for users who may not know how to access the drawer menu after hiding the action bar (Toolbar), as this also hides the three-line hamburger menu button on the left side of the toolbar. -->
+    <string name="toast_warning_show_action_bar">Even if the action bar is hidden, you can still display the side menu by swiping from the left edge of the screen towards the center.</string>
+    <!-- [CHAR LIMIT=45] The print options. If the checkbox is checked, the line references will be replaced by the actual value. -->
+    <string name="checkbox_print_option_is_replace_line_reference">Replace line references with values</string>
+    <!-- [CHAR LIMIT=40] The title of a setting on the setting screen. When this setting is enabled, the screen orientation will change between portrait and landscape based on device orientation. -->
+    <string name="preference_title_auto_rotate_screen_enabled">Auto-Rotate Screen</string>
+    <!-- [CHAR LIMIT=40] Label displayed in ListView indicating keypad type category. Refers to keypads available when the screen is in portrait orientation. -->
+    <string name="label_portrait_keypads">Portrait keypads</string>
+    <!-- [CHAR LIMIT=40] Label displayed in ListView indicating keypad type category. Refers to keypads available when the screen is in landscape orientation. -->
+    <string name="label_landscape_keypads">Landscape keypads</string>
+
+    <!-- [CHAR LIMIT=25] Dialog title. Dialog entering the filename and confirming file renaming. -->
+    <string name="dialog_title_rename_file">Rename file</string>
+    <!-- [CHAR LIMIT=25] Dialog title. Dialog entering the filename and confirming file creating copy. -->
+    <string name="dialog_title_copy_file">Copy file</string>
+
+    <!-- [CHAR LIMIT=40] The title of a setting on the setting screen. Tapping this opens a YouTube page containing a short tutorial video. -->
+    <string name="preference_title_open_youtube">Quick Tip Videos</string>
+
+    <!-- [CHAR LIMIT=100] Warning message indicating that landscape keypad is not supported in the current device state. This message is for foldable devices, suggesting that available features are limited depending on the device state (folded or unfolded). -->
+    <string name="toast_landscape_keypad_not_supported">Landscape keypad is not supported in the current device state.</string>
+
+    <!-- [CHAR LIMIT=60] Description of a placeholder that can be embedded in templates. When creating a file from a template, this will be replaced with a date string in the specified format based on the current date and time. -->
+    <string name="template_placeholder_short_date">Short date format</string>
+    <!-- [CHAR LIMIT=60] Description of a placeholder that can be embedded in templates. When creating a file from a template, this will be replaced with a date string in the specified format based on the current date and time. -->
+    <string name="template_placeholder_short_time">Short time format</string>
+    <!-- [CHAR LIMIT=60] Description of a placeholder that can be embedded in templates. When creating a file from a template, this will be replaced with a date string in the specified format based on the current date and time. -->
+    <string name="template_placeholder_short_date_time">Short date and time format</string>
+    <!-- [CHAR LIMIT=60] Description of a placeholder that can be embedded in templates. When creating a file from a template, this will be replaced with a date string in the specified format based on the current date and time. -->
+    <string name="template_placeholder_medium_date">Medium date format</string>
+    <!-- [CHAR LIMIT=60] Description of a placeholder that can be embedded in templates. When creating a file from a template, this will be replaced with a date string in the specified format based on the current date and time. -->
+    <string name="template_placeholder_medium_time">Medium time format</string>
+    <!-- [CHAR LIMIT=60] Description of a placeholder that can be embedded in templates. When creating a file from a template, this will be replaced with a date string in the specified format based on the current date and time. -->
+    <string name="template_placeholder_medium_date_time">Medium date and time format</string>
+    <!-- [CHAR LIMIT=60] Description of a placeholder that can be embedded in templates. When creating a file from a template, this will be replaced with a date string in the specified format based on the current date and time. -->
+    <string name="template_placeholder_long_date">Long date format</string>
+    <!-- [CHAR LIMIT=60] Description of a placeholder that can be embedded in templates. When creating a file from a template, this will be replaced with a date string in the specified format based on the current date and time. -->
+    <string name="template_placeholder_long_time">Long time format</string>
+    <!-- [CHAR LIMIT=60] Description of a placeholder that can be embedded in templates. When creating a file from a template, this will be replaced with a date string in the specified format based on the current date and time. -->
+    <string name="template_placeholder_long_date_time">Long date and time format</string>
+    <!-- [CHAR LIMIT=60] Description of a placeholder that can be embedded in templates. When creating a file from a template, this will be replaced with a date string in the specified format based on the current date and time. -->
+    <string name="template_placeholder_year">Year</string>
+    <!-- [CHAR LIMIT=60] Description of a placeholder that can be embedded in templates. When creating a file from a template, this will be replaced with a date string in the specified format based on the current date and time. -->
+    <string name="template_placeholder_month">Month</string>
+    <!-- [CHAR LIMIT=60] Description of a placeholder that can be embedded in templates. When creating a file from a template, this will be replaced with a date string in the specified format based on the current date and time. -->
+    <string name="template_placeholder_month_no_zero">Month without leading zero</string>
+    <!-- [CHAR LIMIT=60] Description of a placeholder that can be embedded in templates. When creating a file from a template, this will be replaced with a date string in the specified format based on the current date and time. -->
+    <string name="template_placeholder_month_abbreviated">Abbreviated month name</string>
+    <!-- [CHAR LIMIT=60] Description of a placeholder that can be embedded in templates. When creating a file from a template, this will be replaced with a date string in the specified format based on the current date and time. -->
+    <string name="template_placeholder_day">Day of the month</string>
+    <!-- [CHAR LIMIT=60] Description of a placeholder that can be embedded in templates. When creating a file from a template, this will be replaced with a date string in the specified format based on the current date and time. -->
+    <string name="template_placeholder_day_no_zero">Day of the month without leading zero</string>
+    <!-- [CHAR LIMIT=60] Description of a placeholder that can be embedded in templates. When creating a file from a template, this will be replaced with a date string in the specified format based on the current date and time. -->
+    <string name="template_placeholder_day_of_week">Full name of the day of the week</string>
+    <!-- [CHAR LIMIT=60] Description of a placeholder that can be embedded in templates. When creating a file from a template, this will be replaced with a date string in the specified format based on the current date and time. -->
+    <string name="template_placeholder_day_of_week_short">Short name of the day of the week</string>
+    <!-- [CHAR LIMIT=60] Description of a placeholder that can be embedded in templates. When creating a file from a template, this will be replaced with a date string in the specified format based on the current date and time. -->
+    <string name="template_placeholder_hour_24">Hour in 24-hour format</string>
+    <!-- [CHAR LIMIT=60] Description of a placeholder that can be embedded in templates. When creating a file from a template, this will be replaced with a date string in the specified format based on the current date and time. -->
+    <string name="template_placeholder_hour_12">Hour in 12-hour format</string>
+    <!-- [CHAR LIMIT=60] Description of a placeholder that can be embedded in templates. When creating a file from a template, this will be replaced with a date string in the specified format based on the current date and time. -->
+    <string name="template_placeholder_minute">Minute</string>
+    <!-- [CHAR LIMIT=60] Description of a placeholder that can be embedded in templates. When creating a file from a template, this will be replaced with a date string in the specified format based on the current date and time. -->
+    <string name="template_placeholder_second">Second</string>
+    <!-- [CHAR LIMIT=60] Description of a placeholder that can be embedded in templates. When creating a file from a template, this will be replaced with a date string in the specified format based on the current date and time. -->
+    <string name="template_placeholder_ampm">AM/PM indicator</string>
+    <!-- [CHAR LIMIT=48] The menu item to add a placeholder. -->
+    <string name="menu_add_placeholder">Add Placeholder</string>
+    <!-- [CHAR LIMIT=60] Description of a placeholder that can be embedded in templates. When creating a file from a template, this will be replaced with a string entered by the user. -->
+    <string name="template_placeholder_description_text">Replaced with text entered when creating the file</string>
+    <!-- [CHAR LIMIT=60] Description of a placeholder that can be embedded in templates. When creating a file from a template, this will be replaced with a string selected by the user from a list. -->
+    <string name="template_placeholder_description_list">Replaced with text selected from a list when creating the file</string>
+    <!-- [CHAR LIMIT=40] The Description for the input item on the template placeholder registration screen. The label for the text box to input an "Placeholder name". -->
+    <string name="label_placeholder_name">Placeholder Name</string>
+    <!-- [CHAR LIMIT=40] The Description for the input item on the template placeholder registration screen. The label for the text box to input an "List Items". -->
+    <string name="label_placeholder_values">List Items (comma-separated)</string>
+
+    <!-- [CHAR LIMIT=100] Message notifying users that a full-screen ad will be displayed when moving from the settings screen to the main screen. The purpose is to prevent accidental clicks and reduce user frustration by informing them in advance. -->
+    <string name="toast_interstitial_ad_will_appear">A full-screen ad will appear when you return to the main screen.</string>
+
+    <!-- [CHAR LIMIT=50] Description of a feature that allows users to comment out or uncomment multiple selected lines at once. -->
+    <string name="pad_description_toggle_comments">Comment or uncomment multiple calculations at once</string>
+    <!-- [CHAR LIMIT=25] Title of the dialog that appears when selecting lines to comment out in the bulk comment/uncomment feature. -->
+    <string name="dialog_title_toggle_comment">Toggle Comments</string>
+
+    <!-- [CHAR LIMIT=40] The title of a setting on the setting screen. Explanation of the functionality that allows users to customize the behavior of checkboxes that can be inserted into notes. -->
+    <string name="preference_title_checkbox_behavior">Checkbox Behavior</string>
+    <!-- [CHAR LIMIT=15] Label representing the checked state of a checkbox. -->
+    <string name="label_checkbox_state_checked">Checked</string>
+    <!-- [CHAR LIMIT=15] Label representing the unchecked state of a checkbox. -->
+    <string name="label_checkbox_state_unchecked">Unchecked</string>
+    <!-- [CHAR LIMIT=25] Label describing the behavior corresponding to a checkbox state: evaluates calculations and displays results. -->
+    <string name="label_checkbox_behavior_do">Calculate</string>
+    <!-- [CHAR LIMIT=25] Label describing the behavior corresponding to a checkbox state: does not evaluate calculations and does not display results. -->
+    <string name="label_checkbox_behavior_skip">Skip calculation</string>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="round_behavior_entries">
+        <item>Zaokrúhlenie nahor</item>
+        <item>Zaokrúhlenie nadol</item>
+        <item>Zaokrúhlenie smerom od nuly</item>
+        <item>Bankové zaokrúhlenie</item>
+    </string-array>
+    <string-array name="tax_round_behavior_entries">
+        <item>Zaokrúhlenie nahor</item>
+        <item>Zaokrúhlenie nadol</item>
+        <item>Zaokrúhlenie smerom od nuly</item>
+    </string-array>
+    <string-array name="keypad_sound_entries">
+        <item>Žiadny zvuk</item>
+        <item>Zvukový efekt 1</item>
+        <item>Zvukový efekt 2</item>
+        <item>Zvukový efekt 3</item>
+        <item>Zvukový efekt 4</item>
+    </string-array>
+    <string-array name="keypad_input_method_entries">
+        <item>Dlhé stlačenie</item>
+        <item>Potiahnutie</item>
+    </string-array>
+    <string-array name="button_font_size_entries">
+        <item>Malé</item>
+        <item>Stredné</item>
+        <item>Veľké</item>
+        <item>Extra veľké</item>
+        <item>Dvojité extra veľké</item>
+        <item>Trojité extra veľké</item>
+    </string-array>
+    <string-array name="keypad_menu_size_entries">
+        <item>Malé</item>
+        <item>Stredné</item>
+        <item>Veľké</item>
+    </string-array>
+    <string-array name="angle_mode_entries">
+        <item>Radián</item>
+        <item>Stupeň</item>
+        <item>Gradián</item>
+    </string-array>
+    <string-array name="calculation_mode_entries">
+        <item>Štandardné</item>
+        <item>Vysoká presnosť (vyššia záťaž CPU)</item>
+    </string-array>
+    <string-array name="result_alignment_entries">
+        <item>Zarovnať vľavo</item>
+        <item>Zarovnať vpravo</item>
+    </string-array>
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>Číslo riadku<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>Číslo riadku<xliff:g>}</xliff:g></item>
+    </string-array>
+    <string-array name="caret_row_highlighting_entries">
+        <item>Vypnuté</item>
+        <item>Režim farby pozadia</item>
+        <item>Režim podčiarknutia</item>
+    </string-array>
+    <string-array name="screen_orientation_entries">
+        <item>Zvislá orientácia</item>
+        <item>Vodorovná orientácia</item>
+    </string-array>
+    <string-array name="floating_activation_method_entries">
+        <item>Aktivovať z oznámenia</item>
+        <item>Aktivovať z plávajúceho tlačidla</item>
+        <item>Aktivovať zo skratky</item>
+    </string-array>
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>Vlastný formát</item>
+    </string-array>
+    <string-array name="file_sort_condition_entries">
+        <item>Vzostupne (dátum vytvorenia)</item>
+        <item>Zostupne (dátum vytvorenia)</item>
+        <item>Vzostupne (dátum aktualizácie)</item>
+        <item>Zostupne (dátum aktualizácie)</item>
+        <item>Vzostupne (názov súboru)</item>
+        <item>Zostupne (názov súboru)</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>Systémové predvolené</item>
+        <item>Tmavé</item>
+        <item>Svetlé</item>
+    </string-array>
+    <string-array name="summarizer_type_entries">
+        <item>Súčet</item>
+        <item>Priemer</item>
+        <item>Variancia</item>
+        <item>Štandardná odchýlka</item>
+        <item>S DPH</item>
+        <item>Bez DPH</item>
+        <item>Skryť</item>
+    </string-array>
+</resources>

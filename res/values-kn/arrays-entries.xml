@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="round_behavior_entries">
+        <item>ಮೇಲೆ ಸಮೀಪಗೊಳಿಸು</item>
+        <item>ಕೆಳಗೆ ಸಮೀಪಗೊಳಿಸು</item>
+        <item>ಸಾಮಾನ್ಯ ಸಮೀಪಗೊಳಿಸು</item>
+        <item>ಬ್ಯಾಂಕರ್ ಸಮೀಪಗೊಳಿಸುವುದು</item>
+    </string-array>
+    <string-array name="tax_round_behavior_entries">
+        <item>ಮೇಲೆ ಸಮೀಪಗೊಳಿಸು</item>
+        <item>ಕೆಳಗೆ ಸಮೀಪಗೊಳಿಸು</item>
+        <item>ಸಾಮಾನ್ಯ ಸಮೀಪಗೊಳಿಸು</item>
+    </string-array>
+    <string-array name="keypad_sound_entries">
+        <item>ಮೌನ</item>
+        <item>ಧ್ವನಿ ಪರಿಣಾಮ 1</item>
+        <item>ಧ್ವನಿ ಪರಿಣಾಮ 2</item>
+        <item>ಧ್ವನಿ ಪರಿಣಾಮ 3</item>
+        <item>ಧ್ವনি ಪರಿಣಾಮ 4</item>
+    </string-array>
+    <string-array name="keypad_input_method_entries">
+        <item>ದೀರ್ಘ ಒತ್ತು</item>
+        <item>ಸುವಟ</item>
+    </string-array>
+    <string-array name="button_font_size_entries">
+        <item>ಸಣ್ಣ</item>
+        <item>ಮಧ್ಯಮ</item>
+        <item>ದುಡ್ಡ</item>
+        <item>ಅತಿದೊಡ್ಡ</item>
+        <item>ಡಬಲ್ ಅತಿದೊಡ್ಡ</item>
+        <item>ಟ್ರಿಪಲ್ ಅತಿದೊಡ್ಡ</item>
+    </string-array>
+    <string-array name="keypad_menu_size_entries">
+        <item>ಸಣ್ಣ</item>
+        <item>ಮಧ್ಯಮ</item>
+        <item>ದುಡ್ಡ</item>
+    </string-array>
+    <string-array name="angle_mode_entries">
+        <item>ರೇಡಿಯನ್</item>
+        <item>ಡಿಗ್ರಿ</item>
+        <item>ಗ್ರೇಡಿಯನ್</item>
+    </string-array>
+    <string-array name="calculation_mode_entries">
+        <item>ಸ್ಟ್ಯಾಂಡರ್ಡ್</item>
+        <item>ಅತಿಹೆಚ್ಚು ನಿಖರತೆ (CPU ಒತ್ತಡ ಹೆಚ್ಚುತ್ತದೆ)</item>
+    </string-array>
+    <string-array name="result_alignment_entries">
+        <item>ಎಡ ಹೊಂದಿಕೆ</item>
+        <item>ಬಲ ಹೊಂದಿಕೆ</item>
+    </string-array>
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>ಸಾಲುಸಂ.<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>ಸಾಲುಸಂ.<xliff:g>}</xliff:g></item>
+    </string-array>
+    <string-array name="caret_row_highlighting_entries">
+        <item>ನಿಷ್ಕ್ರಿಯ</item>
+        <item>ಹಿನ್ನೆಲೆ ಬಣ್ಣ ಮೋಡ್</item>
+        <item>ಅಡಿಉಳೆಯುವ ಮೋಡ್</item>
+    </string-array>
+    <string-array name="screen_orientation_entries">
+        <item>ಪೋರ್ಟ್ರೆಟ್ ಅಭಿಮುಖತೆ</item>
+        <item>ಲ್ಯಾಂಡ್ಸ್‌ಕೆಪ್ ಅಭಿಮುಖತೆ</item>
+    </string-array>
+    <string-array name="floating_activation_method_entries">
+        <item>ಅಧಿಸೂಚನೆದಿಂದ ಸಕ್ರಿಯಗೊಳಿಸಿ</item>
+        <item>ತೇಲುವ ಬಟನ್ ಮೂಲಕ ಸಕ್ರಿಯಗೊಳಿಸಿ</item>
+        <item>ಶಾರ್ಟ್‌ಕಟ್ ಮೂಲಕ ಸಕ್ರಿಯಗೊಳಿಸಿ</item>
+    </string-array>
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>ಕಸ್ಟಮ್ ಫಾರ್ಮ್ಯಾಟ್</item>
+    </string-array>
+    <string-array name="file_sort_condition_entries">
+        <item>ಸೃಷ್ಟಿ ದಿನಾಂಕ ಏರಿಕೆ ಕ್ರಮವಾಗಿ ಜೋಡಣೆ</item>
+        <item>ಸೃಷ್ಟಿ ದಿನಾಂಕ ಇಳಿಕೆ ಕ್ರಮವಾಗಿ ಜೋಡಣೆ</item>
+        <item>ಅಪ್ಡೇಟ್ ದಿನಾಂಕ ಏರಿಕೆ ಕ್ರಮವಾಗಿ ಜೋಡಣೆ</item>
+        <item>ಅಪ್ಡೇಟ್ ದಿನಾಂಕ ಇಳಿಕೆ ಕ್ರಮವಾಗಿ ಜೋಡಣೆ</item>
+        <item>ಫೈಲ್ ಹೆಸರು ಏರಿಕೆ ಕ್ರಮವಾಗಿ ಜೋಡಣೆ</item>
+        <item>ಫೈಲ್ ಹೆಸರು ಇಳಿಕೆ ಕ್ರಮವಾಗಿ ಜೋಡಣೆ</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>ಸಿಸ್ಟಮ್ ಡೀಫಾಲ್ಟ್</item>
+        <item>ಡಾರ್ಕ್</item>
+        <item>ಲೈಟ್</item>
+    </string-array>
+    <string-array name="summarizer_type_entries">
+        <item>ಮೊತ್ತ</item>
+        <item>ಸರಾಸರಿ</item>
+        <item>ವಿಚಲನ</item>
+        <item>ಪ್ರಮಾಣಿತ ಅಪಸರಣ</item>
+        <item>ಕರಸಹಿತ</item>
+        <item>ಕರ ಹೊರತು</item>
+        <item>ಮರೆಮಾಡು</item>
+    </string-array>
+</resources>

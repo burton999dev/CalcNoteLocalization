@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="round_behavior_entries">
+        <item>Avrunda upp</item>
+        <item>Avrunda ned</item>
+        <item>Avrunda halvor bort från noll</item>
+        <item>Bankavrundning</item>
+    </string-array>
+    <string-array name="tax_round_behavior_entries">
+        <item>Avrunda upp</item>
+        <item>Avrunda ned</item>
+        <item>Avrunda halvor bort från noll</item>
+    </string-array>
+    <string-array name="keypad_sound_entries">
+        <item>Tyst</item>
+        <item>Ljudeffekt 1</item>
+        <item>Ljudeffekt 2</item>
+        <item>Ljudeffekt 3</item>
+        <item>Ljudeffekt 4</item>
+    </string-array>
+    <string-array name="keypad_input_method_entries">
+        <item>Långtryck</item>
+        <item>Svep</item>
+    </string-array>
+    <string-array name="button_font_size_entries">
+        <item>Liten</item>
+        <item>Mellan</item>
+        <item>Stor</item>
+        <item>Extra stor</item>
+        <item>Dubbel extra stor</item>
+        <item>Trippel extra stor</item>
+    </string-array>
+    <string-array name="keypad_menu_size_entries">
+        <item>Liten</item>
+        <item>Mellan</item>
+        <item>Stor</item>
+    </string-array>
+    <string-array name="angle_mode_entries">
+        <item>Radian</item>
+        <item>Grader</item>
+        <item>Gradian</item>
+    </string-array>
+    <string-array name="calculation_mode_entries">
+        <item>Standard</item>
+        <item>Hög noggrannhet (ökad CPU-belastning)</item>
+    </string-array>
+    <string-array name="result_alignment_entries">
+        <item>Vänsterjustera</item>
+        <item>Högerjustera</item>
+    </string-array>
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>Radnr<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>Radnr<xliff:g>}</xliff:g></item>
+    </string-array>
+    <string-array name="caret_row_highlighting_entries">
+        <item>Inaktiverad</item>
+        <item>Bakgrundsfärgsläge</item>
+        <item>Understrykningsläge</item>
+    </string-array>
+    <string-array name="screen_orientation_entries">
+        <item>Stående läge</item>
+        <item>Liggande läge</item>
+    </string-array>
+    <string-array name="floating_activation_method_entries">
+        <item>Aktivera från avisering</item>
+        <item>Aktivera från flytande knapp</item>
+        <item>Aktivera från genväg</item>
+    </string-array>
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>Anpassat format</item>
+    </string-array>
+    <string-array name="file_sort_condition_entries">
+        <item>Sortera stigande efter skapelsedatum</item>
+        <item>Sortera fallande efter skapelsedatum</item>
+        <item>Sortera stigande efter uppdateringsdatum</item>
+        <item>Sortera fallande efter uppdateringsdatum</item>
+        <item>Sortera stigande efter filnamn</item>
+        <item>Sortera fallande efter filnamn</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>Systemstandard</item>
+        <item>Mörkt</item>
+        <item>Ljust</item>
+    </string-array>
+    <string-array name="summarizer_type_entries">
+        <item>Summa</item>
+        <item>Medelvärde</item>
+        <item>Varians</item>
+        <item>Standardavvikelse</item>
+        <item>Med moms</item>
+        <item>Utan moms</item>
+        <item>Dölj</item>
+    </string-array>
+</resources>

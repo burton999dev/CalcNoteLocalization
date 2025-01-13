@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preference_title_gdpr_warning">Omezená funkčnost kvůli neudělení souhlasu s reklamou</string>
+    <string name="preference_title_manage_gdpr_consent">Správa souhlasu GDPR</string>
+    <string name="preference_summary_manage_gdpr_consent">Pro přístup k tomuto nastavení prosím vypněte blokování reklam</string>
+    <string name="gdpr_long_warning_message">Vážený uživateli,\n\nZavazuji se chránit vaše soukromí a dodržovat Obecné nařízení o ochraně osobních údajů (GDPR). Pro podporu vývoje aplikace a poskytování lepšího uživatelského zážitku potřebuji váš souhlas k zobrazování personalizovaných reklam v mé aplikaci. Tyto personalizované reklamy jsou zásadní částí mého příjmového proudu a umožňují mi pokračovat v poskytování a udržování této služby.\n\nV současné době nemám váš souhlas k zobrazování personalizovaných reklam. Toto omezení ovlivňuje mou schopnost podporovat aplikaci prostřednictvím reklamních příjmů, což je nezbytné pro její udržitelnost. V důsledku toho jsou určité funkce aplikace omezené, dokud nebude poskytnut souhlas s personalizovanými reklamami.\n\nChápu důležitost ochrany vašich dat a zaručuji, že veškeré zpracování dat bude prováděno v souladu s pokyny GDPR. Souhlasem s zobrazováním personalizovaných reklam mi pomáháte udržovat vývoj aplikace a zajišťovat lepší uživatelský zážitek.\n\nVáš souhlas můžete kdykoliv změnit v nastavení aplikace. Pro více informací o tom, jak používám vaše údaje a vašich právech podle GDPR, se prosím obraťte na mou politiku ochrany soukromí.\n\nDěkuji za pochopení a vaši nepřetržitou podporu.\n\nS pozdravem,\n</string>
+    <string name="button_give_gdpr_consent">Udělit souhlas</string>
+</resources>

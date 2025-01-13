@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="round_behavior_entries">
+        <item>పైకి రౌండ్</item>
+        <item>క్రిందికి రౌండ్</item>
+        <item>సగానికి రౌండ్</item>
+        <item>బ్యాంకర్ రౌండింగ్</item>
+    </string-array>
+    <string-array name="tax_round_behavior_entries">
+        <item>పైకి రౌండ్</item>
+        <item>క్రిందికి రౌండ్</item>
+        <item>సగానికి రౌండ్</item>
+    </string-array>
+    <string-array name="keypad_sound_entries">
+        <item>నిశ్శబ్దం</item>
+        <item>శబ్ద 1</item>
+        <item>శబ్ద 2</item>
+        <item>శబ్ద 3</item>
+        <item>శబ్ద 4</item>
+    </string-array>
+    <string-array name="keypad_input_method_entries">
+        <item>దీర్ఘనొక్కు</item>
+        <item>స్వైప్</item>
+    </string-array>
+    <string-array name="button_font_size_entries">
+        <item>చిన్న</item>
+        <item>మధ్యస్థ</item>
+        <item>పెద్ద</item>
+        <item>అత్యంత పెద్ద</item>
+        <item>రెట్టింత పెద్ద</item>
+        <item>మూడింత పెద్ద</item>
+    </string-array>
+    <string-array name="keypad_menu_size_entries">
+        <item>చిన్న</item>
+        <item>మధ్యస్థ</item>
+        <item>పెద్ద</item>
+    </string-array>
+    <string-array name="angle_mode_entries">
+        <item>రేడియన్</item>
+        <item>డిగ్రీ</item>
+        <item>గ్రేడియన్</item>
+    </string-array>
+    <string-array name="calculation_mode_entries">
+        <item>ప్రామాణిక</item>
+        <item>అధిక ఖచ్చితత్వం (CPU భారం పెరుగుతుంది)</item>
+    </string-array>
+    <string-array name="result_alignment_entries">
+        <item>ఎడమ సరిపరచు</item>
+        <item>కుడి సరిపరచు</item>
+    </string-array>
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>లైన్ సంఖ్య<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>లైన్ సంఖ్య<xliff:g>}</xliff:g></item>
+    </string-array>
+    <string-array name="caret_row_highlighting_entries">
+        <item>అచేతనది</item>
+        <item>నేపథ్య రంగు మోడ్</item>
+        <item>అండర్‌లైన్ మోడ్</item>
+    </string-array>
+    <string-array name="screen_orientation_entries">
+        <item>పొడవు దృగ్విన్యాసం</item>
+        <item>అడ్డ దృగ్విన్యాసం</item>
+    </string-array>
+    <string-array name="floating_activation_method_entries">
+        <item>నోటిఫికేషన్ ద్వారా ప్రారంభించు</item>
+        <item>తేలియాడే బటన్ ద్వారా ప్రారంభించు</item>
+        <item>షార్ట్‌కట్ ద్వారా ప్రారంభించు</item>
+    </string-array>
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>అనుకూల ఫార్మాట్</item>
+    </string-array>
+    <string-array name="file_sort_condition_entries">
+        <item>సృష్టితేదీ పెరుగుతుండగా క్రమించు</item>
+        <item>సృష్టితేదీ తగ్గుతుండగా క్రమించు</item>
+        <item>అప్‌డేట్ తేదీ పెరుగుతుండగా క్రమించు</item>
+        <item>అప్‌డేట్ తేదీ తగ్గుతుండగా క్రమించు</item>
+        <item>ఫైల్ పేరు పెరుగుతుండగా క్రమించు</item>
+        <item>ఫైల్ పేరు తగ్గుతుండగా క్రమించు</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>సిస్టమ్ డిఫాల్ట్</item>
+        <item>డార్క్</item>
+        <item>లైట్</item>
+    </string-array>
+    <string-array name="summarizer_type_entries">
+        <item>మొత్తం</item>
+        <item>సగటు</item>
+        <item>వేరియన్స్</item>
+        <item>ప్రామాణిక విచలనం</item>
+        <item>పన్ను సహిత</item>
+        <item>పన్ను లేని</item>
+        <item>దాచు</item>
+    </string-array>
+</resources>

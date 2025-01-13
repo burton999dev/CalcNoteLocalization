@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="label_incorrect_translation">Napačen prevod</string>
+    <string name="label_correct_translation">Pravilen prevod</string>
+    <string name="label_reason">Razlog</string>
+    <string name="toast_thanks_feed_back">Hvala za vaše povratne informacije.</string>
+    <string name="dialog_message_send_feedback">Če najdete napačen prevod ali poznate boljšega, prosim, navedite pravilni prevod. Tako bo <xliff:g id="app_name">CalcNote</xliff:g> še boljša. Povratne informacije bodo poslane na <xliff:g id="feedback_url">https://github.com/burton999dev/CalcNoteLocalization</xliff:g></string>
+</resources>

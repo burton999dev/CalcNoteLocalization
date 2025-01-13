@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="round_behavior_entries">
+        <item>Avrunding opp</item>
+        <item>Avrunding ned</item>
+        <item>Avrunding bort fra null</item>
+        <item>Bankers avrunding</item>
+    </string-array>
+    <string-array name="tax_round_behavior_entries">
+        <item>Avrunding opp</item>
+        <item>Avrunding ned</item>
+        <item>Avrunding bort fra null</item>
+    </string-array>
+    <string-array name="keypad_sound_entries">
+        <item>Dempet</item>
+        <item>Lydeffekt 1</item>
+        <item>Lydeffekt 2</item>
+        <item>Lydeffekt 3</item>
+        <item>Lydeffekt 4</item>
+    </string-array>
+    <string-array name="keypad_input_method_entries">
+        <item>Langt trykk</item>
+        <item>Sveip</item>
+    </string-array>
+    <string-array name="button_font_size_entries">
+        <item>Liten</item>
+        <item>Middels</item>
+        <item>Stor</item>
+        <item>Ekstra stor</item>
+        <item>Dobbel ekstra stor</item>
+        <item>Trippel ekstra stor</item>
+    </string-array>
+    <string-array name="keypad_menu_size_entries">
+        <item>Liten</item>
+        <item>Middels</item>
+        <item>Stor</item>
+    </string-array>
+    <string-array name="angle_mode_entries">
+        <item>Radian</item>
+        <item>Grader</item>
+        <item>Gradian</item>
+    </string-array>
+    <string-array name="calculation_mode_entries">
+        <item>Standard</item>
+        <item>Høy presisjon (økt CPU-belastning)</item>
+    </string-array>
+    <string-array name="result_alignment_entries">
+        <item>Venstrejustert</item>
+        <item>Høyrejustert</item>
+    </string-array>
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>Linjenr<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>Linjenr<xliff:g>}</xliff:g></item>
+    </string-array>
+    <string-array name="caret_row_highlighting_entries">
+        <item>Deaktivert</item>
+        <item>Bakgrunnsfargemodus</item>
+        <item>Understreksmodus</item>
+    </string-array>
+    <string-array name="screen_orientation_entries">
+        <item>Stående retning</item>
+        <item>Liggende retning</item>
+    </string-array>
+    <string-array name="floating_activation_method_entries">
+        <item>Aktiver fra varsel</item>
+        <item>Aktiver fra flyteknapp</item>
+        <item>Aktiver fra snarvei</item>
+    </string-array>
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>Egendefinert format</item>
+    </string-array>
+    <string-array name="file_sort_condition_entries">
+        <item>Sorter stigende etter opprettelsesdato</item>
+        <item>Sorter synkende etter opprettelsesdato</item>
+        <item>Sorter stigende etter oppdateringsdato</item>
+        <item>Sorter synkende etter oppdateringsdato</item>
+        <item>Sorter stigende etter filnavn</item>
+        <item>Sorter synkende etter filnavn</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>Systemstandard</item>
+        <item>Mørk</item>
+        <item>Lys</item>
+    </string-array>
+    <string-array name="summarizer_type_entries">
+        <item>Total</item>
+        <item>Gjennomsnitt</item>
+        <item>Varians</item>
+        <item>Standardavvik</item>
+        <item>Inkludert mva</item>
+        <item>Uten mva</item>
+        <item>Skjul</item>
+    </string-array>
+</resources>

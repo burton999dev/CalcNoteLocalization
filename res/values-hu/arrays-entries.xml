@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="round_behavior_entries">
+        <item>Felfelé kerekítés</item>
+        <item>Lefelé kerekítés</item>
+        <item>Félkerekítés a nullától távol</item>
+        <item>Banki kerekítés</item>
+    </string-array>
+    <string-array name="tax_round_behavior_entries">
+        <item>Felfelé kerekítés</item>
+        <item>Lefelé kerekítés</item>
+        <item>Félkerekítés a nullától távol</item>
+    </string-array>
+    <string-array name="keypad_sound_entries">
+        <item>Némítás</item>
+        <item>Hanghatás 1</item>
+        <item>Hanghatás 2</item>
+        <item>Hanghatás 3</item>
+        <item>Hanghatás 4</item>
+    </string-array>
+    <string-array name="keypad_input_method_entries">
+        <item>Hosszú megnyomás</item>
+        <item>Elhúzás</item>
+    </string-array>
+    <string-array name="button_font_size_entries">
+        <item>Kicsi</item>
+        <item>Közepes</item>
+        <item>Nagy</item>
+        <item>Extra nagy</item>
+        <item>Dupla extra nagy</item>
+        <item>Tripla extra nagy</item>
+    </string-array>
+    <string-array name="keypad_menu_size_entries">
+        <item>Kicsi</item>
+        <item>Közepes</item>
+        <item>Nagy</item>
+    </string-array>
+    <string-array name="angle_mode_entries">
+        <item>Radián</item>
+        <item>Fok</item>
+        <item>Gradián</item>
+    </string-array>
+    <string-array name="calculation_mode_entries">
+        <item>Standard</item>
+        <item>Magas pontosság (növekvő CPU-terhelés)</item>
+    </string-array>
+    <string-array name="result_alignment_entries">
+        <item>Balra igazítás</item>
+        <item>Jobbra igazítás</item>
+    </string-array>
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>SorSzám<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>SorSzám<xliff:g>}</xliff:g></item>
+    </string-array>
+    <string-array name="caret_row_highlighting_entries">
+        <item>Kikapcsolva</item>
+        <item>Háttérszín mód</item>
+        <item>Aláhúzási mód</item>
+    </string-array>
+    <string-array name="screen_orientation_entries">
+        <item>Álló tájolás</item>
+        <item>Fekvő tájolás</item>
+    </string-array>
+    <string-array name="floating_activation_method_entries">
+        <item>Értesítésből aktiválás</item>
+        <item>Lebegő gombból aktiválás</item>
+        <item>Parancsikonról aktiválás</item>
+    </string-array>
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>Egyéni formátum</item>
+    </string-array>
+    <string-array name="file_sort_condition_entries">
+        <item>Rendezés létrehozási dátum alapján (növekvő)</item>
+        <item>Rendezés létrehozási dátum alapján (csökkenő)</item>
+        <item>Rendezés frissítési dátum alapján (növekvő)</item>
+        <item>Rendezés frissítési dátum alapján (csökkenő)</item>
+        <item>Rendezés fájlnév szerint (növekvő)</item>
+        <item>Rendezés fájlnév szerint (csökkenő)</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>Rendszer alapértelmezett</item>
+        <item>Sötét</item>
+        <item>Világos</item>
+    </string-array>
+    <string-array name="summarizer_type_entries">
+        <item>Összeg</item>
+        <item>Átlag</item>
+        <item>Variancia</item>
+        <item>Szórás</item>
+        <item>Adót tartalmaz</item>
+        <item>Adó nélkül</item>
+        <item>Elrejtés</item>
+    </string-array>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="toast_cannot_customize_appearance_dark_miui">Se hai abilitato la modalità scura su MIUI di Xiaomi, la personalizzazione dell\'aspetto in CalcNote non è supportata. Le impostazioni sono state ripristinate.</string>
+    <string name="dialog_title_app_update_required">Aggiornamento dell\'app necessario</string>
+    <string name="dialog_message_app_update_required">È disponibile una nuova versione dell\'app. Per accedere alle ultime funzionalità e aggiornamenti di sicurezza, aggiorna l\'app. Se non riesci ad aggiornare a causa di problemi di connessione o di qualsiasi altro problema, controlla la tua connessione e riprova. Si prega di notare che non sarà possibile utilizzare l\'app senza questo aggiornamento. Apprezziamo la tua comprensione e collaborazione.</string>
+
+    <string name="context_menu_history">Traccia Modifiche</string>
+    <string name="context_menu_restore">Ripristina</string>
+    <string name="context_menu_permanently_delete">Elimina permanentemente</string>
+    <string name="toast_file_is_restored">File ripristinato con successo.</string>
+    <string name="toast_failed_to_restore_file">Impossibile ripristinare il file.</string>
+    <string name="toast_failed_to_permanently_delete">Eliminazione permanente fallita.</string>
+
+    <string name="dialog_message_confirm_permanently_delete_all_deleted_files">Vuoi veramente eliminare permanentemente tutti i file eliminati?</string>
+
+    <string name="pad_description_checkbox">Casella di controllo</string>
+
+    <string name="pad_description_ans">Inserire il risultato dalla riga sopra</string>
+
+    <string name="user_defined_list">Lista definita dall\'utente</string>
+    <string name="label_list_name">Nome della lista</string>
+    <string name="label_list_values">Elementi della lista</string>
+    <string name="empty_list_items_not_found">La lista è vuota</string>
+    <string name="label_list_item_value">Valore dell\'elemento</string>
+    <string name="label_list_item_description">Descrizione dell\'elemento</string>
+    <string name="toast_user_defined_list_limitation">Nella versione gratuita è possibile creare solo una lista definita dall\'utente</string>
+
+    <string name="help_custom_list1">Creando una lista definita dall\'utente, puoi organizzare gli elementi frequentemente usati in una lista, semplificando l\'inserimento dei dati.</string>
+    <string name="help_custom_list2">Ad esempio, elencare le spese fisse mensili può semplificare la gestione del budget.</string>
+    <string name="help_custom_list3">La lista creata può essere assegnata a un pulsante nelle impostazioni \"Personalizza tastierino\".</string>
+    <string name="help_custom_list_name">Inserisci il nome della lista da visualizzare sul pulsante.</string>
+    <string name="help_custom_list_items">Aggiungi elementi alla lista. Puoi impostare espressioni e descrizioni arbitrarie per ogni elemento.</string>
+
+    <string name="result_twos_complement_binary">Complemento a due</string>
+    <string name="toast_need_to_test_user_defined_function">Si prega di eseguire un test di esecuzione per verificare la funzione prima di salvare.</string>
+    <string name="pad_description_find_in_file">Trova nel file corrente</string>
+    <string name="drawer_menu_find_in_file">Trova nel file corrente</string>
+    <string name="button_replace">Sostituisci</string>
+    <string name="button_replace_all">Sostituisci tutto</string>
+
+    <string name="toast_warning_show_action_bar">Anche se la barra operazionale è nascosta, puoi comunque visualizzare il menù laterale scorrendo dal bordo sinistro dello schermo verso il centro.</string>
+    <string name="checkbox_print_option_is_replace_line_reference">Sostituisci i riferimenti alle linee con i valori</string>
+    <string name="preference_title_auto_rotate_screen_enabled">Rotazione automatica dello schermo</string>
+    <string name="label_portrait_keypads">Tastierini in modalità ritratto</string>
+    <string name="label_landscape_keypads">Tastierini in modalità paesaggio</string>
+
+    <string name="dialog_title_rename_file">Rinomina file</string>
+    <string name="dialog_title_copy_file">Copia file</string>
+
+    <string name="preference_title_open_youtube">Video di Suggerimenti Rapidi</string>
+
+    <string name="toast_landscape_keypad_not_supported">Il tastierino in modalità paesaggio non è supportato nello stato attuale del dispositivo.</string>
+
+    <string name="template_placeholder_short_date">Formato data breve</string>
+    <string name="template_placeholder_short_time">Formato ora breve</string>
+    <string name="template_placeholder_short_date_time">Formato data e ora breve</string>
+    <string name="template_placeholder_medium_date">Formato data medio</string>
+    <string name="template_placeholder_medium_time">Formato ora medio</string>
+    <string name="template_placeholder_medium_date_time">Formato data e ora medio</string>
+    <string name="template_placeholder_long_date">Formato data lungo</string>
+    <string name="template_placeholder_long_time">Formato ora lungo</string>
+    <string name="template_placeholder_long_date_time">Formato data e ora lungo</string>
+    <string name="template_placeholder_year">Anno</string>
+    <string name="template_placeholder_month">Mese</string>
+    <string name="template_placeholder_month_no_zero">Mese senza zero iniziale</string>
+    <string name="template_placeholder_month_abbreviated">Nome abbreviato del mese</string>
+    <string name="template_placeholder_day">Giorno del mese</string>
+    <string name="template_placeholder_day_no_zero">Giorno del mese senza zero iniziale</string>
+    <string name="template_placeholder_day_of_week">Nome completo del giorno della settimana</string>
+    <string name="template_placeholder_day_of_week_short">Nome abbreviato del giorno della settimana</string>
+    <string name="template_placeholder_hour_24">Ora nel formato 24 ore</string>
+    <string name="template_placeholder_hour_12">Ora nel formato 12 ore</string>
+    <string name="template_placeholder_minute">Minuto</string>
+    <string name="template_placeholder_second">Secondo</string>
+    <string name="template_placeholder_ampm">Indicatore AM/PM</string>
+    <string name="menu_add_placeholder">Aggiungi placeholder</string>
+    <string name="template_placeholder_description_text">Sostituito con il testo inserito durante la creazione del file</string>
+    <string name="template_placeholder_description_list">Sostituito con il testo selezionato da una lista durante la creazione del file</string>
+    <string name="label_placeholder_name">Nome placeholder</string>
+    <string name="label_placeholder_values">Elementi della lista (separati da virgole)</string>
+
+    <string name="toast_interstitial_ad_will_appear">Apparirà un annuncio a schermo intero quando torni alla schermata principale.</string>
+
+    <string name="pad_description_toggle_comments">Commenta o decommenta calcoli multipli</string>
+    <string name="dialog_title_toggle_comment">Attiva/Disattiva commenti</string>
+
+    <string name="preference_title_checkbox_behavior">Comportamento della casella di controllo</string>
+    <string name="label_checkbox_state_checked">Selezionato</string>
+    <string name="label_checkbox_state_unchecked">Deselezionato</string>
+    <string name="label_checkbox_behavior_do">Calcolare</string>
+    <string name="label_checkbox_behavior_skip">Salta calcolo</string>
+</resources>

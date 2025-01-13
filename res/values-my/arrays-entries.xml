@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="round_behavior_entries">
+        <item>အပေါ်သို့လုံး</item>
+        <item>အောက်သို့လုံး</item>
+        <item>အနီးဆုံးလုံး</item>
+        <item>ဘဏ်စံလုံး</item>
+    </string-array>
+    <string-array name="tax_round_behavior_entries">
+        <item>အပေါ်သို့လုံး</item>
+        <item>အောက်သို့လုံး</item>
+        <item>အနီးဆုံးလုံး</item>
+    </string-array>
+    <string-array name="keypad_sound_entries">
+        <item>အသံပိတ်</item>
+        <item>အသံထွက် ၁</item>
+        <item>အသံထွက် ၂</item>
+        <item>အသံထွက် ၃</item>
+        <item>အသံထွက် ၄</item>
+    </string-array>
+    <string-array name="keypad_input_method_entries">
+        <item>ကြာရှည်နှိပ်</item>
+        <item>ဆွဲရွှေ့</item>
+    </string-array>
+    <string-array name="button_font_size_entries">
+        <item>သေး</item>
+        <item>အလယ်</item>
+        <item>ကြီး</item>
+        <item>အလွန်ကြီး</item>
+        <item>၂ ဆကြီး</item>
+        <item>၃ ဆကြီး</item>
+    </string-array>
+    <string-array name="keypad_menu_size_entries">
+        <item>သေး</item>
+        <item>အလယ်</item>
+        <item>ကြီး</item>
+    </string-array>
+    <string-array name="angle_mode_entries">
+        <item>ရာဒီယန်</item>
+        <item>ဒီဂရီ</item>
+        <item>ဂရေဒီယန်</item>
+    </string-array>
+    <string-array name="calculation_mode_entries">
+        <item>စံနှုန်း</item>
+        <item>တိကျမြင့်မား (CPU ဝန်ထပ်)</item>
+    </string-array>
+    <string-array name="result_alignment_entries">
+        <item>ဘယ်ပြည့်</item>
+        <item>ညာပြည့်</item>
+    </string-array>
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>လိုင်းနံပါတ်<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>လိုင်းနံပါတ်<xliff:g>}</xliff:g></item>
+    </string-array>
+    <string-array name="caret_row_highlighting_entries">
+        <item>ပိတ်ထား</item>
+        <item>နောက်ခံအရောင်ပြထား</item>
+        <item>အောက်လိုင်းပြထား</item>
+    </string-array>
+    <string-array name="screen_orientation_entries">
+        <item>ဒေါင်လိုက်</item>
+        <item>အလျားလိုက်</item>
+    </string-array>
+    <string-array name="floating_activation_method_entries">
+        <item>အသိပေးချက်မှဖွင့်</item>
+        <item>မျောဖွင့်ခလုတ်မှဖွင့်</item>
+        <item>လွယ်ကူခလုတ်မှဖွင့်</item>
+    </string-array>
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>စိတ်ကြိုက်ဖော်ပြ</item>
+    </string-array>
+    <string-array name="file_sort_condition_entries">
+        <item>ဖန်တီးနေ့စွဲတိုးစီ</item>
+        <item>ဖန်တီးနေ့စွဲဆင်းစီ</item>
+        <item>ပြင်ဆင်နေ့စွဲတိုးစီ</item>
+        <item>ပြင်ဆင်နေ့စွဲဆင်းစီ</item>
+        <item>ဖိုင်နာမည်တိုးစီ</item>
+        <item>ဖိုင်နာမည်ဆင်းစီ</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>စနစ်မူလ</item>
+        <item>မှောင်</item>
+        <item>လင်း</item>
+    </string-array>
+    <string-array name="summarizer_type_entries">
+        <item>စုစုပေါင်း</item>
+        <item>ပျမ်းမျှ</item>
+        <item>ကွဲပြားမှု</item>
+        <item>စံကွာချက်</item>
+        <item>အခွန်ပါပြီ</item>
+        <item>အခွန်မပါ</item>
+        <item>ဖျောက်</item>
+    </string-array>
+</resources>

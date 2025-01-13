@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="round_behavior_entries">
+        <item>ਉਪਰ ਗੋਲ</item>
+        <item>ਥੱਲੇ ਗੋਲ</item>
+        <item>ਆਧਾ ਤੋਂ ਉਪਰ ਗੋਲ</item>
+        <item>ਬੈਂਕਰ ਗੋਲ</item>
+    </string-array>
+    <string-array name="tax_round_behavior_entries">
+        <item>ਉਪਰ ਗੋਲ</item>
+        <item>ਥੱਲੇ ਗੋਲ</item>
+        <item>ਆਧਾ ਤੋਂ ਉਪਰ ਗੋਲ</item>
+    </string-array>
+    <string-array name="keypad_sound_entries">
+        <item>ਮਿਉਟ</item>
+        <item>ਔਡੀਓ ਪ੍ਰਭਾਵ 1</item>
+        <item>ਔਡੀਓ ਪ੍ਰਭਾਵ 2</item>
+        <item>ਔਡੀਓ ਪ੍ਰਭਾਵ 3</item>
+        <item>ਔਡੀਓ ਪ੍ਰਭਾਵ 4</item>
+    </string-array>
+    <string-array name="keypad_input_method_entries">
+        <item>ਲੰਬਾ ਦਬਾਓ</item>
+        <item>ਸਵਾਈਪ</item>
+    </string-array>
+    <string-array name="button_font_size_entries">
+        <item>ਛੋਟਾ</item>
+        <item>ਦਰਮਿਆਨਾ</item>
+        <item>ਵੱਡਾ</item>
+        <item>ਬਹੁਤ ਵੱਡਾ</item>
+        <item>ਦੁੱਗਣ ਵੱਡਾ</item>
+        <item>ਤਿੱਗਣ ਵੱਡਾ</item>
+    </string-array>
+    <string-array name="keypad_menu_size_entries">
+        <item>ਛੋਟਾ</item>
+        <item>ਦਰਮਿਆਨਾ</item>
+        <item>ਵੱਡਾ</item>
+    </string-array>
+    <string-array name="angle_mode_entries">
+        <item>ਰੇਡੀਅਨ</item>
+        <item>ਡਿਗਰੀ</item>
+        <item>ਗਰੇਡੀਅਨ</item>
+    </string-array>
+    <string-array name="calculation_mode_entries">
+        <item>ਸਟੈਂਡਰਡ</item>
+        <item>ਉੱਚ ਸ਼ੁੱਧਤਾ (CPU ਲੋਡ ਵਧੇਗਾ)</item>
+    </string-array>
+    <string-array name="result_alignment_entries">
+        <item>ਖੱਬੇ ਅਨੁਕੂਲ</item>
+        <item>ਸੱਜੇ ਅਨੁਕੂਲ</item>
+    </string-array>
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>ਲਾਈਨ ਨੰਬਰ<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>ਲਾਈਨ ਨੰਬਰ<xliff:g>}</xliff:g></item>
+    </string-array>
+    <string-array name="caret_row_highlighting_entries">
+        <item>ਬੰਦ</item>
+        <item>ਪਿਛੋਕੜ ਰੰਗ ਮੋਡ</item>
+        <item>ਰੇਖਾ ਹੇਠ ਮੋਡ</item>
+    </string-array>
+    <string-array name="screen_orientation_entries">
+        <item>ਪੋਰਟ੍ਰੇਟ</item>
+        <item>ਲੈਂਡਸਕੇਪ</item>
+    </string-array>
+    <string-array name="floating_activation_method_entries">
+        <item>ਨੋਟੀਫਿਕੇਸ਼ਨ ਤੋਂ ਚਾਲੂ ਕਰੋ</item>
+        <item>ਫਲੋਟਿੰਗ ਬਟਨ ਤੋਂ ਚਾਲੂ ਕਰੋ</item>
+        <item>ਸ਼ਾਰਟਕੱਟ ਤੋਂ ਚਾਲੂ ਕਰੋ</item>
+    </string-array>
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>ਕਸਟਮ ਫਾਰਮੈਟ</item>
+    </string-array>
+    <string-array name="file_sort_condition_entries">
+        <item>ਬਣਾਉਣ ਤਾਰੀਖ ਤੇ ਚੜ੍ਹਦੀ ਕ੍ਰਮ</item>
+        <item>ਬਣਾਉਣ ਤਾਰੀਖ ਤੇ ਘਟਦੀ ਕ੍ਰਮ</item>
+        <item>ਅੱਪਡੇਟ ਤਾਰੀਖ ਤੇ ਚੜ੍ਹਦੀ ਕ੍ਰਮ</item>
+        <item>ਅੱਪਡੇਟ ਤਾਰੀਖ ਤੇ ਘਟਦੀ ਕ੍ਰਮ</item>
+        <item>ਫਾਈਲ ਨਾਮ ਤੇ ਚੜ੍ਹਦੀ ਕ੍ਰਮ</item>
+        <item>ਫਾਈਲ ਨਾਮ ਤੇ ਘਟਦੀ ਕ੍ਰਮ</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>ਸਿਸਟਮ ਡਿਫਾਲਟ</item>
+        <item>ਡਾਰਕ</item>
+        <item>ਲਾਈਟ</item>
+    </string-array>
+    <string-array name="summarizer_type_entries">
+        <item>ਕੁੱਲ</item>
+        <item>ਔਸਤ</item>
+        <item>ਵੈਰੀਐੰਸ</item>
+        <item>ਸਟੈਂਡਰਡ ਡਿਵਿਏਸ਼ਨ</item>
+        <item>ਟੈਕਸ ਸ਼ਾਮਲ</item>
+        <item>ਟੈਕਸ ਬਿਨਾ</item>
+        <item>ਛੁਪਾਓ</item>
+    </string-array>
+</resources>

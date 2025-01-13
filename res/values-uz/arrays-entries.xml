@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="round_behavior_entries">
+        <item>Yuqoriga yaxlitlash</item>
+        <item>Pastga yaxlitlash</item>
+        <item>Yaxlitlash (yarimdan yuqoriga)</item>
+        <item>Bank uslubida yaxlitlash</item>
+    </string-array>
+    <string-array name="tax_round_behavior_entries">
+        <item>Yuqoriga yaxlitlash</item>
+        <item>Pastga yaxlitlash</item>
+        <item>Yaxlitlash (yarimdan yuqoriga)</item>
+    </string-array>
+    <string-array name="keypad_sound_entries">
+        <item>Ovozsiz</item>
+        <item>Ovoz effekti 1</item>
+        <item>Ovoz effekti 2</item>
+        <item>Ovoz effekti 3</item>
+        <item>Ovoz effekti 4</item>
+    </string-array>
+    <string-array name="keypad_input_method_entries">
+        <item>Uzoq bosish</item>
+        <item>Surish</item>
+    </string-array>
+    <string-array name="button_font_size_entries">
+        <item>Kichik</item>
+        <item>O\'rtacha</item>
+        <item>Katta</item>
+        <item>Juda katta</item>
+        <item>Ikki barobar katta</item>
+        <item>Uch barobar katta</item>
+    </string-array>
+    <string-array name="keypad_menu_size_entries">
+        <item>Kichik</item>
+        <item>O\'rtacha</item>
+        <item>Katta</item>
+    </string-array>
+    <string-array name="angle_mode_entries">
+        <item>Radian</item>
+        <item>Daraja</item>
+        <item>Gradian</item>
+    </string-array>
+    <string-array name="calculation_mode_entries">
+        <item>Standart</item>
+        <item>Yuqori aniqlik (CPU yuklanishi ortadi)</item>
+    </string-array>
+    <string-array name="result_alignment_entries">
+        <item>Chapga tekislash</item>
+        <item>O\'ngga tekislash</item>
+    </string-array>
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>Satr raqami<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>Satr raqami<xliff:g>}</xliff:g></item>
+    </string-array>
+    <string-array name="caret_row_highlighting_entries">
+        <item>O\'chirilgan</item>
+        <item>Fon rangli rejim</item>
+        <item>Tag chiziq rejimi</item>
+    </string-array>
+    <string-array name="screen_orientation_entries">
+        <item>Tik format</item>
+        <item>Gorizontal format</item>
+    </string-array>
+    <string-array name="floating_activation_method_entries">
+        <item>Bildirishnomadan faollashtirish</item>
+        <item>Suzuvchi tugmadan faollashtirish</item>
+        <item>Yorliqdan faollashtirish</item>
+    </string-array>
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>Moslashtirilgan format</item>
+    </string-array>
+    <string-array name="file_sort_condition_entries">
+        <item>Yaratilish sanasi bo\'yicha o\'sish</item>
+        <item>Yaratilish sanasi bo\'yicha kamayish</item>
+        <item>Yangilanish sanasi bo\'yicha o\'sish</item>
+        <item>Yangilanish sanasi bo\'yicha kamayish</item>
+        <item>Fayl nomi bo\'yicha o\'sish</item>
+        <item>Fayl nomi bo\'yicha kamayish</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>Tizim odatiy</item>
+        <item>Qorong\'i</item>
+        <item>Yoruq</item>
+    </string-array>
+    <string-array name="summarizer_type_entries">
+        <item>Umumiy summa</item>
+        <item>O‘rtacha</item>
+        <item>Dispersiya</item>
+        <item>Standart og‘ish</item>
+        <item>Soliq qo‘shilgan</item>
+        <item>Soliqdan xoli</item>
+        <item>Yashirish</item>
+    </string-array>
+</resources>

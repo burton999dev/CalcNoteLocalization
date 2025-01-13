@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preference_title_gdpr_warning">Ograničeno: nema pristanka na oglase</string>
+    <string name="preference_title_manage_gdpr_consent">Upravljaj GDPR pristankom</string>
+    <string name="preference_summary_manage_gdpr_consent">Onemogući blokator oglasa za pristup ovoj postavci</string>
+    <string name="gdpr_long_warning_message">Poštovani korisniče,\n\nPosvećen sam zaštiti vaše privatnosti i poštivanju Opće uredbe o zaštiti podataka (GDPR). Kako bih podržao razvoj aplikacije i pružio bolje korisničko iskustvo, potrebno mi je vaš pristanak za prikazivanje personaliziranih oglasa unutar moje aplikacije. Ti personalizirani oglasi ključan su dio mog izvora prihoda i omogućuju mi da i dalje nudim i održavam ovu uslugu.\n\nTrenutačno nemam vaš pristanak za prikazivanje personaliziranih oglasa. Ovo ograničenje utječe na moju sposobnost da podržim aplikaciju putem prihoda od oglašavanja, koji je neophodan za njezinu održivost. Kao rezultat toga, određene značajke aplikacije bit će ograničene dok ne pružite pristanak za personalizirane oglase.\n\nRazumijem važnost zaštite vaše privatnosti i uvjeravam vas da će se svi postupci obrade podataka provoditi u skladu s GDPR smjernicama. Davanjem pristanka za prikazivanje personaliziranih oglasa, pomažete održati aplikaciju i osigurati bolje korisničko iskustvo.\n\nPristanak možete u bilo kojem trenutku izmijeniti putem postavki aplikacije. Za više informacija o načinu na koji koristim vaše podatke i vašim pravima prema GDPR-u, pogledajte moju politiku privatnosti.\n\nHvala vam na razumijevanju i na kontinuiranoj podršci.\n\nS poštovanjem,\n</string>
+    <string name="button_give_gdpr_consent">Daj pristanak</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preference_title_gdpr_warning">Begränsad funktionalitet på grund av ingen annonsmedgivande</string>
+    <string name="preference_title_manage_gdpr_consent">Hantera GDPR-samtycke</string>
+    <string name="preference_summary_manage_gdpr_consent">Inaktivera annonsblockeraren för att komma åt denna inställning</string>
+    <string name="gdpr_long_warning_message">Kära användare,\n\nJag förbinder mig att skydda din integritet och följa Dataskyddsförordningen (GDPR). För att stödja appens utveckling och erbjuda en bättre användarupplevelse behöver jag ditt samtycke till att visa anpassade annonser i min app. Dessa anpassade annonser är en viktig del av min inkomstkälla och möjliggör för mig att fortsätta tillhandahålla och underhålla denna tjänst.\n\nFör närvarande har jag inte ditt samtycke till att visa anpassade annonser. Denna begränsning påverkar min förmåga att stödja appen genom annonsintäkter, vilket är avgörande för dess hållbarhet. Som ett resultat är vissa funktioner i appen begränsade tills samtycke till anpassade annonser ges.\n\nJag förstår betydelsen av din dataskydd och försäkrar dig om att all datahantering kommer att genomföras i enlighet med GDPR-riktlinjer. Genom att godkänna visningen av anpassade annonser hjälper du till att upprätthålla appens utveckling och säkerställa en bättre användarupplevelse.\n\nDu kan ändra ditt samtycke när som helst genom appens inställningar. För mer information om hur jag använder dina uppgifter och dina rättigheter enligt GDPR, vänligen se min integritetspolicy.\n\nTack för din förståelse och fortsatta stöd.\n\nVänliga hälsningar,\n</string>
+    <string name="button_give_gdpr_consent">Ge samtycke</string>
+</resources>

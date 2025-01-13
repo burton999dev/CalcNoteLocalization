@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="round_behavior_entries">
+        <item>Pyöristys ylöspäin</item>
+        <item>Pyöristys alaspäin</item>
+        <item>Puolivälin pyöristys poispäin nollasta</item>
+        <item>Pankkipyöristys</item>
+    </string-array>
+    <string-array name="tax_round_behavior_entries">
+        <item>Pyöristys ylöspäin</item>
+        <item>Pyöristys alaspäin</item>
+        <item>Puolivälin pyöristys poispäin nollasta</item>
+    </string-array>
+    <string-array name="keypad_sound_entries">
+        <item>Ei ääntä</item>
+        <item>Äänitehoste 1</item>
+        <item>Äänitehoste 2</item>
+        <item>Äänitehoste 3</item>
+        <item>Äänitehoste 4</item>
+    </string-array>
+    <string-array name="keypad_input_method_entries">
+        <item>Pitkä painallus</item>
+        <item>Pyyhkäisy</item>
+    </string-array>
+    <string-array name="button_font_size_entries">
+        <item>Pieni</item>
+        <item>Keskikokoinen</item>
+        <item>Suuri</item>
+        <item>Erittäin suuri</item>
+        <item>Erittäin erittäin suuri</item>
+        <item>Erittäin erittäin erittäin suuri</item>
+    </string-array>
+    <string-array name="keypad_menu_size_entries">
+        <item>Pieni</item>
+        <item>Keskikokoinen</item>
+        <item>Suuri</item>
+    </string-array>
+    <string-array name="angle_mode_entries">
+        <item>Radiaani</item>
+        <item>Aste</item>
+        <item>Gradiaani</item>
+    </string-array>
+    <string-array name="calculation_mode_entries">
+        <item>Standardi</item>
+        <item>Korkea tarkkuus (CPU-kuormitus kasvaa)</item>
+    </string-array>
+    <string-array name="result_alignment_entries">
+        <item>Tasaus vasemmalle</item>
+        <item>Tasaus oikealle</item>
+    </string-array>
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>Rivinro<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>Rivinro<xliff:g>}</xliff:g></item>
+    </string-array>
+    <string-array name="caret_row_highlighting_entries">
+        <item>Pois käytöstä</item>
+        <item>Taustavärimoodi</item>
+        <item>Alleviivaustila</item>
+    </string-array>
+    <string-array name="screen_orientation_entries">
+        <item>Pystytila</item>
+        <item>Vaakatila</item>
+    </string-array>
+    <string-array name="floating_activation_method_entries">
+        <item>Aktivoi ilmoituksesta</item>
+        <item>Aktivoi kelluvasta painikkeesta</item>
+        <item>Aktivoi pikakuvakkeesta</item>
+    </string-array>
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>Mukautettu muoto</item>
+    </string-array>
+    <string-array name="file_sort_condition_entries">
+        <item>Lajittele nousevasti luontipäivän mukaan</item>
+        <item>Lajittele laskevasti luontipäivän mukaan</item>
+        <item>Lajittele nousevasti päivityspäivän mukaan</item>
+        <item>Lajittele laskevasti päivityspäivän mukaan</item>
+        <item>Lajittele nousevasti tiedostonimen mukaan</item>
+        <item>Lajittele laskevasti tiedostonimen mukaan</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>Järjestelmän oletus</item>
+        <item>Tumma</item>
+        <item>Vaalea</item>
+    </string-array>
+    <string-array name="summarizer_type_entries">
+        <item>Summa</item>
+        <item>Keskiarvo</item>
+        <item>Varianssi</item>
+        <item>Keskihajonta</item>
+        <item>Sisältää veron</item>
+        <item>Ei sisällä veroa</item>
+        <item>Piilota</item>
+    </string-array>
+</resources>

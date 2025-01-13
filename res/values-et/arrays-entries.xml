@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="round_behavior_entries">
+        <item>Ümarda üles</item>
+        <item>Ümarda alla</item>
+        <item>Poolümardamine eemale nullist</item>
+        <item>Pankuri ümardamine</item>
+    </string-array>
+    <string-array name="tax_round_behavior_entries">
+        <item>Ümarda üles</item>
+        <item>Ümarda alla</item>
+        <item>Poolümardamine eemale nullist</item>
+    </string-array>
+    <string-array name="keypad_sound_entries">
+        <item>Vaigista</item>
+        <item>Heliefekt 1</item>
+        <item>Heliefekt 2</item>
+        <item>Heliefekt 3</item>
+        <item>Heliefekt 4</item>
+    </string-array>
+    <string-array name="keypad_input_method_entries">
+        <item>Pikk vajutus</item>
+        <item>Pühkimine</item>
+    </string-array>
+    <string-array name="button_font_size_entries">
+        <item>Väike</item>
+        <item>Keskmine</item>
+        <item>Suur</item>
+        <item>Eriti suur</item>
+        <item>Topelt eriti suur</item>
+        <item>Kolmekordne eriti suur</item>
+    </string-array>
+    <string-array name="keypad_menu_size_entries">
+        <item>Väike</item>
+        <item>Keskmine</item>
+        <item>Suur</item>
+    </string-array>
+    <string-array name="angle_mode_entries">
+        <item>Radiaan</item>
+        <item>Kraad</item>
+        <item>Gradiaan</item>
+    </string-array>
+    <string-array name="calculation_mode_entries">
+        <item>Standard</item>
+        <item>Kõrge täpsus (CPU koormus kasvab)</item>
+    </string-array>
+    <string-array name="result_alignment_entries">
+        <item>Joonda vasakule</item>
+        <item>Joonda paremale</item>
+    </string-array>
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>ReaNr<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>ReaNr<xliff:g>}</xliff:g></item>
+    </string-array>
+    <string-array name="caret_row_highlighting_entries">
+        <item>Keelatud</item>
+        <item>Taustavärvi režiim</item>
+        <item>Allajoone režiim</item>
+    </string-array>
+    <string-array name="screen_orientation_entries">
+        <item>Portree orientatsioon</item>
+        <item>Maastiku orientatsioon</item>
+    </string-array>
+    <string-array name="floating_activation_method_entries">
+        <item>Aktiveeri teavitusest</item>
+        <item>Aktiveeri hõljuvast nupust</item>
+        <item>Aktiveeri otsetee kaudu</item>
+    </string-array>
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>Kohandatud vorming</item>
+    </string-array>
+    <string-array name="file_sort_condition_entries">
+        <item>Sorteeri loomiskuupäeva järgi kasvavalt</item>
+        <item>Sorteeri loomiskuupäeva järgi kahanevalt</item>
+        <item>Sorteeri uuenduskuupäeva järgi kasvavalt</item>
+        <item>Sorteeri uuenduskuupäeva järgi kahanevalt</item>
+        <item>Sorteeri failinime järgi kasvavalt</item>
+        <item>Sorteeri failinime järgi kahanevalt</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>Süsteemi vaikeväärtus</item>
+        <item>Tume</item>
+        <item>Hele</item>
+    </string-array>
+    <string-array name="summarizer_type_entries">
+        <item>Summa</item>
+        <item>Keskmine</item>
+        <item>Dispersioon</item>
+        <item>Standardhälve</item>
+        <item>Maksuga</item>
+        <item>Maksuta</item>
+        <item>Peida</item>
+    </string-array>
+</resources>

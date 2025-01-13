@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="toast_cannot_customize_appearance_dark_miui">XiaomiのMIUIでダークモードを有効にしている場合、CalcNoteでの外観のカスタマイズはサポートされません。設定はリセットされました。</string>
+    <string name="dialog_title_app_update_required">アプリの更新が必要です</string>
+    <string name="dialog_message_app_update_required">新しいバージョンが利用可能です。最新の機能とセキュリティの更新を利用するために、アプリを更新してください。通信エラーやその他の問題で更新ができない場合は、通信環境を確認して再度試してみてください。更新せずにアプリを利用することはできません。ご理解とご協力をお願いします。</string>
+
+    <string name="context_menu_history">変更履歴</string>
+    <string name="context_menu_restore">復元</string>
+    <string name="context_menu_permanently_delete">完全に削除</string>
+    <string name="toast_file_is_restored">ファイルを復元しました。</string>
+    <string name="toast_failed_to_restore_files">ファイルのリストアに失敗しました。</string>
+    <string name="toast_failed_to_permanently_delete">ファイルの完全削除に失敗しました。</string>
+
+    <string name="dialog_message_confirm_permanently_delete_all_deleted_files">削除済みのファイルを全て完全に削除します。\nよろしいですか？</string>
+
+    <string name="pad_description_checkbox">チェックボックス</string>
+
+    <string name="pad_description_ans">上の行の答えを挿入</string>
+
+    <string name="user_defined_list">ユーザー定義リスト</string>
+    <string name="label_list_name">リスト名</string>
+    <string name="label_list_values">リスト項目</string>
+    <string name="empty_list_items_not_found">リストに項目がありません</string>
+    <string name="label_list_item_value">値</string>
+    <string name="label_list_item_description">説明</string>
+    <string name="toast_user_defined_list_limitation">無料版では、1つのユーザー定義リストのみ作成できます。</string>
+
+    <string name="help_custom_list1">ユーザー定義リストを作成することで、頻繁に使用する項目をリスト化し、入力作業を簡素化できます。</string>
+    <string name="help_custom_list2">例えば、毎月の定額支払い項目をリスト化することで、予算管理が容易になります。</string>
+    <string name="help_custom_list3">作成したリストは設定の <xliff:g id="ref_preference_title_customize_keypad">\"キーパッドのカスタマイズ\"</xliff:g> でボタンに割り当てることができます。</string>
+    <string name="help_custom_list_name">リスト名はボタンに表示される文字です。</string>
+    <string name="help_custom_list_items">リスト項目を追加します。リスト項目には任意の計算式と説明を設定することができます。</string>
+
+    <string name="result_twos_complement_binary">2の補数</string>
+    <string name="toast_need_to_test_user_defined_function">関数を保存する前にテストを実行してエラーが無いことを確認してください。</string>
+    <string name="pad_description_find_in_file">ファイル内検索</string>
+    <string name="drawer_menu_find_in_file">ファイル内検索</string>
+    <string name="button_replace">置換</string>
+    <string name="button_replace_all">すべて置換</string>
+
+    <string name="toast_warning_show_action_bar">アクションバーを非表示に設定しても、画面の左端から中央に向けてスワイプすることでサイドメニューを表示することが可能です。</string>
+    <string name="checkbox_print_option_is_replace_line_reference">行参照を数値に置換する</string>
+    <string name="preference_title_auto_rotate_screen_enabled">画面の自動回転</string>
+    <string name="label_portrait_keypads">縦向き用キーパッド</string>
+    <string name="label_landscape_keypads">横向き用キーパッド</string>
+
+    <string name="dialog_title_rename_file">ファイルの名前変更</string>
+    <string name="dialog_title_copy_file">ファイルのコピー</string>
+
+    <string name="preference_title_open_youtube">機能別チュートリアル動画</string>
+
+    <string name="toast_landscape_keypad_not_supported">現在のデバイス状態では横向きのキーパッドをサポートしていません。</string>
+
+    <string name="template_placeholder_short_date">短い日付形式</string>
+    <string name="template_placeholder_short_time">短い時刻形式</string>
+    <string name="template_placeholder_short_date_time">短い日付と時刻の形式</string>
+    <string name="template_placeholder_medium_date">標準の日付形式</string>
+    <string name="template_placeholder_medium_time">標準の時刻形式</string>
+    <string name="template_placeholder_medium_date_time">標準の日付と時刻の形式</string>
+    <string name="template_placeholder_long_date">長い日付形式</string>
+    <string name="template_placeholder_long_time">長い時刻形式</string>
+    <string name="template_placeholder_long_date_time">長い日付と時刻の形式</string>    <string name="template_placeholder_year">年</string>
+    <string name="template_placeholder_month">月</string>
+    <string name="template_placeholder_month_no_zero">月 (先頭ゼロ埋め無し)</string>
+    <string name="template_placeholder_month_abbreviated">月 (略称)</string>
+    <string name="template_placeholder_day">日</string>
+    <string name="template_placeholder_day_no_zero">日 (先頭ゼロ埋め無し)</string>
+    <string name="template_placeholder_day_of_week">曜日</string>
+    <string name="template_placeholder_day_of_week_short">曜日 (省略形)</string>
+    <string name="template_placeholder_hour_24">時 (24時間形式)</string>
+    <string name="template_placeholder_hour_12">時 (12時間形式)</string>
+    <string name="template_placeholder_minute">分</string>
+    <string name="template_placeholder_second">秒</string>
+    <string name="template_placeholder_ampm">午前/午後</string>
+    <string name="template_placeholder_description_text">ファイル作成時に入力したテキストで置換します</string>
+    <string name="template_placeholder_description_list">ファイル作成時にリストから選択したテキストで置換します</string>
+    <string name="label_placeholder_name">プレースホルダー名</string>
+    <string name="label_placeholder_values">リスト項目 (カンマ区切りで入力)</string>
+
+    <string name="toast_interstitial_ad_will_appear">メイン画面に戻る時に全画面広告が表示されます。</string>
+
+    <string name="pad_description_toggle_comments">複数行を一括でコメントアウト/解除</string>
+    <string name="dialog_title_toggle_comment">コメント切替</string>
+
+    <string name="preference_title_checkbox_behavior">チェックボックスの動作</string>
+    <string name="label_checkbox_state_checked">チェック時</string>
+    <string name="label_checkbox_state_unchecked">未チェック時</string>
+    <string name="label_checkbox_behavior_do">計算する</string>
+    <string name="label_checkbox_behavior_skip">計算しない</string>
+</resources>

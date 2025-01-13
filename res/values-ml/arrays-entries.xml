@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="round_behavior_entries">
+        <item>മുകളിൽ വട്ടപ്പെടുത്തുക</item>
+        <item>താഴേക്ക് വട്ടപ്പെടുത്തുക</item>
+        <item>വട്ടപ്പെടുത്തുക</item>
+        <item>ബാങ്കേഴ്സ് വട്ടപ്പെടുത്തുക</item>
+    </string-array>
+    <string-array name="tax_round_behavior_entries">
+        <item>മുകളിൽ വട്ടപ്പെടുത്തുക</item>
+        <item>താഴേക്ക് വട്ടപ്പെടുത്തുക</item>
+        <item>വട്ടപ്പെടുത്തുക</item>
+    </string-array>
+    <string-array name="keypad_sound_entries">
+        <item>നിശബ്ദം</item>
+        <item>ശബ്ദപ്രഭാവം 1</item>
+        <item>ശബ്ദപ്രഭാവം 2</item>
+        <item>ശബ്ദപ്രഭാവം 3</item>
+        <item>ശബ്ദപ്രഭാവം 4</item>
+    </string-array>
+    <string-array name="keypad_input_method_entries">
+        <item>ദീർഘ അമർത്തൽ</item>
+        <item>സ്വൈപ്പ്</item>
+    </string-array>
+    <string-array name="button_font_size_entries">
+        <item>ചെറുത്</item>
+        <item>ഇടത്തരം</item>
+        <item>വലുത്</item>
+        <item>അതി വലുത്</item>
+        <item>ഇരട്ട അതി വലുത്</item>
+        <item>മുന്നിരട്ട അതി വലുത്</item>
+    </string-array>
+    <string-array name="keypad_menu_size_entries">
+        <item>ചെറുത്</item>
+        <item>ഇടത്തരം</item>
+        <item>വലുത്</item>
+    </string-array>
+    <string-array name="angle_mode_entries">
+        <item>റേഡിയൻ</item>
+        <item>ഡിഗ്രി</item>
+        <item>ഗ്രേഡിയൻ</item>
+    </string-array>
+    <string-array name="calculation_mode_entries">
+        <item>സ്റ്റാൻഡേർഡ്</item>
+        <item>ഉയർന്ന കൃത്യത (CPU ഭാരം കൂടും)</item>
+    </string-array>
+    <string-array name="result_alignment_entries">
+        <item>ഇടത്തായി</item>
+        <item>വലത്തായി</item>
+    </string-array>
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>വരി നമ്പർ<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>വരി നമ്പർ<xliff:g>}</xliff:g></item>
+    </string-array>
+    <string-array name="caret_row_highlighting_entries">
+        <item>അപ്രാപ്തം</item>
+        <item>പശ്ചാത്തല നിറം</item>
+        <item>അണ്ടർലൈൻ</item>
+    </string-array>
+    <string-array name="screen_orientation_entries">
+        <item>പോര്ട്രെയിറ്റ് ദിശ</item>
+        <item>ലാൻഡ്സ്കേപ്പ് ദിശ</item>
+    </string-array>
+    <string-array name="floating_activation_method_entries">
+        <item>നോട്ടിഫിക്കേഷൻ വഴി സജിവം</item>
+        <item>ഫ്ലോട്ടിംഗ് ബട്ടൺ വഴി സജിവം</item>
+        <item>ഷോർട്കട്ട് വഴി സജിവം</item>
+    </string-array>
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>യഥേച്ഛ ഫോർമാറ്റ്</item>
+    </string-array>
+    <string-array name="file_sort_condition_entries">
+        <item>സൃഷ്ടി തീയതി അനുസരിച്ച് ഉയരുന്ന ക്രമം</item>
+        <item>സൃഷ്ടി തീയതി അനുസരിച്ച് ഇറങ്ങുന്ന ക്രമം</item>
+        <item>അപ്‌ഡേറ്റ് തീയതി അനുസരിച്ച് ഉയരുന്ന ക്രമം</item>
+        <item>അപ്‌ഡേറ്റ് തീയതി അനുസരിച്ച് ഇറങ്ങുന്ന ക്രമം</item>
+        <item>ഫയൽ നാമം അനുസരിച്ച് ഉയരുന്ന ക്രമം</item>
+        <item>ഫയൽ നാമം അനുസരിച്ച് ഇറങ്ങുന്ന ക്രമം</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>സിസ്റ്റം ഡിഫോൾട്ട്</item>
+        <item>ഡാർക്ക്</item>
+        <item>ലൈറ്റ്</item>
+    </string-array>
+    <string-array name="summarizer_type_entries">
+        <item>ആകെ</item>
+        <item>ശരാശരം</item>
+        <item>വേറിയൻസ്</item>
+        <item>സ്റ്റാൻഡർഡ് ഡിവിയേഷൻ</item>
+        <item>നികുതി ഉൾപ്പെടെ</item>
+        <item>നികുതി ഒഴിച്ചുകൂടി</item>
+        <item>മറയ്ക്കുക</item>
+    </string-array>
+</resources>

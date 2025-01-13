@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="toast_detect_tampering">このアプリケーションは改竄されています。</string>
     <string name="unit_symbol_area_tan">反</string>
     <string name="unit_symbol_area_jou">畳</string>
     <string name="unit_symbol_area_tsubo">坪</string>
+    <string name="unit_symbol_length_sun">寸</string>
+    <string name="unit_symbol_length_syaku">尺</string>
+    <string name="unit_symbol_length_kujira_jaku">鯨尺</string>
+    <string name="unit_symbol_length_ken">間</string>
+
+    <string name="unit_label_area_tan">反</string>
+    <string name="unit_label_area_jou">畳</string>
+    <string name="unit_label_area_tsubo">坪</string>
+    <string name="unit_label_length_sun">寸</string>
+    <string name="unit_label_length_syaku">尺</string>
+    <string name="unit_label_length_kujira_jaku">鯨尺</string>
+    <string name="unit_label_length_ken">間</string>
 </resources>

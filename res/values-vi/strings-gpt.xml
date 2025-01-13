@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="toast_cannot_customize_appearance_dark_miui">Nếu bạn đã bật chế độ tối trên MIUI của Xiaomi, tính năng tùy chỉnh giao diện trong CalcNote không được hỗ trợ. Cài đặt đã được đặt lại.</string>
+    <string name="dialog_title_app_update_required">Cần cập nhật ứng dụng</string>
+    <string name="dialog_message_app_update_required">Phiên bản mới của ứng dụng đã sẵn sàng. Để truy cập các tính năng và bản cập nhật bảo mật mới nhất, vui lòng cập nhật ứng dụng. Nếu bạn không thể cập nhật do vấn đề kết nối hoặc vấn đề khác, vui lòng kiểm tra kết nối và thử lại. Xin lưu ý rằng bạn sẽ không thể sử dụng ứng dụng mà không cập nhật. Chúng tôi đánh giá cao sự hiểu biết và hợp tác của bạn.</string>
+
+    <string name="context_menu_history">Theo dõi Thay đổi</string>
+    <string name="context_menu_restore">Khôi phục lại</string>
+    <string name="context_menu_permanently_delete">Xóa Vĩnh Viễn</string>
+    <string name="toast_file_is_restored">Tệp đã được khôi phục thành công</string>
+    <string name="toast_failed_to_restore_file">Không thể khôi phục tệp</string>
+    <string name="toast_failed_to_permanently_delete">Không thể xóa vĩnh viễn</string>
+
+    <string name="dialog_message_confirm_permanently_delete_all_deleted_files">Bạn có chắc là muốn xóa vĩnh viễn tất cả các tệp đã được xóa không?</string>
+
+    <string name="pad_description_checkbox">Hộp kiểm</string>
+
+    <string name="pad_description_ans">Chèn kết quả từ dòng trên</string>
+
+    <string name="user_defined_list">Danh sách do người dùng xác định</string>
+    <string name="label_list_name">Tên danh sách</string>
+    <string name="label_list_values">Các mục trong danh sách</string>
+    <string name="empty_list_items_not_found">Danh sách trống</string>
+    <string name="label_list_item_value">Giá trị mục</string>
+    <string name="label_list_item_description">Mô tả mục</string>
+    <string name="toast_user_defined_list_limitation">Chỉ có thể tạo một danh sách do người dùng xác định trong phiên bản miễn phí</string>
+
+    <string name="help_custom_list1">Bằng cách tạo ra danh sách do người dùng xác định, bạn có thể tổ chức các mục thường xuyên sử dụng vào một danh sách, đơn giản hóa việc nhập liệu.</string>
+    <string name="help_custom_list2">Ví dụ, liệt kê các chi phí hàng tháng cố định có thể giúp đơn giản hóa quản lý ngân sách.</string>
+    <string name="help_custom_list3">Danh sách được tạo có thể được gán cho một nút trong cài đặt \"Tùy chỉnh bàn phím\".</string>
+    <string name="help_custom_list_name">Nhập tên danh sách sẽ hiển thị trên nút.</string>
+    <string name="help_custom_list_items">Thêm mục vào danh sách. Bạn có thể thiết lập các biểu thức và mô tả tùy ý cho mỗi mục.</string>
+
+    <string name="result_twos_complement_binary">Bổ sung nhị phân</string>
+    <string name="toast_need_to_test_user_defined_function">Vui lòng thực hiện kiểm tra chức năng trước khi lưu.</string>
+    <string name="pad_description_find_in_file">Tìm trong tệp hiện tại</string>
+    <string name="drawer_menu_find_in_file">Tìm trong tệp hiện tại</string>
+    <string name="button_replace">Thay thế</string>
+    <string name="button_replace_all">Thay thế tất cả</string>
+
+    <string name="toast_warning_show_action_bar">Ngay cả khi thanh thao tác được ẩn, bạn vẫn có thể hiển thị menu bên cạnh bằng cách vuốt từ mép trái của màn hình về phía trung tâm.</string>
+    <string name="checkbox_print_option_is_replace_line_reference">Thay thế tham khảo dòng bằng giá trị</string>
+    <string name="preference_title_auto_rotate_screen_enabled">Tự động xoay màn hình</string>
+    <string name="label_portrait_keypads">Bàn phím dọc</string>
+    <string name="label_landscape_keypads">Bàn phím ngang</string>
+
+    <string name="dialog_title_rename_file">Đổi tên tệp</string>
+    <string name="dialog_title_copy_file">Sao chép tệp</string>
+
+    <string name="preference_title_open_youtube">Video Mẹo Nhanh</string>
+
+    <string name="toast_landscape_keypad_not_supported">Bàn phím ngang không được hỗ trợ trong trạng thái thiết bị hiện tại.</string>
+
+    <string name="template_placeholder_short_date">Định dạng ngày ngắn</string>
+    <string name="template_placeholder_short_time">Định dạng thời gian ngắn</string>
+    <string name="template_placeholder_short_date_time">Định dạng ngày và thời gian ngắn</string>
+    <string name="template_placeholder_medium_date">Định dạng ngày trung bình</string>
+    <string name="template_placeholder_medium_time">Định dạng thời gian trung bình</string>
+    <string name="template_placeholder_medium_date_time">Định dạng ngày và thời gian trung bình</string>
+    <string name="template_placeholder_long_date">Định dạng ngày dài</string>
+    <string name="template_placeholder_long_time">Định dạng thời gian dài</string>
+    <string name="template_placeholder_long_date_time">Định dạng ngày và thời gian dài</string>
+    <string name="template_placeholder_year">Năm</string>
+    <string name="template_placeholder_month">Tháng</string>
+    <string name="template_placeholder_month_no_zero">Tháng không có số 0 đứng đầu</string>
+    <string name="template_placeholder_month_abbreviated">Tên tháng viết tắt</string>
+    <string name="template_placeholder_day">Ngày trong tháng</string>
+    <string name="template_placeholder_day_no_zero">Ngày trong tháng không có số 0 đứng đầu</string>
+    <string name="template_placeholder_day_of_week">Tên đầy đủ của ngày trong tuần</string>
+    <string name="template_placeholder_day_of_week_short">Tên ngắn của ngày trong tuần</string>
+    <string name="template_placeholder_hour_24">Giờ theo định dạng 24 giờ</string>
+    <string name="template_placeholder_hour_12">Giờ theo định dạng 12 giờ</string>
+    <string name="template_placeholder_minute">Phút</string>
+    <string name="template_placeholder_second">Giây</string>
+    <string name="template_placeholder_ampm">Chỉ báo AM/PM</string>
+    <string name="menu_add_placeholder">Thêm Placeholder</string>
+    <string name="template_placeholder_description_text">Thay thế bằng văn bản nhập vào khi tạo tệp</string>
+    <string name="template_placeholder_description_list">Thay thế bằng văn bản được chọn từ danh sách khi tạo tệp</string>
+    <string name="label_placeholder_name">Tên Placeholder</string>
+    <string name="label_placeholder_values">Các mục trong danh sách (ngăn cách bởi dấu phẩy)</string>
+
+    <string name="toast_interstitial_ad_will_appear">Quảng cáo toàn màn hình sẽ xuất hiện khi bạn quay lại màn hình chính.</string>
+
+    <string name="pad_description_toggle_comments">Bình luận hoặc bỏ bình luận nhiều tính toán</string>
+    <string name="dialog_title_toggle_comment">Chuyển đổi bình luận</string>
+
+    <string name="preference_title_checkbox_behavior">Hành vi hộp kiểm</string>
+    <string name="label_checkbox_state_checked">Đã chọn</string>
+    <string name="label_checkbox_state_unchecked">Bỏ chọn</string>
+    <string name="label_checkbox_behavior_do">Tính toán</string>
+    <string name="label_checkbox_behavior_skip">Bỏ qua tính toán</string>
+</resources>

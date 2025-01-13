@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="label_incorrect_translation">Virheellinen käännös</string>
+    <string name="label_correct_translation">Korjattu käännös</string>
+    <string name="label_reason">Peruste</string>
+    <string name="toast_thanks_feed_back">Kiitos palautteestasi.</string>
+    <string name="dialog_message_send_feedback">Jos löydät virheellisen käännöksen tai sinulla on parempi vaihtoehto, voisitko antaa oikean käännöksen? Yhteistyösi parantaa <xliff:g id="app_name">CalcNote</xliff:g>:a entisestään. Palaute lähetetään osoitteeseen <xliff:g id="feedback_url">https://github.com/burton999dev/CalcNoteLocalization</xliff:g>.</string>
+</resources>

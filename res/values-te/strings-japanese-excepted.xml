@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="label_incorrect_translation">తప్పు అనువాదం</string>
+    <string name="label_correct_translation">సరైన అనువాదం</string>
+    <string name="label_reason">కారణం</string>
+    <string name="toast_thanks_feed_back">మీ ఫీడ్‌బ్యాక్‌కు ధన్యవాదాలు.</string>
+    <string name="dialog_message_send_feedback">తప్పుడు అనువాదం లేదా మెరుగైన అనువాదం ఉంటే, సరైన అనువాదాన్ని ఇవ్వగలరా? మీ సహకారం <xliff:g id="app_name">CalcNote</xliff:g>ను మెరుగుపరచుతుంది. ఫీడ్‌బ్యాక్ <xliff:g id="feedback_url">https://github.com/burton999dev/CalcNoteLocalization</xliff:g>కి పంపబడుతుంది.</string>
+</resources>

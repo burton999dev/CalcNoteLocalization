@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="toast_cannot_customize_appearance_dark_miui">หากคุณเปิดใช้งานโหมดมืดบน MIUI ของ Xiaomi การปรับแต่งรูปลักษณ์ใน CalcNote จะไม่ได้รับการสนับสนุน การตั้งค่าถูกรีเซ็ต</string>
+    <string name="dialog_title_app_update_required">จำเป็นต้องมีการอัปเดตแอป</string>
+    <string name="dialog_message_app_update_required">มีเวอร์ชันใหม่ของแอปพลิเคชันให้บริการ ในการเข้าถึงฟีเจอร์และการอัปเดตความปลอดภัยล่าสุด โปรดอัปเดตแอปพลิเคชัน หากคุณไม่สามารถอัปเดตได้เนื่องจากปัญหาการเชื่อมต่อหรือปัญหาอื่น ๆ โปรดตรวจสอบการเชื่อมต่อของคุณและลองอีกครั้ง โปรดทราบว่าคุณจะไม่สามารถใช้แอปพลิเคชันนี้ได้หากไม่มีการอัปเดต ขอขอบคุณความเข้าใจและความร่วมมือของคุณ</string>
+
+    <string name="context_menu_history">ติดตามการเปลี่ยนแปลง</string>
+    <string name="context_menu_restore">คืนค่า</string>
+    <string name="context_menu_permanently_delete">ลบถาวร</string>
+    <string name="toast_file_is_restored">คืนค่าไฟล์สำเร็จ</string>
+    <string name="toast_failed_to_restore_file">ไม่สามารถคืนค่าไฟล์</string>
+    <string name="toast_failed_to_permanently_delete">ไม่สามารถลบถาวร</string>
+
+    <string name="dialog_message_confirm_permanently_delete_all_deleted_files">คุณแน่ใจหรือว่าต้องการลบถาวรไฟล์ที่ได้รับการลบทั้งหมด</string>
+
+    <string name="pad_description_checkbox">ช่องทำเครื่องหมาย</string>
+
+    <string name="pad_description_ans">แทรกผลลัพธ์จากบรรทัดด้านบน</string>
+
+    <string name="user_defined_list">รายการที่ผู้ใช้กำหนด</string>
+    <string name="label_list_name">ชื่อรายการ</string>
+    <string name="label_list_values">รายการข้อมูล</string>
+    <string name="empty_list_items_not_found">รายการว่างเปล่า</string>
+    <string name="label_list_item_value">ค่าข้อมูล</string>
+    <string name="label_list_item_description">คำอธิบายข้อมูล</string>
+    <string name="toast_user_defined_list_limitation">สามารถสร้างรายการที่ผู้ใช้กำหนดได้เพียงหนึ่งรายการในเวอร์ชันฟรี</string>
+
+    <string name="help_custom_list1">การสร้างรายการที่ผู้ใช้กำหนด, คุณสามารถจัดระเบียบรายการที่ใช้บ่อยเข้าไว้ด้วยกันเพื่อทำให้การป้อนข้อมูลง่ายขึ้น</string>
+    <string name="help_custom_list2">ตัวอย่างเช่น, การระบุค่าใช้จ่ายประจำเดือนที่ไม่เปลี่ยนแปลงสามารถช่วยให้การจัดการงบประมาณง่ายขึ้น</string>
+    <string name="help_custom_list3">รายการที่สร้างขึ้นสามารถกำหนดให้กับปุ่มในการตั้งค่า \"กำหนดแผงแป้น\"</string>
+    <string name="help_custom_list_name">ใส่ชื่อรายการที่ต้องการให้แสดงบนปุ่ม</string>
+    <string name="help_custom_list_items">เพิ่มรายการข้อมูล คุณสามารถตั้งค่านิพจน์และคำอธิบายสำหรับแต่ละรายการได้</string>
+
+    <string name="result_twos_complement_binary">เสริมสอง</string>
+    <string name="toast_need_to_test_user_defined_function">โปรดทำการทดสอบการทำงานเพื่อยืนยันฟังก์ชันก่อนที่จะบันทึก</string>
+    <string name="pad_description_find_in_file">ค้นหาในไฟล์ปัจจุบัน</string>
+    <string name="drawer_menu_find_in_file">ค้นหาในไฟล์ปัจจุบัน</string>
+    <string name="button_replace">แทนที่</string>
+    <string name="button_replace_all">แทนที่ทั้งหมด</string>
+
+    <string name="toast_warning_show_action_bar">แม้แถบคำสั่งจะถูกซ่อนไว้ คุณยังสามารถแสดงเมนูข้างโดยการเลื่อนจากขอบซ้ายของหน้าจอไปยังศูนย์กลาง</string>
+    <string name="checkbox_print_option_is_replace_line_reference">แทนที่การอ้างอิงบรรทัดด้วยค่า</string>
+    <string name="preference_title_auto_rotate_screen_enabled">หมุนหน้าจออัตโนมัติ</string>
+    <string name="label_portrait_keypads">แป้นพิมพ์แนวตั้ง</string>
+    <string name="label_landscape_keypads">แป้นพิมพ์แนวนอน</string>
+
+    <string name="dialog_title_rename_file">เปลี่ยนชื่อไฟล์</string>
+    <string name="dialog_title_copy_file">คัดลอกไฟล์</string>
+
+    <string name="preference_title_open_youtube">วิดีโอเคล็ดลับด่วน</string>
+
+    <string name="toast_landscape_keypad_not_supported">สถานะปัจจุบันของอุปกรณ์ไม่รองรับแป้นพิมพ์แนวนอน</string>
+
+    <string name="template_placeholder_short_date">รูปแบบวันที่แบบสั้น</string>
+    <string name="template_placeholder_short_time">รูปแบบเวลาแบบสั้น</string>
+    <string name="template_placeholder_short_date_time">รูปแบบวันที่และเวลาแบบสั้น</string>
+    <string name="template_placeholder_medium_date">รูปแบบวันที่แบบกลาง</string>
+    <string name="template_placeholder_medium_time">รูปแบบเวลาแบบกลาง</string>
+    <string name="template_placeholder_medium_date_time">รูปแบบวันที่และเวลาแบบกลาง</string>
+    <string name="template_placeholder_long_date">รูปแบบวันที่แบบยาว</string>
+    <string name="template_placeholder_long_time">รูปแบบเวลาแบบยาว</string>
+    <string name="template_placeholder_long_date_time">รูปแบบวันที่และเวลาแบบยาว</string>
+    <string name="template_placeholder_year">ปี</string>
+    <string name="template_placeholder_month">เดือน</string>
+    <string name="template_placeholder_month_no_zero">เดือนโดยไม่มีเลขศูนย์นำหน้า</string>
+    <string name="template_placeholder_month_abbreviated">ชื่อย่อของเดือน</string>
+    <string name="template_placeholder_day">วันที่ของเดือน</string>
+    <string name="template_placeholder_day_no_zero">วันที่ของเดือนโดยไม่มีเลขศูนย์นำหน้า</string>
+    <string name="template_placeholder_day_of_week">ชื่อเต็มของวันในสัปดาห์</string>
+    <string name="template_placeholder_day_of_week_short">ชื่อย่อของวันในสัปดาห์</string>
+    <string name="template_placeholder_hour_24">ชั่วโมงในรูปแบบ 24 ชั่วโมง</string>
+    <string name="template_placeholder_hour_12">ชั่วโมงในรูปแบบ 12 ชั่วโมง</string>
+    <string name="template_placeholder_minute">นาที</string>
+    <string name="template_placeholder_second">วินาที</string>
+    <string name="template_placeholder_ampm">ตัวบ่งชี้ AM/PM</string>
+    <string name="menu_add_placeholder">เพิ่ม Placeholder</string>
+    <string name="template_placeholder_description_text">แทนที่ด้วยข้อความที่ป้อนเมื่อสร้างไฟล์</string>
+    <string name="template_placeholder_description_list">แทนที่ด้วยข้อความที่เลือกจากรายการเมื่อสร้างไฟล์</string>
+    <string name="label_placeholder_name">ชื่อ Placeholder</string>
+    <string name="label_placeholder_values">รายการข้อมูล (คั่นด้วยเครื่องหมายจุลภาค)</string>
+
+    <string name="toast_interstitial_ad_will_appear">โฆษณาเต็มหน้าจอจะปรากฏขึ้นเมื่อคุณกลับไปยังหน้าจอหลัก</string>
+
+    <string name="pad_description_toggle_comments">แสดงความคิดเห็นหรือยกเลิกหลายการคำนวณพร้อมกัน</string>
+    <string name="dialog_title_toggle_comment">สลับความคิดเห็น</string>
+
+    <string name="preference_title_checkbox_behavior">พฤติกรรมช่องทำเครื่องหมาย</string>
+    <string name="label_checkbox_state_checked">เลือกแล้ว</string>
+    <string name="label_checkbox_state_unchecked">ไม่ได้เลือก</string>
+    <string name="label_checkbox_behavior_do">คำนวณ</string>
+    <string name="label_checkbox_behavior_skip">ข้ามการคำนวณ</string>
+</resources>

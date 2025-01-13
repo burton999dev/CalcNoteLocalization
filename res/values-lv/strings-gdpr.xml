@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preference_title_gdpr_warning">Ierobežota funkcionalitāte bez reklāmu piekrišanas</string>
+    <string name="preference_title_manage_gdpr_consent">Pārvaldīt GDPR piekrišanu</string>
+    <string name="preference_summary_manage_gdpr_consent">Lūdzu, atspējojiet reklāmu bloķētāju, lai piekļūtu šim iestatījumam</string>
+    <string name="gdpr_long_warning_message">Cienījamais lietotāj,\n\nEs apņemos aizsargāt jūsu privātumu un ievērot Vispārīgo datu aizsardzības regulu (GDPR). Lai atbalstītu lietotnes izstrādi un nodrošinātu labāku lietotāja pieredzi, man ir nepieciešama jūsu piekrišana personalizētu reklāmu rādīšanai manā lietotnē. Šīs personalizētās reklāmas ir būtiska mana ienākumu avota daļa, kas ļauj turpināt nodrošināt un uzturēt šo pakalpojumu.\n\nPašlaik man nav jūsu piekrišanas personalizētu reklāmu rādīšanai. Šis ierobežojums ietekmē manu spēju atbalstīt lietotni ar reklāmu ieņēmumiem, kas ir būtiski tās ilgtspējai. Tā rezultātā noteiktas lietotnes funkcijas būs ierobežotas, līdz tiks sniegta piekrišana personalizētām reklāmām.\n\nEs saprotu jūsu datu privātuma nozīmīgumu un apliecinu, ka visi datu apstrādes procesi notiks saskaņā ar GDPR prasībām. Piekrītot personalizēto reklāmu rādīšanai, jūs palīdzat uzturēt lietotni un nodrošināt labāku lietotāja pieredzi.\n\nJūs varat mainīt savu piekrišanu jebkurā laikā lietotnes iestatījumos. Plašāku informāciju par to, kā es izmantoju jūsu datus un kādas ir jūsu tiesības saskaņā ar GDPR, lūdzu, skatiet manā privātuma politikā.\n\nPaldies par sapratni un jūsu pastāvīgo atbalstu.\n\nAr cieņu,\n</string>
+    <string name="button_give_gdpr_consent">Piekrist</string>
+</resources>

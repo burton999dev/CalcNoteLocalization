@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="toast_cannot_customize_appearance_dark_miui">यदि आपने Xiaomi के MIUI पर डार्क मोड सक्षम किया है, तो CalcNote में दिखावट के अनुकूलन का समर्थन नहीं किया जाता है। सेटिंग्स रीसेट कर दी गई हैं।</string>
+    <string name="dialog_title_app_update_required">ऐप अपडेट आवश्यक है</string>
+    <string name="dialog_message_app_update_required">ऐप का एक नया संस्करण उपलब्ध है। कृपया नवीनतम सुविधाओं और सुरक्षा अपडेट तक पहुँचने के लिए ऐप को अपडेट करें। यदि आप कनेक्टिविटी समस्याओं या किसी अन्य समस्या के कारण अपडेट नहीं कर सकते हैं, तो कृपया अपने कनेक्शन की जांच करें और पुनः प्रयास करें। कृपया ध्यान दें कि इस अपडेट के बिना आप ऐप का उपयोग नहीं कर पाएंगे। हम आपकी समझ और सहयोग की सराहना करते हैं।</string>
+
+    <string name="context_menu_history">परिवर्तनों का ट्रैक</string>
+    <string name="context_menu_restore">पुनर्स्थापित करें</string>
+    <string name="context_menu_permanently_delete">स्थायिक रूप से हटाएं</string>
+    <string name="toast_file_is_restored">फाइल सफलतापूर्वक पुनर्स्थित की गई।</string>
+    <string name="toast_failed_to_restore_file">फाइल पुनर्स्थित करने में असमर्थ।</string>
+    <string name="toast_failed_to_permanently_delete">स्थायिक रूप से हटाने में असमर्थ।</string>
+
+    <string name="dialog_message_confirm_permanently_delete_all_deleted_files">क्‍या आप वाकई में सभी हटाए गए फाइलों को स्थायिक रूप से हटाना चाहते हैं?</string>
+
+    <string name="pad_description_checkbox">चेक बॉक्स</string>
+
+    <string name="pad_description_ans">पिछली पंक्ति से परिणाम डालें</string>
+
+    <string name="user_defined_list">प्रयोक्‍ता-परिभाषित सूची</string>
+    <string name="label_list_name">सूची का नाम</string>
+    <string name="label_list_values">सूची के आइटम</string>
+    <string name="empty_list_items_not_found">सूची खाली है</string>
+    <string name="label_list_item_value">आइटम का मूल्य</string>
+    <string name="label_list_item_description">आइटम का विवरण</string>
+    <string name="toast_user_defined_list_limitation">मुफ्त संस्करण में केवल एक प्रयोक्‍ता-परिभाषित सूची बनाई जा सकती है</string>
+
+    <string name="help_custom_list1">उपयोगकर्ता परिभाषित सूची बनाकर, आप अक्सर उपयोग किए जाने वाले आइटम को सूचीबद्ध कर डेटा प्रविष्टि को सरल बना सकते हैं।</string>
+    <string name="help_custom_list2">उदाहरण के लिए, मासिक नियत खर्चों को सूचीबद्ध करने से बजट प्रबंधन को सरल बनाया जा सकता है।</string>
+    <string name="help_custom_list3">बनाई गई सूची को \"कीपैड अनुकूलित करें\" सेटिंग्स में एक बटन के लिए निर्दिष्ट किया जा सकता है।</string>
+    <string name="help_custom_list_name">बटन पर प्रदर्शित होने वाले सूची का नाम दर्ज करें।</string>
+    <string name="help_custom_list_items">सूची आइटम जोड़ें। आप प्रत्येक आइटम के लिए मनमाने अभिव्यक्ति और विवरण सेट कर सकते हैं।</string>
+
+    <string name="result_twos_complement_binary">दो का पूरक</string>
+    <string name="toast_need_to_test_user_defined_function">कृपया सहेजने से पहले फ़ंक्शन की जांच के लिए एक परीक्षण निष्पादन चलाएं।</string>
+    <string name="pad_description_find_in_file">वर्तमान फाइल में खोजें</string>
+    <string name="drawer_menu_find_in_file">वर्तमान फाइल में खोजें</string>
+    <string name="button_replace">बदलें</string>
+    <string name="button_replace_all">सभी बदलें</string>
+
+    <string name="toast_warning_show_action_bar">यदि एक्‍शन बार छिपा हुआ है, तो भी आप स्क्रीन के बाएँ किनारे से केंद्र की ओर स्वाइप करके साइड मेनू प्रदर्शित कर सकते हैं।</string>
+    <string name="checkbox_print_option_is_replace_line_reference">पंक्ति संदर्भों को मानों से बदलें</string>
+    <string name="preference_title_auto_rotate_screen_enabled">स्क्रीन को ऑटो-रोटेट करें</string>
+    <string name="label_portrait_keypads">पोर्ट्रेट मोड कीपैड</string>
+    <string name="label_landscape_keypads">लैंडस्केप मोड कीपैड</string>
+
+    <string name="dialog_title_rename_file">फाइल का नाम बदलें</string>
+    <string name="dialog_title_copy_file">फाइल की प्रतिलिपि बनाएँ</string>
+
+    <string name="preference_title_open_youtube">त्वरित टिप वीडियो</string>
+
+    <string name="toast_landscape_keypad_not_supported">वर्तमान डिवाइस स्थिति में लैंडस्केप मोड कीपैड समर्थित नहीं है।</string>
+
+    <string name="template_placeholder_short_date">संक्षिप्त दिनांक प्रारूप</string>
+    <string name="template_placeholder_short_time">संक्षिप्त समय प्रारूप</string>
+    <string name="template_placeholder_short_date_time">संक्षिप्त दिनांक और समय प्रारूप</string>
+    <string name="template_placeholder_medium_date">मध्यम दिनांक प्रारूप</string>
+    <string name="template_placeholder_medium_time">मध्यम समय प्रारूप</string>
+    <string name="template_placeholder_medium_date_time">मध्यम दिनांक और समय प्रारूप</string>
+    <string name="template_placeholder_long_date">लंबा दिनांक प्रारूप</string>
+    <string name="template_placeholder_long_time">लंबा समय प्रारूप</string>
+    <string name="template_placeholder_long_date_time">लंबा दिनांक और समय प्रारूप</string>
+    <string name="template_placeholder_year">वर्ष</string>
+    <string name="template_placeholder_month">महीना</string>
+    <string name="template_placeholder_month_no_zero">आरंभिक शून्य के बिना महीना</string>
+    <string name="template_placeholder_month_abbreviated">महीने का संक्षिप्त नाम</string>
+    <string name="template_placeholder_day">महीने का दिन</string>
+    <string name="template_placeholder_day_no_zero">आरंभिक शून्य के बिना महीने का दिन</string>
+    <string name="template_placeholder_day_of_week">सप्ताह के दिन का पूर्ण नाम</string>
+    <string name="template_placeholder_day_of_week_short">सप्ताह के दिन का संक्षिप्त नाम</string>
+    <string name="template_placeholder_hour_24">24 घंटे प्रारूप में घंटा</string>
+    <string name="template_placeholder_hour_12">12 घंटे प्रारूप में घंटा</string>
+    <string name="template_placeholder_minute">मिनट</string>
+    <string name="template_placeholder_second">सेकंड</string>
+    <string name="template_placeholder_ampm">पूर्वाह्न/अपराह्न संकेतक</string>
+    <string name="menu_add_placeholder">प्लेसहोल्डर जोड़ें</string>
+    <string name="template_placeholder_description_text">फ़ाइल बनाते समय दर्ज किए गए पाठ से प्रतिस्थापित किया जाएगा</string>
+    <string name="template_placeholder_description_list">फ़ाइल बनाते समय सूची से चयनित पाठ से प्रतिस्थापित किया जाएगा</string>
+    <string name="label_placeholder_name">प्लेसहोल्डर नाम</string>
+    <string name="label_placeholder_values">सूची के आइटम (अल्पविराम से अलग किए गए)</string>
+
+    <string name="toast_interstitial_ad_will_appear">मुख्य स्क्रीन पर लौटने पर एक पूर्ण-स्क्रीन विज्ञापन दिखाई देगा।</string>
+
+    <string name="pad_description_toggle_comments">एक साथ कई गणनाओं को टिप्पणी या अनटिप्पणी करें</string>
+    <string name="dialog_title_toggle_comment">टिप्पणियाँ टॉगल करें</string>
+
+    <string name="preference_title_checkbox_behavior">चेक बॉक्स व्यवहार</string>
+    <string name="label_checkbox_state_checked">चयनित</string>
+    <string name="label_checkbox_state_unchecked">अचयनित</string>
+    <string name="label_checkbox_behavior_do">गणना करें</string>
+    <string name="label_checkbox_behavior_skip">गणना छोड़ें</string>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="round_behavior_entries">
+        <item>Kukadiria juu</item>
+        <item>Kukadiria chini</item>
+        <item>Kukadiria mbali na 0</item>
+        <item>Makadirio ya kibenki</item>
+    </string-array>
+    <string-array name="tax_round_behavior_entries">
+        <item>Kukadiria juu</item>
+        <item>Kukadiria chini</item>
+        <item>Kukadiria mbali na 0</item>
+    </string-array>
+    <string-array name="keypad_sound_entries">
+        <item>Kimya</item>
+        <item>Sauti 1</item>
+        <item>Sauti 2</item>
+        <item>Sauti 3</item>
+        <item>Sauti 4</item>
+    </string-array>
+    <string-array name="keypad_input_method_entries">
+        <item>Bonyeza kwa muda mrefu</item>
+        <item>Telezesha</item>
+    </string-array>
+    <string-array name="button_font_size_entries">
+        <item>Ndogo</item>
+        <item>Wastani</item>
+        <item>Kubwa</item>
+        <item>Kubwa Zaidi</item>
+        <item>Kubwa Mara Mbili Zaidi</item>
+        <item>Kubwa Mara Tatu Zaidi</item>
+    </string-array>
+    <string-array name="keypad_menu_size_entries">
+        <item>Ndogo</item>
+        <item>Wastani</item>
+        <item>Kubwa</item>
+    </string-array>
+    <string-array name="angle_mode_entries">
+        <item>Radiani</item>
+        <item>Digrii</item>
+        <item>Gradiani</item>
+    </string-array>
+    <string-array name="calculation_mode_entries">
+        <item>Kawaida</item>
+        <item>Usahihi wa juu (CPU nzito)</item>
+    </string-array>
+    <string-array name="result_alignment_entries">
+        <item>Mpangilio kushoto</item>
+        <item>Mpangilio kulia</item>
+    </string-array>
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>Namba ya mstari<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>Namba ya mstari<xliff:g>}</xliff:g></item>
+    </string-array>
+    <string-array name="caret_row_highlighting_entries">
+        <item>Imezimwa</item>
+        <item>Hali ya rangi ya nyuma</item>
+        <item>Hali ya mstari chini</item>
+    </string-array>
+    <string-array name="screen_orientation_entries">
+        <item>Mwelekeo wima</item>
+        <item>Mwelekeo mlalo</item>
+    </string-array>
+    <string-array name="floating_activation_method_entries">
+        <item>Fungua kutoka arifa</item>
+        <item>Fungua kutoka kitufe kinachoelea</item>
+        <item>Fungua kutoka njia mkato</item>
+    </string-array>
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>Umbizo Maalum</item>
+    </string-array>
+    <string-array name="file_sort_condition_entries">
+        <item>Panga kwa tarehe ya kuunda (kuongezeka)</item>
+        <item>Panga kwa tarehe ya kuunda (kupungua)</item>
+        <item>Panga kwa tarehe ya kusasisha (kuongezeka)</item>
+        <item>Panga kwa tarehe ya kusasisha (kupungua)</item>
+        <item>Panga kwa jina la faili (kuongezeka)</item>
+        <item>Panga kwa jina la faili (kupungua)</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>Chaguo la mfumo</item>
+        <item>Giza</item>
+        <item>Mwanga</item>
+    </string-array>
+    <string-array name="summarizer_type_entries">
+        <item>Jumla</item>
+        <item>Wastani</item>
+        <item>Variansi</item>
+        <item>Mkengeuko Sanifu</item>
+        <item>Kodi Imejumuishwa</item>
+        <item>Kodi Haijajumuishwa</item>
+        <item>Ficha</item>
+    </string-array>
+</resources>

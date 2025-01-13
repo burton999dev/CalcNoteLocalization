@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- [CHAR LIMIT=30] When exporting the current CalcNote note as text, this is the dropdown label for selecting the delimiter between line numbers and content. Available options are `|`, `:`, or `TAB`. -->
+    <string name="label_separator">Separator Character</string>
+</resources>

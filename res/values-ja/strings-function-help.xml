@@ -116,6 +116,11 @@
     <string name="function_help_parameter1_description_avg">開始位置の行参照</string>
     <string name="function_help_parameter2_description_avg">終了位置の行参照</string>
     <string name="function_help_return_value_avg">平均値</string>
+    <!-- count -->
+    <string name="function_help_description_count">行参照間で有効な答えを持つ行数を数えます。</string>
+    <string name="function_help_parameter1_description_count">開始位置の行参照</string>
+    <string name="function_help_parameter2_description_count">終了位置の行参照</string>
+    <string name="function_help_return_value_count">数値を持つ行の数</string>
     <!-- max -->
     <string name="function_help_description_max">行参照間の最大値を返します。</string>
     <string name="function_help_parameter1_description_max">開始位置の行参照</string>

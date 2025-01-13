@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="round_behavior_entries">
+        <item>ঊর্ধ্বমুখী রাউন্ডিং</item>
+        <item>নিম্নমুখী রাউন্ডিং</item>
+        <item>অর্ধাংশ দূরে রাউন্ডিং</item>
+        <item>ব্যাংকার্স রাউন্ডিং</item>
+    </string-array>
+    <string-array name="tax_round_behavior_entries">
+        <item>ঊর্ধ্বমুখী রাউন্ডিং</item>
+        <item>নিম্নমুখী রাউন্ডিং</item>
+        <item>অর্ধাংশ দূরে রাউন্ডিং</item>
+    </string-array>
+    <string-array name="keypad_sound_entries">
+        <item>নিঃশব্দ</item>
+        <item>শব্দ প্রভাব ১</item>
+        <item>শব্দ প্রভাব ২</item>
+        <item>শব্দ প্রভাব ৩</item>
+        <item>শব্দ প্রভাব ৪</item>
+    </string-array>
+    <string-array name="keypad_input_method_entries">
+        <item>দীর্ঘ চাপ</item>
+        <item>সুইপ</item>
+    </string-array>
+    <string-array name="button_font_size_entries">
+        <item>ছোট</item>
+        <item>মাঝারি</item>
+        <item>বড়</item>
+        <item>অতিরিক্ত বড়</item>
+        <item>দুগুণ অতিরিক্ত বড়</item>
+        <item>তিনগুণ অতিরিক্ত বড়</item>
+    </string-array>
+    <string-array name="keypad_menu_size_entries">
+        <item>ছোট</item>
+        <item>মাঝারি</item>
+        <item>বড়</item>
+    </string-array>
+    <string-array name="angle_mode_entries">
+        <item>রেডিয়ান</item>
+        <item>ডিগ্রি</item>
+        <item>গ্রাডিয়ান</item>
+    </string-array>
+    <string-array name="calculation_mode_entries">
+        <item>স্ট্যান্ডার্ড</item>
+        <item>উচ্চ নির্ভুলতা (CPU লোড বৃদ্ধি পাবে)</item>
+    </string-array>
+    <string-array name="result_alignment_entries">
+        <item>বাম সারিবদ্ধকরণ</item>
+        <item>ডান সারিবদ্ধকরণ</item>
+    </string-array>
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>লাইন নম্বর<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>লাইন নম্বর<xliff:g>}</xliff:g></item>
+    </string-array>
+    <string-array name="caret_row_highlighting_entries">
+        <item>নিষ্ক্রিয়</item>
+        <item>পটভূমির রং মোড</item>
+        <item>আন্ডারলাইন মোড</item>
+    </string-array>
+    <string-array name="screen_orientation_entries">
+        <item>পোর্ট্রেট অভিযোজন</item>
+        <item>ল্যান্ডস্কেপ অভিযোজন</item>
+    </string-array>
+    <string-array name="floating_activation_method_entries">
+        <item>নোটিফিকেশন থেকে সক্রিয় করুন</item>
+        <item>ভাসমান বোতাম থেকে সক্রিয় করুন</item>
+        <item>শর্টকাট থেকে সক্রিয় করুন</item>
+    </string-array>
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>নিজস্ব বিন্যাস</item>
+    </string-array>
+    <string-array name="file_sort_condition_entries">
+        <item>সৃজন তারিখ অনুসারে ঊর্ধ্বক্রমে সাজান</item>
+        <item>সৃজন তারিখ অনুসারে নিম্নক্রমে সাজান</item>
+        <item>আপডেট তারিখ অনুসারে ঊর্ধ্বক্রমে সাজান</item>
+        <item>আপডেট তারিখ অনুসারে নিম্নক্রমে সাজান</item>
+        <item>ফাইল নাম অনুসারে ঊর্ধ্বক্রমে সাজান</item>
+        <item>ফাইল নাম অনুসারে নিম্নক্রমে সাজান</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>সিস্টেম ডিফল্ট</item>
+        <item>ডার্ক</item>
+        <item>লাইট</item>
+    </string-array>
+    <string-array name="summarizer_type_entries">
+        <item>মোট</item>
+        <item>গড়</item>
+        <item>ভ্যারিয়ান্স</item>
+        <item>প্রমিত বিচ্যুতি</item>
+        <item>কর অন্তর্ভুক্ত</item>
+        <item>করবিহীন</item>
+        <item>লুকান</item>
+    </string-array>
+</resources>

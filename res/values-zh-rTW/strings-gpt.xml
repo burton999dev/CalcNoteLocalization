@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="toast_cannot_customize_appearance_dark_miui">如果您在小米的MIUI上啟用了黑暗模式，CalcNote中的外觀自定義將不受支持。設置已重置。</string>
+    <string name="dialog_title_app_update_required">需要更新應用</string>
+    <string name="dialog_message_app_update_required">應用的新版本現已可用。為了獲取最新的功能和安全更新，請更新應用。如果您由於連接問題或其他問題無法更新，請檢查您的連接並重試。請注意，如果不更新，您將無法使用此應用。我們感謝您的理解和合作。</string>
+
+    <string name="context_menu_history">追蹤更改</string>
+    <string name="context_menu_restore">回復</string>
+    <string name="context_menu_permanently_delete">永久刪除</string>
+    <string name="toast_file_is_restored">檔案已成功回復。</string>
+    <string name="toast_failed_to_restore_file">無法回復檔案。</string>
+    <string name="toast_failed_to_permanently_delete">無法永久刪除。</string>
+
+    <string name="dialog_message_confirm_permanently_delete_all_deleted_files">確定要永久刪除所有已刪除的檔案嗎？</string>
+
+    <string name="pad_description_checkbox">複選框</string>
+
+    <string name="pad_description_ans">從上一行插入結果</string>
+
+    <string name="user_defined_list">使用者定義清單</string>
+    <string name="label_list_name">清單名稱</string>
+    <string name="label_list_values">清單項目</string>
+    <string name="empty_list_items_not_found">清單為空</string>
+    <string name="label_list_item_value">項目值</string>
+    <string name="label_list_item_description">項目描述</string>
+    <string name="toast_user_defined_list_limitation">免費版中只能創建一個使用者定義清單</string>
+
+    <string name="help_custom_list1">透過建立使用者定義列表，您可以將經常使用的項目組織在一個列表中，從而簡化數據輸入。</string>
+    <string name="help_custom_list2">例如，列出固定的每月開支可以簡化預算管理。</string>
+    <string name="help_custom_list3">所建立的列表可以在\"自訂鍵盤\"設定中指派給一個按鈕。</string>
+    <string name="help_custom_list_name">輸入要顯示在按鈕上的列表名稱。</string>
+    <string name="help_custom_list_items">新增列表項目。您可以為每個項目設定任意的運算式和描述。</string>
+
+    <string name="result_twos_complement_binary">二進制補碼</string>
+    <string name="toast_need_to_test_user_defined_function">請先執行測試以驗證函數，然後再儲存。</string>
+    <string name="pad_description_find_in_file">在當前檔案中搜尋</string>
+    <string name="drawer_menu_find_in_file">在當前檔案中搜尋</string>
+    <string name="button_replace">替換</string>
+    <string name="button_replace_all">全部替換</string>
+
+    <string name="toast_warning_show_action_bar">即使動作列被隱藏，您仍然可以通過從螢幕左邊緣向中央滑動來顯示側選單。</string>
+    <string name="checkbox_print_option_is_replace_line_reference">將行參照替換為數值</string>
+    <string name="preference_title_auto_rotate_screen_enabled">自動旋轉螢幕</string>
+    <string name="label_portrait_keypads">直式鍵盤</string>
+    <string name="label_landscape_keypads">橫式鍵盤</string>
+
+    <string name="dialog_title_rename_file">重新命名檔案</string>
+    <string name="dialog_title_copy_file">複製檔案</string>
+
+    <string name="preference_title_open_youtube">功能教學影片</string>
+
+    <string name="toast_landscape_keypad_not_supported">當前設備狀態不支援橫式鍵盤。</string>
+
+    <string name="template_placeholder_short_date">短日期格式</string>
+    <string name="template_placeholder_short_time">短時間格式</string>
+    <string name="template_placeholder_short_date_time">短日期和時間格式</string>
+    <string name="template_placeholder_medium_date">中日期格式</string>
+    <string name="template_placeholder_medium_time">中時間格式</string>
+    <string name="template_placeholder_medium_date_time">中日期和時間格式</string>
+    <string name="template_placeholder_long_date">長日期格式</string>
+    <string name="template_placeholder_long_time">長時間格式</string>
+    <string name="template_placeholder_long_date_time">長日期和時間格式</string>
+    <string name="template_placeholder_year">年</string>
+    <string name="template_placeholder_month">月</string>
+    <string name="template_placeholder_month_no_zero">無前導零的月份</string>
+    <string name="template_placeholder_month_abbreviated">縮寫的月份名稱</string>
+    <string name="template_placeholder_day">日</string>
+    <string name="template_placeholder_day_no_zero">無前導零的日期</string>
+    <string name="template_placeholder_day_of_week">星期的完整名稱</string>
+    <string name="template_placeholder_day_of_week_short">星期的縮寫名稱</string>
+    <string name="template_placeholder_hour_24">24小時制的時</string>
+    <string name="template_placeholder_hour_12">12小時制的時</string>
+    <string name="template_placeholder_minute">分鐘</string>
+    <string name="template_placeholder_second">秒</string>
+    <string name="template_placeholder_ampm">上午/下午指示符</string>
+    <string name="menu_add_placeholder">添加佔位符</string>
+    <string name="template_placeholder_description_text">在創建文件時替換為輸入的文本</string>
+    <string name="template_placeholder_description_list">在創建文件時替換為從列表中選擇的文本</string>
+    <string name="label_placeholder_name">佔位符名稱</string>
+    <string name="label_placeholder_values">清單項目（用逗號分隔）</string>
+
+    <string name="toast_interstitial_ad_will_appear">當您返回主畫面時，將會出現一個全螢幕廣告。</string>
+
+    <string name="pad_description_toggle_comments">一次性註解或取消註解多行計算</string>
+    <string name="dialog_title_toggle_comment">切換註解</string>
+
+    <string name="preference_title_checkbox_behavior">複選框行為</string>
+    <string name="label_checkbox_state_checked">已選取</string>
+    <string name="label_checkbox_state_unchecked">未選取</string>
+    <string name="label_checkbox_behavior_do">計算</string>
+    <string name="label_checkbox_behavior_skip">跳過計算</string>
+</resources>

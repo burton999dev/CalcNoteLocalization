@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="round_behavior_entries">
+        <item>Afrund op</item>
+        <item>Afrund ned</item>
+        <item>Afrund halv væk fra nul</item>
+        <item>Bankers afrunding</item>
+    </string-array>
+    <string-array name="tax_round_behavior_entries">
+        <item>Afrund op</item>
+        <item>Afrund ned</item>
+        <item>Afrund halv væk fra nul</item>
+    </string-array>
+    <string-array name="keypad_sound_entries">
+        <item>Ingen lyd</item>
+        <item>Lydeffekt 1</item>
+        <item>Lydeffekt 2</item>
+        <item>Lydeffekt 3</item>
+        <item>Lydeffekt 4</item>
+    </string-array>
+    <string-array name="keypad_input_method_entries">
+        <item>Langt tryk</item>
+        <item>Stryg</item>
+    </string-array>
+    <string-array name="button_font_size_entries">
+        <item>Lille</item>
+        <item>Mellem</item>
+        <item>Stor</item>
+        <item>Ekstra stor</item>
+        <item>Dobbelt ekstra stor</item>
+        <item>Tredobbelt ekstra stor</item>
+    </string-array>
+    <string-array name="keypad_menu_size_entries">
+        <item>Lille</item>
+        <item>Mellem</item>
+        <item>Stor</item>
+    </string-array>
+    <string-array name="angle_mode_entries">
+        <item>Radian</item>
+        <item>Grader</item>
+        <item>Gradian</item>
+    </string-array>
+    <string-array name="calculation_mode_entries">
+        <item>Standard</item>
+        <item>Høj nøjagtighed (øget CPU-belastning)</item>
+    </string-array>
+    <string-array name="result_alignment_entries">
+        <item>Venstrejusteret</item>
+        <item>Højrejusteret</item>
+    </string-array>
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>Linjenr<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>Linjenr<xliff:g>}</xliff:g></item>
+    </string-array>
+    <string-array name="caret_row_highlighting_entries">
+        <item>Deaktiveret</item>
+        <item>Baggrundsfarvetilstand</item>
+        <item>Understregetilstand</item>
+    </string-array>
+    <string-array name="screen_orientation_entries">
+        <item>Portrætorientering</item>
+        <item>Landskabsorientering</item>
+    </string-array>
+    <string-array name="floating_activation_method_entries">
+        <item>Aktiver fra notifikation</item>
+        <item>Aktiver fra flydende knap</item>
+        <item>Aktiver fra genvej</item>
+    </string-array>
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>Brugerdefineret format</item>
+    </string-array>
+    <string-array name="file_sort_condition_entries">
+        <item>Sorter stigende efter oprettelsesdato</item>
+        <item>Sorter faldende efter oprettelsesdato</item>
+        <item>Sorter stigende efter opdateringsdato</item>
+        <item>Sorter faldende efter opdateringsdato</item>
+        <item>Sorter stigende efter filnavn</item>
+        <item>Sorter faldende efter filnavn</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>Systemstandard</item>
+        <item>Mørk</item>
+        <item>Lys</item>
+    </string-array>
+    <string-array name="summarizer_type_entries">
+        <item>Total</item>
+        <item>Gennemsnit</item>
+        <item>Varians</item>
+        <item>Standardafvig.</item>
+        <item>Inkl. moms</item>
+        <item>Ekskl. moms</item>
+        <item>Skjul</item>
+    </string-array>
+</resources>

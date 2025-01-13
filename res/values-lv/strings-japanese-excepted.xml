@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="label_incorrect_translation">Nepareizs tulkojums</string>
+    <string name="label_correct_translation">Pareizs tulkojums</string>
+    <string name="label_reason">Iemesls</string>
+    <string name="toast_thanks_feed_back">Paldies par atsauksmi.</string>
+    <string name="dialog_message_send_feedback">Ja pamanāt nepareizu tulkojumu vai varat labāku, lūdzu norādiet pareizo tulkojumu. Jūsu palīdzība uzlabos <xliff:g id="app_name">CalcNote</xliff:g>. Atsauksme tiks nosūtīta uz <xliff:g id="feedback_url">https://github.com/burton999dev/CalcNoteLocalization</xliff:g></string>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="toast_cannot_customize_appearance_dark_miui">샤오미의 MIUI에서 다크 모드를 활성화한 경우, CalcNote에서 외관 사용자 정의가 지원되지 않습니다. 설정이 초기화되었습니다.</string>
+    <string name="dialog_title_app_update_required">앱 업데이트 필요</string>
+    <string name="dialog_message_app_update_required">앱의 새 버전이 사용 가능합니다. 최신 기능 및 보안 업데이트를 이용하려면 앱을 업데이트하십시오. 연결 문제 또는 기타 문제로 업데이트를 할 수 없는 경우, 연결 상태를 확인하고 다시 시도하십시오. 업데이트하지 않으면 이 앱을 사용할 수 없다는 것을 유의하십시오. 당신의 이해와 협조에 감사드립니다.</string>
+
+    <string name="context_menu_history">변경 내역 추적</string>
+    <string name="context_menu_restore">복원</string>
+    <string name="context_menu_permanently_delete">영구 삭제</string>
+    <string name="toast_file_is_restored">파일이 성공적으로 복원되었습니다.</string>
+    <string name="toast_failed_to_restore_file">파일을 복원할 수 없습니다.</string>
+    <string name="toast_failed_to_permanently_delete">영구 삭제 실패.</string>
+
+    <string name="dialog_message_confirm_permanently_delete_all_deleted_files">모든 삭제된 파일을 영구적으로 삭제하시겠습니까?</string>
+
+    <string name="pad_description_checkbox">체크 박스</string>
+
+    <string name="pad_description_ans">위 줄의 결과를 현재 커서 위치에 삽입</string>
+
+    <string name="user_defined_list">사용자 정의 목록</string>
+    <string name="label_list_name">목록 이름</string>
+    <string name="label_list_values">목록 항목</string>
+    <string name="empty_list_items_not_found">목록이 비어 있음</string>
+    <string name="label_list_item_value">항목 값</string>
+    <string name="label_list_item_description">항목 설명</string>
+    <string name="toast_user_defined_list_limitation">무료 버전에서는 사용자 정의 목록을 하나만 만들 수 있습니다</string>
+
+    <string name="help_custom_list1">사용자 정의 목록을 생성함으로써 자주 사용하는 항목을 목록으로 구성하여 데이터 입력을 간소화할 수 있습니다.</string>
+    <string name="help_custom_list2">예를 들어, 매달 고정 지출을 나열하면 예산 관리가 간편해질 수 있습니다.</string>
+    <string name="help_custom_list3">생성된 목록은 \"키패드 사용자 정의하기\" 설정에서 버튼에 할당할 수 있습니다.</string>
+    <string name="help_custom_list_name">버튼에 표시될 목록 이름을 입력하세요.</string>
+    <string name="help_custom_list_items">목록 항목을 추가하세요. 각 항목에 대해 임의의 표현과 설명을 설정할 수 있습니다.</string>
+
+    <string name="result_twos_complement_binary">2의 보수</string>
+    <string name="toast_need_to_test_user_defined_function">저장하기 전에 함수를 검증하기 위해 테스트 실행을 해주세요.</string>
+    <string name="pad_description_find_in_file">현재 파일에서 찾기</string>
+    <string name="drawer_menu_find_in_file">현재 파일에서 찾기</string>
+    <string name="button_replace">바꾸기</string>
+    <string name="button_replace_all">모두 바꾸기</string>
+
+    <string name="toast_warning_show_action_bar">작업 바가 숨겨져 있어도, 화면의 왼쪽 가장자리에서 중앙으로 스와이프하여 사이드 메뉴를 표시할 수 있습니다.</string>
+    <string name="checkbox_print_option_is_replace_line_reference">라인 참조를 값으로 바꾸기</string>
+    <string name="preference_title_auto_rotate_screen_enabled">화면 자동 회전</string>
+    <string name="label_portrait_keypads">세로 방향 키패드</string>
+    <string name="label_landscape_keypads">가로 방향 키패드</string>
+
+    <string name="dialog_title_rename_file">파일 이름 변경</string>
+    <string name="dialog_title_copy_file">파일 복사</string>
+
+    <string name="preference_title_open_youtube">빠른 팁 동영상</string>
+
+    <string name="toast_landscape_keypad_not_supported">현재 기기 상태에서는 가로 방향 키패드를 지원하지 않습니다.</string>
+
+    <string name="template_placeholder_short_date">짧은 날짜 형식</string>
+    <string name="template_placeholder_short_time">짧은 시간 형식</string>
+    <string name="template_placeholder_short_date_time">짧은 날짜 및 시간 형식</string>
+    <string name="template_placeholder_medium_date">중간 날짜 형식</string>
+    <string name="template_placeholder_medium_time">중간 시간 형식</string>
+    <string name="template_placeholder_medium_date_time">중간 날짜 및 시간 형식</string>
+    <string name="template_placeholder_long_date">긴 날짜 형식</string>
+    <string name="template_placeholder_long_time">긴 시간 형식</string>
+    <string name="template_placeholder_long_date_time">긴 날짜 및 시간 형식</string>
+    <string name="template_placeholder_year">년</string>
+    <string name="template_placeholder_month">월</string>
+    <string name="template_placeholder_month_no_zero">앞에 0이 없는 월</string>
+    <string name="template_placeholder_month_abbreviated">월의 약어 이름</string>
+    <string name="template_placeholder_day">일</string>
+    <string name="template_placeholder_day_no_zero">앞에 0이 없는 일</string>
+    <string name="template_placeholder_day_of_week">요일의 전체 이름</string>
+    <string name="template_placeholder_day_of_week_short">요일의 약어 이름</string>
+    <string name="template_placeholder_hour_24">24시간 형식의 시간</string>
+    <string name="template_placeholder_hour_12">12시간 형식의 시간</string>
+    <string name="template_placeholder_minute">분</string>
+    <string name="template_placeholder_second">초</string>
+    <string name="template_placeholder_ampm">오전/오후 표시기</string>
+    <string name="menu_add_placeholder">플레이스홀더 추가</string>
+    <string name="template_placeholder_description_text">파일을 생성할 때 입력한 텍스트로 대체됩니다</string>
+    <string name="template_placeholder_description_list">파일을 생성할 때 목록에서 선택한 텍스트로 대체됩니다</string>
+    <string name="label_placeholder_name">플레이스홀더 이름</string>
+    <string name="label_placeholder_values">목록 항목(쉼표로 구분)</string>
+
+    <string name="toast_interstitial_ad_will_appear">메인 화면으로 돌아가면 전체 화면 광고가 표시됩니다.</string>
+
+    <string name="pad_description_toggle_comments">여러 계산을 한 번에 코멘트 또는 해제</string>
+    <string name="dialog_title_toggle_comment">코멘트 전환</string>
+
+    <string name="preference_title_checkbox_behavior">체크박스 동작</string>
+    <string name="label_checkbox_state_checked">체크됨</string>
+    <string name="label_checkbox_state_unchecked">체크 해제</string>
+    <string name="label_checkbox_behavior_do">계산</string>
+    <string name="label_checkbox_behavior_skip">계산 건너뛰기</string>
+</resources>

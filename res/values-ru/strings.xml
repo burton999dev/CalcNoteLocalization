@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <!--
+<!--
     CalcNote is an application that combines the respective functions of a calculator and a text editor.
     For this reason, the text resources include both terms used in calculator applications and those used in text editors.
     A short and simple translation with as formal of expressions as possible is desirable.
@@ -12,6 +12,8 @@
     <string name="input_error_field_required">Это поле необходимо заполнить</string>
     <!-- [CHAR LIMIT=60] Error message displayed when the entered string is already in use and cannot be registered due to duplication not being permitted in the registration process. -->
     <string name="input_error_already_in_use">Такая строка уже используется</string>
+    <!-- [CHAR LIMIT=60] Error message displayed when the selected symbol is already in use and cannot be registered due to duplication not being permitted in the registration process. -->
+    <string name="select_error_already_in_use">Выбранный символ уже используется</string>
     <!-- [CHAR LIMIT=60] Error message displayed when cannot be registered due to the insertion of a character at the beginning that is not permitted in the registration process. -->
     <string name="input_error_start_with_numeric">Строка не должна начинаться с цифры</string>
     <!-- [CHAR LIMIT=60] Error message displayed when cannot be registered due to the insertion of characters that are not permitted in its registration process. -->
@@ -70,6 +72,8 @@
     <string name="drawer_menu_find">Поиск в файлах</string>
     <!-- [CHAR LIMIT=48] The menu item to share a file. This menu is displayed in the side menu. The maximum number of characters is 48, but if it exceeds 24 characters it will be inserted a line break. so it's better if it's 24 characters or less. -->
     <string name="drawer_menu_share">Поделиться</string>
+    <!-- [CHAR LIMIT=48] The menu item to create a file shortcut. The shortcut is a kind of link to open the specified file with one click. This menu is displayed in the side menu. The maximum number of characters is 48, but if it exceeds 24 characters it will be inserted a line break. so it's better if it's 24 characters or less. -->
+    <string name="drawer_menu_shortcut">Создать ярлык для файла</string>
     <!-- [CHAR LIMIT=48] The menu item to format a mathematical expression. This menu is displayed in the side menu. The maximum number of characters is 48, but if it exceeds 24 characters it will be inserted a line break. so it's better if it's 24 characters or less. -->
     <string name="drawer_menu_format_formula">Форматировать выражение</string>
     <!-- [CHAR LIMIT=48] The menu item to reverse the effects of a previous action. This menu is displayed in the side menu. The maximum number of characters is 48, but if it exceeds 24 characters it will be inserted a line break. so it's better if it's 24 characters or less. -->
@@ -79,7 +83,7 @@
     <!-- [CHAR LIMIT=48] The menu item to print a file. This menu is displayed in the side menu. The maximum number of characters is 48, but if it exceeds 24 characters it will be inserted a line break. so it's better if it's 24 characters or less. -->
     <string name="drawer_menu_print">Печать</string>
     <!-- [CHAR LIMIT=48] The menu item to launch the file manager. The file manager can be managed files efficiently. This menu is displayed in the side menu. The maximum number of characters is 48, but if it exceeds 24 characters it will be inserted a line break. so it's better if it's 24 characters or less. -->
-    <string name="drawer_menu_file_manager">Диспетчер файлов</string>
+    <string name="drawer_menu_file_manager">Файловый менеджер</string>
     <!-- [CHAR LIMIT=30] The menu item to show the help. -->
     <string name="menu_help">Справка</string>
     <!-- [CHAR LIMIT=30] The menu item to select all list items. -->
@@ -170,12 +174,18 @@
     <string name="unit_category_mass">Масса</string>
     <!-- [CHAR LIMIT=16] The name of the category for the unit of speed. The max number of characters is 16 characters, but please make as short as possible. -->
     <string name="unit_category_speed">Скорость</string>
+    <!-- [CHAR LIMIT=16] The name of the category for the unit of fuel consumption(km/L, mile/liter, mile/gallon, l/100km). 'fuel consumption'  is too long, so I use 'fuel' instead. The max number of characters is 16 characters, but please make as short as possible. -->
+    <string name="unit_category_fuel">Топливо</string>
     <!-- [CHAR LIMIT=16] The name of the category for the unit of temperature. The max number of characters is 16 characters, but please make as short as possible. -->
     <string name="unit_category_temperature">Темпаратура</string>
     <!-- [CHAR LIMIT=16] The name of the category for the unit of time. The max number of characters is 16 characters, but please make as short as possible. -->
     <string name="unit_category_time">Время</string>
     <!-- [CHAR LIMIT=16] The name of the category for the unit of volume. The max number of characters is 16 characters, but please make as short as possible. -->
     <string name="unit_category_volume">Объем</string>
+    <!-- [CHAR LIMIT=16] The name of the category for the unit of pressure(Pa, N/m2, atm). The max number of characters is 16 characters, but please make as short as possible. -->
+    <string name="unit_category_pressure">Давление</string>
+    <!-- [CHAR LIMIT=16] The name of the category for the unit of energy(J(joule), kg-m, cal). It's the energy transferred to or from an object via the application of force along a displacement. https://en.wikipedia.org/wiki/Work_(physics) The max number of characters is 16 characters, but please make as short as possible. -->
+    <string name="unit_category_work">Работа</string>
     <!-- [CHAR LIMIT=30] The unit of area. https://en.wikipedia.org/wiki/Square_kilometre -->
     <string name="unit_label_area_kilometres">Квадратный километр</string>
     <!-- [CHAR LIMIT=30] The unit of area. https://en.wikipedia.org/wiki/Square_metre -->
@@ -332,6 +342,66 @@
     <string name="unit_label_volume_cubic_foot">Кубический фут</string>
     <!-- [CHAR LIMIT=30] The unit of volume. https://en.wikipedia.org/wiki/Cubic_yard -->
     <string name="unit_label_volume_cubic_yard">Кубичесий ярд</string>
+    <!-- [CHAR LIMIT=30] The unit of fuel consumption. https://en.wikipedia.org/wiki/Fuel_economy_in_automobiles -->
+    <string name="unit_label_fuel_kilometre_per_litre">Километров на литр (км/л)</string>
+    <!-- [CHAR LIMIT=30] The unit of fuel consumption. https://en.wikipedia.org/wiki/Fuel_economy_in_automobiles -->
+    <string name="unit_label_fuel_mile_per_litre">Миль на литр (миль/л)</string>
+    <!-- [CHAR LIMIT=30] The unit of fuel consumption. https://en.wikipedia.org/wiki/Fuel_economy_in_automobiles -->
+    <string name="unit_label_fuel_mile_per_gallon">Миль на галлон США (миль/галл)</string>
+    <!-- [CHAR LIMIT=30] The unit of fuel consumption. https://en.wikipedia.org/wiki/Fuel_economy_in_automobiles -->
+    <string name="unit_label_fuel_mile_per_uk_gallon">Миль на английский галлон (миль/галл)</string>
+    <!-- [CHAR LIMIT=30] The unit of fuel consumption. https://en.wikipedia.org/wiki/Fuel_economy_in_automobiles -->
+    <string name="unit_label_fuel_litre_per_100kilometre">Литров на 100 км (л/100 км)</string>
+    <!-- [CHAR LIMIT=30] The unit of fuel consumption. https://en.wikipedia.org/wiki/Fuel_economy_in_automobiles -->
+    <string name="unit_label_fuel_gallon_per_100mile">Галлонов на 100 миль</string>
+    <!-- [CHAR LIMIT=30] The unit of pressure. https://en.wikipedia.org/wiki/Pascal_(unit) -->
+    <string name="unit_label_pressure_pascal">Паскаль</string>
+    <!-- [CHAR LIMIT=30] The unit of pressure. https://en.wikipedia.org/wiki/Pascal_(unit) -->
+    <string name="unit_label_pressure_hectopascal">Гектопаскаль</string>
+    <!-- [CHAR LIMIT=30] The unit of pressure. https://en.wikipedia.org/wiki/Bar_(unit) -->
+    <string name="unit_label_pressure_bar">Бар</string>
+    <!-- [CHAR LIMIT=30] The unit of pressure. https://www.sensorsone.com/cmhg-centimetres-mercury-0-deg-c-pressure-unit/ -->
+    <string name="unit_label_pressure_centimetre_of_mercury">Сантиметр ртутного столба</string>
+    <!-- [CHAR LIMIT=30] The unit of pressure. https://en.wikipedia.org/wiki/Inch_of_mercury -->
+    <string name="unit_label_pressure_inch_of_mercury">Дюйм ртутного столба</string>
+    <!-- [CHAR LIMIT=30] The unit of pressure. https://en.wikipedia.org/wiki/Centimetre_or_millimetre_of_water -->
+    <string name="unit_label_pressure_centimetre_of_water">Сантиметр водяного столба</string>
+    <!-- [CHAR LIMIT=30] The unit of pressure. https://en.wikipedia.org/wiki/Inch_of_water -->
+    <string name="unit_label_pressure_inch_of_water">Дюйм водяного столба</string>
+    <!-- [CHAR LIMIT=30] The unit of pressure. https://en.wikipedia.org/wiki/Pound_per_square_inch -->
+    <string name="unit_label_pressure_pound_per_square_inch">Фунт на квадратный дюйм</string>
+    <!-- [CHAR LIMIT=30] The unit of pressure. https://en.wikipedia.org/wiki/Pound_per_square_inch -->
+    <string name="unit_label_pressure_pound_per_square_foot">Фунт на квадратный фут</string>
+    <!-- [CHAR LIMIT=30] The unit of pressure. https://en.wikipedia.org/wiki/Standard_atmosphere_(unit) -->
+    <string name="unit_label_pressure_atm">Стандартная атмосфера</string>
+    <!-- [CHAR LIMIT=30] The unit of pressure. https://en.wikipedia.org/wiki/Kilogram-force_per_square_centimetre -->
+    <string name="unit_label_pressure_kilogram_per_square_centimetre">Килограм-сила на квадратный сантиметр</string>
+    <!-- [CHAR LIMIT=30] The unit of pressure. https://en.wikipedia.org/wiki/Torr -->
+    <string name="unit_label_pressure_torr">Торр</string>
+    <!-- [CHAR LIMIT=30] The unit of work(energy). https://en.wikipedia.org/wiki/Work_(physics). https://en.wikipedia.org/wiki/Joule -->
+    <string name="unit_label_work_joule">Джоуль</string>
+    <!-- [CHAR LIMIT=30] The unit of work(energy). https://en.wikipedia.org/wiki/Work_(physics). https://en.wikipedia.org/wiki/Joule#Kilojoule -->
+    <string name="unit_label_work_kilojoule">Килоджоуль</string>
+    <!-- [CHAR LIMIT=30] The unit of work(energy). https://en.wikipedia.org/wiki/Work_(physics). https://en.wikipedia.org/wiki/Calorie -->
+    <string name="unit_label_work_calorie">Калория</string>
+    <!-- [CHAR LIMIT=30] The unit of work(energy). https://en.wikipedia.org/wiki/Work_(physics). https://en.wikipedia.org/wiki/Calorie -->
+    <string name="unit_label_work_kilocalorie">Килокалории</string>
+    <!-- [CHAR LIMIT=30] The unit of work(energy). https://en.wikipedia.org/wiki/Work_(physics). https://en.wikipedia.org/wiki/Kilowatt-hour -->
+    <string name="unit_label_work_watt_hour">Ватт-час</string>
+    <!-- [CHAR LIMIT=30] The unit of work(energy). https://en.wikipedia.org/wiki/Work_(physics). https://en.wikipedia.org/wiki/Kilowatt-hour -->
+    <string name="unit_label_work_kilowatt_hour">Киловатт-час</string>
+    <!-- [CHAR LIMIT=30] The unit of work(energy). https://en.wikipedia.org/wiki/Work_(physics). https://shorturl.at/oqFUW -->
+    <string name="unit_label_work_kilogram_force_meter">Килограм-сила-метр</string>
+    <!-- [CHAR LIMIT=30] The unit of work(energy). https://en.wikipedia.org/wiki/Work_(physics). https://en.wikipedia.org/wiki/Pound-foot_(torque) -->
+    <string name="unit_label_work_pound_force_inch">Фунт-дюйм</string>
+    <!-- [CHAR LIMIT=30] The unit of work(energy). https://en.wikipedia.org/wiki/Work_(physics). https://en.wikipedia.org/wiki/Pound-foot_(torque) -->
+    <string name="unit_label_work_pound_force_foot">Фунт-фут</string>
+    <!-- [CHAR LIMIT=30] The unit of work(energy). https://en.wikipedia.org/wiki/Work_(physics). https://en.wikipedia.org/wiki/British_thermal_unit -->
+    <string name="unit_label_work_british_thermal_unit">Британская тепловая единица</string>
+    <!-- [CHAR LIMIT=30] The unit of work(energy). https://en.wikipedia.org/wiki/Work_(physics). https://en.wikipedia.org/wiki/Tonne_of_oil_equivalent -->
+    <string name="unit_label_work_tonne_of_oil_equivalent">Тонна нефтяного эквивалента</string>
+    <!-- [CHAR LIMIT=30] The unit of work(energy). https://en.wikipedia.org/wiki/Work_(physics). https://en.wikipedia.org/wiki/Newton-metre -->
+    <string name="unit_label_work_newton_metre">Ньютон-метр</string>
     <!-- [CHAR LIMIT=10] Draft file name prefix. The actual file name is a character string obtained by adding a time stamp to this string. -->
     <string name="prefix_draft_file">Черновики</string>
     <!-- [CHAR LIMIT=15] When calculation has resulted in an error, such as that from dividing by 0, an error message will be displayed in place of the calculation result. -->
@@ -347,7 +417,7 @@
     <!-- [CHAR LIMIT=36] A message displayed in the notification area. The widget will be activated when the notification area is tapped. -->
     <string name="notification_default_text">Нажмите, чтобы показать виджет</string>
     <!-- [CHAR LIMIT=6] The following sentence is an example of this. -->
-    <string name="prefix_example">Прим.:<xliff:g id="space">&#160;</xliff:g></string>
+    <string name="prefix_example">Прим.:</string>
     <!-- [CHAR LIMIT=25] The name of a feature allowing the user to define constants freely. -->
     <string name="user_defined_constant">Пользовательская константа</string>
     <!-- [CHAR LIMIT=25] The name of a feature allowing the user to define actions freely. The actions are operations that can be assigned to a button. -->
@@ -366,6 +436,8 @@
     <string name="preference_category_tax_settings">Параметры налога</string>
     <!-- [CHAR LIMIT=40] Character string displayed in a setting screen category. The category related to action bar appearance customization. The max number of characters is 40 characters, but please make as short as possible. -->
     <string name="preference_category_appearance_actionbar_settings">Панель действий</string>
+    <!-- [CHAR LIMIT=40] Character string displayed in a setting screen category. The category related to the background of app window. The max number of characters is 40 characters, but please make as short as possible. -->
+    <string name="preference_category_appearance_background">Фон</string>
     <!-- [CHAR LIMIT=40] Character string displayed in a setting screen category. The category related to editor appearance customization. The max number of characters is 40 characters, but please make as short as possible. -->
     <string name="preference_category_appearance_editor_settings">Редкатор</string>
     <!-- [CHAR LIMIT=40] Character string displayed in a setting screen category. The category related to syntax highlight customization. The max number of characters is 40 characters, but please make as short as possible. -->
@@ -416,6 +488,8 @@
     <string name="preference_title_computation_round_behavior">Способ округления</string>
     <!-- [CHAR LIMIT=38] The title of a setting on the setting screen. Calculation results display positioning setting. A selection can be made between right-justified and left-justified. -->
     <string name="preference_title_computation_result_alignment">Расположение результатов</string>
+    <!-- [CHAR LIMIT=38] The title of a setting on the setting screen. By default, App displays a total of all lines in the bottom right hand corner. You can also show the average, variance, standard deviation, and so on. -->
+    <string name="preference_title_computation_summarizer">Настроить строку итога</string>
     <!-- [CHAR LIMIT=38] The title of a setting on the setting screen. Calculation results display format setting. Various formats that vary from country to country are supported, such as such as comma separated (1,234,567.89) and dot separated (1.234.567,89). -->
     <string name="preference_title_computation_format">Формат отображения результатов</string>
     <!-- [CHAR LIMIT=38] The title of a setting on the setting screen. Date display format setting. Various formats that vary from country to country are supported, such as "yyyy/MM/dd" and "dd/MM/yyyy". -->
@@ -432,6 +506,8 @@
     <string name="preference_title_tax_rate">Ставка налога (%)</string>
     <!-- [CHAR LIMIT=38] The title of a setting on the setting screen. Editor font size setting. -->
     <string name="preference_title_editor_text_size">Размер шрифта</string>
+    <!-- [CHAR LIMIT=38] The title of a setting on the setting screen. Line spacing setting. Line spacing is the space between each line in a paragraph. https://erinwrightwriting.com/adjust-line-spacing-in-microsoft-word/ -->
+    <string name="preference_title_editor_line_spacing">Межстрочный интервал</string>
     <!-- [CHAR LIMIT=38] The title of a setting on the setting screen. Editor font family setting. -->
     <string name="preference_title_editor_font_type">Шрифт</string>
     <!-- [CHAR LIMIT=38] The title of a setting on the setting screen. Highlight setting for the line currently being edited in the editor. A selection may be made between "Disabled (no highlighting)", "Background color mode (highlighting via changing the background color)", and "Underline mode (highlighting with an underline)" -->
@@ -474,6 +550,10 @@
     <string name="preference_title_editor_text_color">Цвет текста в редакторе</string>
     <!-- [CHAR LIMIT=68] The title of a setting on the setting screen. Calculation result negative number text color setting. -->
     <string name="preference_title_editor_negative_text_color">Цвет отрицательных чисел в редакторе</string>
+    <!-- [CHAR LIMIT=38] The title of a setting on the setting screen. Set a background-image for the main screen. -->
+    <string name="preference_title_background_image">Фоновое изображение</string>
+    <!-- [CHAR LIMIT=38] The title of a setting on the setting screen. Application screen opacity setting. The smaller the value, the more transparent the screen is. -->
+    <string name="preference_title_background_alpha_channel">Непрозрачность</string>
     <!-- [CHAR LIMIT=68] The title of a setting on the setting screen. Line number background color setting. -->
     <string name="preference_title_line_no_background_color">Цвет фона номеров строк</string>
     <!-- [CHAR LIMIT=68] The title of a setting on the setting screen. Line number text color setting. -->
@@ -546,14 +626,20 @@
     <string name="preference_title_backup_restore_screen">Резервное копирование и восстановление файлов</string>
     <!-- [CHAR LIMIT=68] The title of a setting on the setting screen. Application appearance-altering theme settings. -->
     <string name="preference_title_theme">Темы</string>
+    <!-- [CHAR LIMIT=68] The title of a setting on the setting screen. This is a dark theme setting. -->
+    <string name="preference_title_dark_theme">Темная тема</string>
     <!-- [CHAR LIMIT=68] The title of a setting on the setting screen. Setting screen category names. Categories related to the floating widget -->
     <string name="preference_title_floating_widget">Парящий виджет</string>
     <!-- [CHAR LIMIT=68] The title of a setting on the setting screen. Setting screen category names. Categories related to the user extension functions. When the user extension function is used, the user may add functions according to their usage. There are four types of user extension functions: "User-defined Constant", "User-defined Action", "User-defined Function", and "Template" -->
     <string name="preference_title_custom_extension">Пользовательские расширения</string>
+    <!-- [CHAR LIMIT=68] The title of a setting on the setting screen. A function changing the menu order for the action bar, hiding unneeded menus. -->
+    <string name="preference_title_customize_action_bar">Настроить панель действий</string>
     <!-- [CHAR LIMIT=68] The title of a setting on the setting screen. A function changing the menu order for the side menu, hiding unneeded menus. -->
     <string name="preference_title_customize_side_menu">Настройка бокового меню</string>
     <!-- [CHAR LIMIT=68] The title of a setting on the setting screen. When the calculation result is tapped, a dialog is displayed and a function is present that allows for the calculation results to be displayed with a hexadecimal number, with tax included, and the tax excluded. This settings to customize that dialog. -->
     <string name="preference_title_customize_results_dialog">Настройка окна результатов</string>
+    <!-- [CHAR LIMIT=68] The title of a setting on the setting screen. A function for customizing the grammar. For instance, user can change 'Decimal Point' , 'Thousands Separator' and so on. -->
+    <string name="preference_title_grammar_definition">Настройка грамматики</string>
     <!-- [CHAR LIMIT=56] A written explanation that summarizes the setting screen and explains what the setting items signify. It explains that it is necessary to restart the application in order to make target setting changes effective. -->
     <string name="preference_summary_keypad_height_auto">Перезапустите приложение, чтобы применить изменения</string>
     <!-- [CHAR LIMIT=56] A written explanation that summarizes the setting screen and explains what the setting items signify. Explains that the target setting is a setting for inputting function arguments. -->
@@ -568,6 +654,8 @@
     <string name="preference_summary_backup_google_drive_not_supported">Эта функция недоступна на данном устройстве</string>
     <!-- [CHAR LIMIT=56] A written explanation that summarizes the setting screen and explains what the setting items signify. Explains that the widget will be permanently stationed on the status bar if the target settings are enabled. -->
     <string name="preference_summary_use_floating_widget">Виджет остается в строке состояния</string>
+    <!-- [CHAR LIMIT=68] The title of a setting on the setting screen. Send feedback to the developer. -->
+    <string name="preference_title_send_feedback">Отправить отзыв</string>
     <!-- [CHAR LIMIT=240] Message displayed when copying calculation results etc. to the clipboard. -->
     <string name="toast_copy_to_clipboard">Скопировано в буфер обмена: <xliff:g id="copied_text">%1$s</xliff:g>.</string>
     <!-- [CHAR LIMIT=240] Warning message displayed when trying to use an external application for the intention of opening online help materials, etc., and there is no application on the device that is able to perform an action. -->
@@ -604,6 +692,8 @@
     <string name="toast_failed_to_reset_sync_status">Не удается сбросить статус синхронизации.</string>
     <!-- [CHAR LIMIT=240] A message conveying that it is necessary to grant Android "Draw over other apps" permission in order to enable the floating widget function. -->
     <string name="toast_need_permission_system_alert_window">Предоставьте разрешение: <xliff:g id="android_permission_name">«Показ элементов интерфейса поверх других окон»</xliff:g>.</string>
+    <!-- [CHAR LIMIT=240] A message conveying that it is necessary to grant Android "Show notifications" permission in order to enable the floating widget function. -->
+    <string name="toast_need_permission_post_notifications">Предоставьте разрешение: <xliff:g id="android_permission_name">«показ уведомлений»</xliff:g>.</string>
     <!-- [CHAR LIMIT=240] Error message displayed when the "Source code", a required item for the registration process, is not entered. -->
     <string name="toast_need_to_input_function_code">Введите исходный код.</string>
     <!-- [CHAR LIMIT=240] Message displayed when the setting import process completes as normal. -->
@@ -615,7 +705,7 @@
     <!-- [CHAR LIMIT=240] Error message displayed when the file restoration process did not complete as normal. -->
     <string name="toast_failed_to_restore_files">Не удается восстановить файлы.</string>
     <!-- [CHAR LIMIT=240] Error message displayed when executing the file backup process when the number of files exceeds the maximum size that can be backed up due to too many files. -->
-    <string name="toast_backup_file_too_large">Слишком много файлов для резервного копирования. Рекомендуется использовать <xliff:g id="app_name">«CalcNotePlugin for GoogleDrive»</xliff:g>.</string>
+    <string name="toast_backup_file_too_large">Слишком много файлов для резервного копирования. Рекомендуется использовать <xliff:g id="app_name">«CalcNotePlugin for Drive»</xliff:g>.</string>
     <!-- [CHAR LIMIT=40] The Description for the input item on the registration screen. The label for the text box to input a "Keypad name". -->
     <string name="label_keypad_name">Название клавиатуры</string>
     <!-- [CHAR LIMIT=40] The Description for the input item on the registration screen. The label for the text box to input a "Title". -->
@@ -691,7 +781,7 @@
     <!-- [CHAR LIMIT=34] String displayed as the title of the action bar. Screen for selecting the conversion the destination currency for the currency conversion function. -->
     <string name="toolbar_title_currency_to">Валюта после конвертации</string>
     <!-- [CHAR LIMIT=25] Dialog title. Dialog entering the filename and confirming file saving. -->
-    <string name="dialog_title_filename_input">Сохранение файла</string>
+    <string name="dialog_title_save_file">Сохранение файла</string>
     <!-- [CHAR LIMIT=25] Dialog title. Dialog entering the template name and confirming template saving. -->
     <string name="dialog_title_template_input">Сохранение шаблона</string>
     <!-- [CHAR LIMIT=25] Dialog title. Dialog allowing selection of the file to be opened. -->
@@ -736,12 +826,14 @@
     <string name="checkbox_print_option_is_output_total">Вывести строку итога</string>
     <!-- [CHAR LIMIT=28] The print options. If the checkbox is checked, the ruled lines will be printed. -->
     <string name="checkbox_print_option_is_output_ruled_line">Вывести разлиновку строк</string>
+    <!-- [CHAR LIMIT=28] The print options. If the checkbox is checked, the line no will be printed. -->
+    <string name="checkbox_print_option_is_output_line_no">Выводить номера строк</string>
     <!-- [CHAR LIMIT=30] Title of dialog for file search. -->
     <string name="title_find_in_files">Поиск в файлах</string>
     <!-- [CHAR LIMIT=25] Displayed as the release note title when the application is updated. -->
     <string name="changelog_title">Новшества в <xliff:g id="app_name">CalcNote</xliff:g></string>
     <!-- [CHAR LIMIT=200] Message asking for a review of the application. -->
-    <string name="changelog_review_request">Приложение <xliff:g id="app_name">CalcNote</xliff:g> разрабатывается в качестве хобби. И мне бывает сложно сохранить мотивацию. Ваш положительный отзыв поможет мне улучшать the <xliff:g id="app_name">CalcNote</xliff:g>. Большое спасибо за поддержку!</string>
+    <string name="changelog_review_request">Приложение <xliff:g id="app_name">CalcNote</xliff:g> разрабатывается в качестве хобби. И мне бывает сложно сохранить мотивацию. Ваш положительный отзыв поможет мне улучшать the <xliff:g id="app_name">CalcNote</xliff:g>. Кроме того, вы очень поможете мне, рассказав об этом приложении друзьям и в соцсетях. Большое спасибо за поддержку!</string>
     <!-- [CHAR LIMIT=300] Description displayed in the tutorial that explains how to use application. It explains that pressing the save button saves the edited content and completes the registration process. -->
     <string name="help_custom_save">Наконец, нажмите кнопку «Сохранить», чтобы завершить регистрацию.</string>
     <!-- [CHAR LIMIT=300] Description displayed in the tutorial that explains how to use application. -->
@@ -813,7 +905,7 @@
     <!-- [CHAR LIMIT=300] Description displayed in the tutorial that explains how to use application. -->
     <string name="help_custom_function_arg_value">Введите значение аргумента для теста.</string>
     <!-- [CHAR LIMIT=300] Description displayed in the tutorial that explains how to use application. -->
-    <string name="help_custom_function_test">Выполните функцию с указанным аргументом. Удостоверьтесь, что результат верен.</string>
+    <string name="help_custom_function_test">Выполните функцию с указанными аргументами и убедитесь, что результат верен.</string>
     <!-- [CHAR LIMIT=300] Description displayed in the tutorial that explains how to use application. This expression means mathematical expression. -->
     <string name="help_custom_template_list_creating">Сохрани часто используемое выражение как шаблон, вы сможете без труда создать файл на основе шаблона, а не с нуля.</string>
     <!-- [CHAR LIMIT=300] Description displayed in the tutorial that explains how to use application. -->
@@ -895,7 +987,11 @@
     <!-- [CHAR LIMIT=50] Enter decimal point ".". -->
     <string name="pad_description_decimal_point">Десятичная точка</string>
     <!-- [CHAR LIMIT=50] Enter the separator "," of the argument of the function. -->
-    <string name="pad_description_comma">Разделитель аргументов</string>
+    <string name="pad_description_argument_separator">Разделитель аргументов</string>
+    <!-- [CHAR LIMIT=50] Enter the thousands separator ",". -->
+    <string name="pad_description_thousands_separator">Разделитель тысяч</string>
+    <!-- [CHAR LIMIT=50] Enter the symbol to refer to the answer on the previous line. -->
+    <string name="pad_description_line_reference">Ссылка на строку</string>
     <!-- [CHAR LIMIT=50] Delete a character to the left of the cursor. -->
     <string name="pad_description_backspace">Забой</string>
     <!-- [CHAR LIMIT=50] Cancel and undo previous input operation. -->
@@ -934,16 +1030,23 @@
     <string name="pad_description_move_first">Переместить курсор в начало строки</string>
     <!-- [CHAR LIMIT=60] Move cursor to the end of the line from the current position. The maximum number of characters is 60, but if it exceeds 30 characters it will be inserted a line break. so it's better if it's 25 characters or less. -->
     <string name="pad_description_move_last">Переместить курсор в конец строки</string>
+    <!-- [CHAR LIMIT=60] Move cursor to the beginning of the file from the current position. The maximum number of characters is 60, but if it exceeds 30 characters it will be inserted a line break. so it's better if it's 25 characters or less. -->
+    <string name="pad_description_move_beginning_file">Переместить курсор в начало файла</string>
+    <!-- [CHAR LIMIT=60] Move cursor to the end of the file from the current position. The maximum number of characters is 60, but if it exceeds 30 characters it will be inserted a line break. so it's better if it's 25 characters or less. -->
+    <string name="pad_description_move_end_file">Переместить курсор в конец файла</string>
     <!-- [CHAR LIMIT=60] Select text from the cursor position to the beginning of the line. The maximum number of characters is 60, but if it exceeds 30 characters it will be inserted a line break. so it's better if it's 25 characters or less. -->
     <string name="pad_description_select_first">Выбрать от позиции курсора до начала строки</string>
     <!-- [CHAR LIMIT=60] Select text from the cursor position to end of the line. The maximum number of characters is 60, but if it exceeds 30 characters it will be inserted a line break. so it's better if it's 25 characters or less. -->
     <string name="pad_description_select_last">Выбор от позиции курсора до конца строки</string>
+    <string name="pad_description_select_all">Выбрать все</string>
     <!-- [CHAR LIMIT=50] Enter a half-width space. -->
     <string name="pad_description_whitespace">Пробел</string>
     <!-- [CHAR LIMIT=50] A command to calculate subtotals. -->
     <string name="pad_description_subtotal">Подытог</string>
     <!-- [CHAR LIMIT=50] A command to enter the date as a comment. -->
     <string name="pad_description_input_date_comment">Ввод даты как комментария</string>
+    <!-- [CHAR LIMIT=50] A command to insert the current date(time). -->
+    <string name="pad_description_insert_now">Вставить текущую дату</string>
     <!-- [CHAR LIMIT=60] A command to select an available variable from the list and insert. The maximum number of characters is 60, but if it exceeds 30 characters it will be inserted a line break. so it's better if it's 25 characters or less. -->
     <string name="pad_description_input_variables">Выбор и вставка имеющейся переменной из списка</string>
     <!-- [CHAR LIMIT=25] Displays the application language in accordance with the OS language setting. For example, if the language in the Android settings is set to "Japanese", then the application language will also be "Japanese". Users can also select a language different from that of the language setting of the OS. -->
@@ -954,4 +1057,60 @@
     <string name="button_next">Далее</string>
     <!--[CHAR LIMIT=24] Label for the "Complete" button in the wizard dialog. The max number of characters is 24 characters, but please make as short as possible.-->
     <string name="button_complete">Готово</string>
+    <!--[CHAR LIMIT=40] The label for the text box to enter the feedback message. -->
+    <string name="label_feedback_message">Сообщение</string>
+    <!--[CHAR LIMIT=40] The label for the text box to enter the steps to reproduce a bug. This is displayed on the screen where users submit bug reports. -->
+    <string name="label_bug_report_steps">Действия для воссоздания проблемы</string>
+    <!--[CHAR LIMIT=40] The label for the text box to enter the behavior user expected. This is displayed on the screen where users submit bug reports. -->
+    <string name="label_bug_report_expected">Ожидаемый результат</string>
+    <!--[CHAR LIMIT=40] The label for the text box to enter the actual behavior due to a bug. This is displayed on the screen where users submit bug reports. -->
+    <string name="label_bug_report_actual">Фактический результат</string>
+    <!--[CHAR LIMIT=40] The label for the dropdown to enter kinds of feedback. A selection can be made between "Question", "Bug report", "Feedback about translation" and "Feature request". -->
+    <string name="label_feedback_type">Тип отзыва</string>
+    <!--[CHAR LIMIT=800] The description about sending feedback. -->
+    <string name="feedback_description">Спасибо за использование <xliff:g id="app_name">CalcNote</xliff:g>! Я всегда читаю все отзывы.\nЯ стараюсь отвечать на большинство вопросов.\nПолучив сообщение об ошибке, я могу связаться с вами для проверки сведений.\nПолучив запрос на новую функцию, я не могу гарантировать ее реализацию.\nСпасибо за понимание и поддержку!</string>
+    <!--[CHAR LIMIT=36] Kinds of feedback from the user. The user submits the question about CalcNote. -->
+    <string name="feedback_type_question">Вопрос</string>
+    <!--[CHAR LIMIT=36] Kinds of feedback from the user. The user submits the bug report to the developer. -->
+    <string name="feedback_type_bug_report">Сообщение об ошибке</string>
+    <!--[CHAR LIMIT=36] Kinds of feedback from the user. The user submits the description of the feature the user wants. -->
+    <string name="feedback_type_feature_request">Запрос новой функции</string>
+    <!--[CHAR LIMIT=36] Kinds of feedback from the user. The user submits feedback about translation to the developer. -->
+    <string name="feedback_type_translation_feedback">Отзыв о переводе</string>
+    <!--[CHAR LIMIT=26] The name of the symbol for , -->
+    <string name="symbol_comma">Запятая</string>
+    <!--[CHAR LIMIT=26] The name of the symbol for . -->
+    <string name="symbol_period">Точка</string>
+    <!--[CHAR LIMIT=26] The name of the symbol for : -->
+    <string name="symbol_colon">Двоеточие</string>
+    <!--[CHAR LIMIT=26] The name of the symbol for ; -->
+    <string name="symbol_semicolon">Точка с запятой</string>
+    <!--[CHAR LIMIT=26] The name of the symbol for @ -->
+    <string name="symbol_at_sign">Символ «собака»</string>
+    <!--[CHAR LIMIT=26] The name of the symbol for $ -->
+    <string name="symbol_dollar">Символ доллара</string>
+    <!--[CHAR LIMIT=26] The name of the symbol for # -->
+    <string name="symbol_sharp">Символ решетки</string>
+    <!--[CHAR LIMIT=26] The name of the symbol for ' -->
+    <string name="symbol_single_quotation">Одинарная кавычка</string>
+    <!--[CHAR LIMIT=26] The name of the symbol for " -->
+    <string name="symbol_double_quotation">Двойная кавычка</string>
+    <!--[CHAR LIMIT=26] The name of the symbol for ? -->
+    <string name="symbol_question">Вопросительный знак</string>
+    <!--[CHAR LIMIT=26] The name of the symbol for ` -->
+    <string name="symbol_grave_accent">Гравис</string>
+    <!--[CHAR LIMIT=30] The label for the dropdown to enter kinds of symbol. User can change symbol to use for the decimal point. -->
+    <string name="grammar_label_decimal_point">Десятичная точка</string>
+    <!--[CHAR LIMIT=30] The label for the dropdown to enter kinds of symbol. User can change symbol to use for the thousands separator. -->
+    <string name="grammar_label_thousands_separator">Разделитель тысяч</string>
+    <!--[CHAR LIMIT=30] The label for the dropdown to enter kinds of symbol. User can change symbol to use for the separator of the argument of the function. -->
+    <string name="grammar_label_argument_separator">Разделитель аргументов</string>
+    <!--[CHAR LIMIT=30] The label for the dropdown to enter kinds of symbol. User can change symbol to use for the line reference. -->
+    <string name="grammar_label_line_reference">Ссылка на строку</string>
+    <!--[CHAR LIMIT=30] The label for the dropdown to enter kinds of symbol. User can change symbol to use for the intermediate expression. -->
+    <string name="grammar_label_intermediate_expression">Промежуточное выражение</string>
+    <!--[CHAR LIMIT=30] The label for the dropdown to enter kinds of symbol. User can change symbol to use for the left side comment. -->
+    <string name="grammar_label_left_comment">Комментарий слева</string>
+    <!--[CHAR LIMIT=30] The label for the dropdown to enter kinds of symbol. User can change symbol to use for the right side comment. -->
+    <string name="grammar_label_right_comment">Комментарий справа</string>
 </resources>

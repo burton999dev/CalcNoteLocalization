@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="round_behavior_entries">
+        <item>மேலே வட்டமிடு</item>
+        <item>கீழே வட்டமிடு</item>
+        <item>முழுமையாக்குதல்</item>
+        <item>வங்கி வட்டமிடு</item>
+    </string-array>
+    <string-array name="tax_round_behavior_entries">
+        <item>மேலே வட்டமிடு</item>
+        <item>கீழே வட்டமிடு</item>
+        <item>முழுமையாக்குதல்</item>
+    </string-array>
+    <string-array name="keypad_sound_entries">
+        <item>முடக்கு</item>
+        <item>ஒலி விளைவு 1</item>
+        <item>ஒலி விளைவு 2</item>
+        <item>ஒலி விளைவு 3</item>
+        <item>ஒலி விளைவு 4</item>
+    </string-array>
+    <string-array name="keypad_input_method_entries">
+        <item>நீண்ட நேர அழுத்து</item>
+        <item>ஸ்வைப்</item>
+    </string-array>
+    <string-array name="button_font_size_entries">
+        <item>சிறியது</item>
+        <item>நடுத்தரம்</item>
+        <item>பெரியது</item>
+        <item>அதிகப் பெரியது</item>
+        <item>இரட்டிப் பெரியது</item>
+        <item>மும்மடங்குப் பெரியது</item>
+    </string-array>
+    <string-array name="keypad_menu_size_entries">
+        <item>சிறியது</item>
+        <item>நடுத்தரம்</item>
+        <item>பெரியது</item>
+    </string-array>
+    <string-array name="angle_mode_entries">
+        <item>ரேடியன்</item>
+        <item>டிகிரி</item>
+        <item>கிரேடியன்</item>
+    </string-array>
+    <string-array name="calculation_mode_entries">
+        <item>ஸ்டாண்டர்ட்</item>
+        <item>உயர் துல்லியம் (CPU சுமை அதிகரிக்கும்)</item>
+    </string-array>
+    <string-array name="result_alignment_entries">
+        <item>இடத்துக்கு இணை</item>
+        <item>வலத்துக்கு இணை</item>
+    </string-array>
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>வரி எண்<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>வரி எண்<xliff:g>}</xliff:g></item>
+    </string-array>
+    <string-array name="caret_row_highlighting_entries">
+        <item>செயலற்றது</item>
+        <item>பின்புல வண்ண முறை</item>
+        <item>அடிக்கோடு முறை</item>
+    </string-array>
+    <string-array name="screen_orientation_entries">
+        <item>செங்குத்து நிலை</item>
+        <item>படுகை நிலை</item>
+    </string-array>
+    <string-array name="floating_activation_method_entries">
+        <item>அறிப்பொலியில் இருந்து செயல்படுத்து</item>
+        <item>மிதக்கும் பொத்தானில் இருந்து செயல்படுத்து</item>
+        <item>குறுக்கு வழியிலிருந்து செயல்படுத்து</item>
+    </string-array>
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>விருப்ப வடிவம்</item>
+    </string-array>
+    <string-array name="file_sort_condition_entries">
+        <item>செய்த தேதி ஏறுவரிசையில் வழுங்கு</item>
+        <item>செய்த தேதி இறங்குவரிசையில் வழுங்கு</item>
+        <item>புதுப்பிப்பு தேதி ஏறுவரிசையில் வழுங்கு</item>
+        <item>புதுப்பிப்பு தேதி இறங்குவரிசையில் வழுங்கு</item>
+        <item>கோப்பு பெயர் ஏறுவரிசையில் வழுங்கு</item>
+        <item>கோப்பு பெயர் இறங்குவரிசையில் வழுங்கு</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>கணினி இயல்புநிலை</item>
+        <item>இருண்ட</item>
+        <item>ஒளிர்ந்த</item>
+    </string-array>
+    <string-array name="summarizer_type_entries">
+        <item>மொத்தம்</item>
+        <item>சராசரி</item>
+        <item>சிதறல்</item>
+        <item>தரநிலை சிதறல்</item>
+        <item>வரி உட்பட</item>
+        <item>வரி இன்றி</item>
+        <item>மறை</item>
+    </string-array>
+</resources>

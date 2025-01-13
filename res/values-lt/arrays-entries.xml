@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="round_behavior_entries">
+        <item>Apvalinti aukštyn</item>
+        <item>Apvalinti žemyn</item>
+        <item>Apvalinti tolyn nuo nulio</item>
+        <item>Bankininkų apvalinimas</item>
+    </string-array>
+    <string-array name="tax_round_behavior_entries">
+        <item>Apvalinti aukštyn</item>
+        <item>Apvalinti žemyn</item>
+        <item>Apvalinti tolyn nuo nulio</item>
+    </string-array>
+    <string-array name="keypad_sound_entries">
+        <item>Be garso</item>
+        <item>Garso efektas 1</item>
+        <item>Garso efektas 2</item>
+        <item>Garso efektas 3</item>
+        <item>Garso efektas 4</item>
+    </string-array>
+    <string-array name="keypad_input_method_entries">
+        <item>Ilgas paspaudimas</item>
+        <item>Perbraukimas</item>
+    </string-array>
+    <string-array name="button_font_size_entries">
+        <item>Mažas</item>
+        <item>Vidutinis</item>
+        <item>Didelis</item>
+        <item>Labai didelis</item>
+        <item>Dvigubai didelis</item>
+        <item>Trigubai didelis</item>
+    </string-array>
+    <string-array name="keypad_menu_size_entries">
+        <item>Mažas</item>
+        <item>Vidutinis</item>
+        <item>Didelis</item>
+    </string-array>
+    <string-array name="angle_mode_entries">
+        <item>Radianas</item>
+        <item>Laipsnis</item>
+        <item>Gradianas</item>
+    </string-array>
+    <string-array name="calculation_mode_entries">
+        <item>Standartinis</item>
+        <item>Didelis tikslumas (didesnė apkrova)</item>
+    </string-array>
+    <string-array name="result_alignment_entries">
+        <item>Lygiuoti kairėje</item>
+        <item>Lygiuoti dešinėje</item>
+    </string-array>
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>EilėsNr<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>EilėsNr<xliff:g>}</xliff:g></item>
+    </string-array>
+    <string-array name="caret_row_highlighting_entries">
+        <item>Išjungta</item>
+        <item>Fono spalvos režimas</item>
+        <item>Pabraukimo režimas</item>
+    </string-array>
+    <string-array name="screen_orientation_entries">
+        <item>Vertikali padėtis</item>
+        <item>Horizontali padėtis</item>
+    </string-array>
+    <string-array name="floating_activation_method_entries">
+        <item>Aktyvuoti iš pranešimo</item>
+        <item>Aktyvuoti iš plaukiojančio mygtuko</item>
+        <item>Aktyvuoti iš nuorodos</item>
+    </string-array>
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>Pasirinktinis formatas</item>
+    </string-array>
+    <string-array name="file_sort_condition_entries">
+        <item>Rikiuoti didėjančia tvarka pagal sukūrimo datą</item>
+        <item>Rikiuoti mažėjančia tvarka pagal sukūrimo datą</item>
+        <item>Rikiuoti didėjančia tvarka pagal atnaujinimo datą</item>
+        <item>Rikiuoti mažėjančia tvarka pagal atnaujinimo datą</item>
+        <item>Rikiuoti didėjančia tvarka pagal failo pavadinimą</item>
+        <item>Rikiuoti mažėjančia tvarka pagal failo pavadinimą</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>Sistemos numatytasis</item>
+        <item>Tamsus</item>
+        <item>Šviesus</item>
+    </string-array>
+    <string-array name="summarizer_type_entries">
+        <item>Suma</item>
+        <item>Vidurkis</item>
+        <item>Dispersija</item>
+        <item>Stand. nuokr.</item>
+        <item>Su mokesčiu</item>
+        <item>Be mokesčio</item>
+        <item>Slėpti</item>
+    </string-array>
+</resources>

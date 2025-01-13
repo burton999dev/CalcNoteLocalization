@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="round_behavior_entries">
+        <item>Yuxarı yuvarlama</item>
+        <item>Aşağı yuvarlama</item>
+        <item>Yarımları sıfırdan uzaq yuvarlama</item>
+        <item>Bank üsulu yuvarlama</item>
+    </string-array>
+    <string-array name="tax_round_behavior_entries">
+        <item>Yuxarı yuvarlama</item>
+        <item>Aşağı yuvarlama</item>
+        <item>Yarımları sıfırdan uzaq yuvarlama</item>
+    </string-array>
+    <string-array name="keypad_sound_entries">
+        <item>Səssiz</item>
+        <item>Səs effekti 1</item>
+        <item>Səs effekti 2</item>
+        <item>Səs effekti 3</item>
+        <item>Səs effekti 4</item>
+    </string-array>
+    <string-array name="keypad_input_method_entries">
+        <item>Uzun basma</item>
+        <item>Sürüşdürmə</item>
+    </string-array>
+    <string-array name="button_font_size_entries">
+        <item>Kiçik</item>
+        <item>Orta</item>
+        <item>Böyük</item>
+        <item>Əlavə böyük</item>
+        <item>İkiqat böyük</item>
+        <item>Üçqat böyük</item>
+    </string-array>
+    <string-array name="keypad_menu_size_entries">
+        <item>Kiçik</item>
+        <item>Orta</item>
+        <item>Böyük</item>
+    </string-array>
+    <string-array name="angle_mode_entries">
+        <item>Radian</item>
+        <item>Dərəcə</item>
+        <item>Qradiyan</item>
+    </string-array>
+    <string-array name="calculation_mode_entries">
+        <item>Standart</item>
+        <item>Yüksək dəqiqlik (CPU yükü artır)</item>
+    </string-array>
+    <string-array name="result_alignment_entries">
+        <item>Sola hizalama</item>
+        <item>Sağa hizalama</item>
+    </string-array>
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>SətirNo<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>SətirNo<xliff:g>}</xliff:g></item>
+    </string-array>
+    <string-array name="caret_row_highlighting_entries">
+        <item>Deaktiv</item>
+        <item>Arxa fon rəngi rejimi</item>
+        <item>Altından xətt çəkmə rejimi</item>
+    </string-array>
+    <string-array name="screen_orientation_entries">
+        <item>Şaquli yönləndirmə</item>
+        <item>Üfüqi yönləndirmə</item>
+    </string-array>
+    <string-array name="floating_activation_method_entries">
+        <item>Bildirişdən aktivləşdir</item>
+        <item>Üzən düymədən aktivləşdir</item>
+        <item>Qısa yoldan aktivləşdir</item>
+    </string-array>
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>Xüsusi format</item>
+    </string-array>
+    <string-array name="file_sort_condition_entries">
+        <item>Yaradılma tarixinə görə artan sıralama</item>
+        <item>Yaradılma tarixinə görə azalan sıralama</item>
+        <item>Yenilənmə tarixinə görə artan sıralama</item>
+        <item>Yenilənmə tarixinə görə azalan sıralama</item>
+        <item>Fayl adına görə artan sıralama</item>
+        <item>Fayl adına görə azalan sıralama</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>Sistemdəki standart</item>
+        <item>Tünd</item>
+        <item>Açıq</item>
+    </string-array>
+    <string-array name="summarizer_type_entries">
+        <item>Cəm</item>
+        <item>Orta</item>
+        <item>Varians</item>
+        <item>Standart sapma</item>
+        <item>Vergi daxildir</item>
+        <item>Vergi daxil deyil</item>
+        <item>Gizlət</item>
+    </string-array>
+</resources>

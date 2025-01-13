@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="round_behavior_entries">
+        <item>Zaokrąglanie w górę</item>
+        <item>Zaokrąglanie w dół</item>
+        <item>Zaokrąglanie połówek z dala od zera</item>
+        <item>Zaokrąglanie bankierskie</item>
+    </string-array>
+    <string-array name="tax_round_behavior_entries">
+        <item>Zaokrąglanie w górę</item>
+        <item>Zaokrąglanie w dół</item>
+        <item>Zaokrąglanie połówek z dala od zera</item>
+    </string-array>
+    <string-array name="keypad_sound_entries">
+        <item>Wyciszenie</item>
+        <item>Efekt dźwiękowy 1</item>
+        <item>Efekt dźwiękowy 2</item>
+        <item>Efekt dźwiękowy 3</item>
+        <item>Efekt dźwiękowy 4</item>
+    </string-array>
+    <string-array name="keypad_input_method_entries">
+        <item>Długie naciśnięcie</item>
+        <item>Przesunięcie</item>
+    </string-array>
+    <string-array name="button_font_size_entries">
+        <item>Mała</item>
+        <item>Średnia</item>
+        <item>Duża</item>
+        <item>Bardzo duża</item>
+        <item>Bardzo bardzo duża</item>
+        <item>Bardzo bardzo bardzo duża</item>
+    </string-array>
+    <string-array name="keypad_menu_size_entries">
+        <item>Mała</item>
+        <item>Średnia</item>
+        <item>Duża</item>
+    </string-array>
+    <string-array name="angle_mode_entries">
+        <item>Radiany</item>
+        <item>Stopnie</item>
+        <item>Grady</item>
+    </string-array>
+    <string-array name="calculation_mode_entries">
+        <item>Standardowy</item>
+        <item>Wysoka dokładność (większe obciążenie CPU)</item>
+    </string-array>
+    <string-array name="result_alignment_entries">
+        <item>Wyrównanie do lewej</item>
+        <item>Wyrównanie do prawej</item>
+    </string-array>
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>NrLinii<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>NrLinii<xliff:g>}</xliff:g></item>
+    </string-array>
+    <string-array name="caret_row_highlighting_entries">
+        <item>Wyłączone</item>
+        <item>Tryb koloru tła</item>
+        <item>Tryb podkreślenia</item>
+    </string-array>
+    <string-array name="screen_orientation_entries">
+        <item>Orientacja pionowa</item>
+        <item>Orientacja pozioma</item>
+    </string-array>
+    <string-array name="floating_activation_method_entries">
+        <item>Aktywacja z powiadomienia</item>
+        <item>Aktywacja z pływającego przycisku</item>
+        <item>Aktywacja ze skrótu</item>
+    </string-array>
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>Format niestandardowy</item>
+    </string-array>
+    <string-array name="file_sort_condition_entries">
+        <item>Sortuj rosnąco wg daty utworzenia</item>
+        <item>Sortuj malejąco wg daty utworzenia</item>
+        <item>Sortuj rosnąco wg daty aktualizacji</item>
+        <item>Sortuj malejąco wg daty aktualizacji</item>
+        <item>Sortuj rosnąco wg nazwy pliku</item>
+        <item>Sortuj malejąco wg nazwy pliku</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>Domyślnie systemowe</item>
+        <item>Ciemny</item>
+        <item>Jasny</item>
+    </string-array>
+    <string-array name="summarizer_type_entries">
+        <item>Suma</item>
+        <item>Średnia</item>
+        <item>Wariancja</item>
+        <item>Odchylenie std</item>
+        <item>Z podatkiem</item>
+        <item>Bez podatku</item>
+        <item>Ukryj</item>
+    </string-array>
+</resources>

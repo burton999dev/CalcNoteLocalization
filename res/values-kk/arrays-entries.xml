@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="round_behavior_entries">
+        <item>Жоғары дөңгелектеу</item>
+        <item>Төмен дөңгелектеу</item>
+        <item>Нөлден алшақ дөңгелектеу</item>
+        <item>Банкирлік дөңгелектеу</item>
+    </string-array>
+    <string-array name="tax_round_behavior_entries">
+        <item>Жоғары дөңгелектеу</item>
+        <item>Төмен дөңгелектеу</item>
+        <item>Нөлден алшақ дөңгелектеу</item>
+    </string-array>
+    <string-array name="keypad_sound_entries">
+        <item>Дыбыссыз</item>
+        <item>Дыбыстық әсер 1</item>
+        <item>Дыбыстық әсер 2</item>
+        <item>Дыбыстық әсер 3</item>
+        <item>Дыбыстық әсер 4</item>
+    </string-array>
+    <string-array name="keypad_input_method_entries">
+        <item>Ұзақ басу</item>
+        <item>Свайп</item>
+    </string-array>
+    <string-array name="button_font_size_entries">
+        <item>Кіші</item>
+        <item>Орташа</item>
+        <item>Үлкен</item>
+        <item>Өте үлкен</item>
+        <item>Екі есе үлкен</item>
+        <item>Үш есе үлкен</item>
+    </string-array>
+    <string-array name="keypad_menu_size_entries">
+        <item>Кіші</item>
+        <item>Орташа</item>
+        <item>Үлкен</item>
+    </string-array>
+    <string-array name="angle_mode_entries">
+        <item>Радиан</item>
+        <item>Градус</item>
+        <item>Градиан</item>
+    </string-array>
+    <string-array name="calculation_mode_entries">
+        <item>Стандартты</item>
+        <item>Жоғары дәлдік (CPU жүктемесі артады)</item>
+    </string-array>
+    <string-array name="result_alignment_entries">
+        <item>Солға туралау</item>
+        <item>Оңға туралау</item>
+    </string-array>
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>Жол№<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>Жол№<xliff:g>}</xliff:g></item>
+    </string-array>
+    <string-array name="caret_row_highlighting_entries">
+        <item>Өшірілген</item>
+        <item>Фон түс режимі</item>
+        <item>Асты сызу режимі</item>
+    </string-array>
+    <string-array name="screen_orientation_entries">
+        <item>Тік бағдар</item>
+        <item>Көлденең бағдар</item>
+    </string-array>
+    <string-array name="floating_activation_method_entries">
+        <item>Хабарландырудан іске қосу</item>
+        <item>Қалқымалы батырмадан іске қосу</item>
+        <item>Шортқаттан іске қосу</item>
+    </string-array>
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>Реттелетін формат</item>
+    </string-array>
+    <string-array name="file_sort_condition_entries">
+        <item>Құру күні бойынша өсу ретімен сұрыптау</item>
+        <item>Құру күні бойынша кему ретімен сұрыптау</item>
+        <item>Жаңарту күні бойынша өсу ретімен сұрыптау</item>
+        <item>Жаңарту күні бойынша кему ретімен сұрыптау</item>
+        <item>Файл атауы бойынша өсу ретімен сұрыптау</item>
+        <item>Файл атауы бойынша кему ретімен сұрыптау</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>Жүйе әдепкісі</item>
+        <item>Қараңғы</item>
+        <item>Жарық</item>
+    </string-array>
+    <string-array name="summarizer_type_entries">
+        <item>Жалпы</item>
+        <item>Орташа</item>
+        <item>Дисперсия</item>
+        <item>Стандартты ауытқу</item>
+        <item>Салық қосылған</item>
+        <item>Салықсыз</item>
+        <item>Жасыру</item>
+    </string-array>
+</resources>

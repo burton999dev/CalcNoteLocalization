@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="round_behavior_entries">
+        <item>Noapaļošana uz augšu</item>
+        <item>Noapaļošana uz leju</item>
+        <item>Noapaļošana prom no nulles</item>
+        <item>Bankieru noapaļošana</item>
+    </string-array>
+    <string-array name="tax_round_behavior_entries">
+        <item>Noapaļošana uz augšu</item>
+        <item>Noapaļošana uz leju</item>
+        <item>Noapaļošana prom no nulles</item>
+    </string-array>
+    <string-array name="keypad_sound_entries">
+        <item>Bez skaņas</item>
+        <item>Skaņas efekts 1</item>
+        <item>Skaņas efekts 2</item>
+        <item>Skaņas efekts 3</item>
+        <item>Skaņas efekts 4</item>
+    </string-array>
+    <string-array name="keypad_input_method_entries">
+        <item>Ilga nospiešana</item>
+        <item>Pārvelkšana</item>
+    </string-array>
+    <string-array name="button_font_size_entries">
+        <item>Mazs</item>
+        <item>Vidējs</item>
+        <item>Liels</item>
+        <item>Ļoti liels</item>
+        <item>Divkārt ļoti liels</item>
+        <item>Trīskārt ļoti liels</item>
+    </string-array>
+    <string-array name="keypad_menu_size_entries">
+        <item>Mazs</item>
+        <item>Vidējs</item>
+        <item>Liels</item>
+    </string-array>
+    <string-array name="angle_mode_entries">
+        <item>Rādiāni</item>
+        <item>Grādi</item>
+        <item>Gradiāni</item>
+    </string-array>
+    <string-array name="calculation_mode_entries">
+        <item>Standarta</item>
+        <item>Augsta precizitāte (palielinās CPU slodze)</item>
+    </string-array>
+    <string-array name="result_alignment_entries">
+        <item>Līdzināt pa kreisi</item>
+        <item>Līdzināt pa labi</item>
+    </string-array>
+    <string-array name="line_reference_symbol_entries">
+        <item><xliff:g>${</xliff:g>RindNr<xliff:g>}</xliff:g></item>
+        <item><xliff:g>#{</xliff:g>RindNr<xliff:g>}</xliff:g></item>
+    </string-array>
+    <string-array name="caret_row_highlighting_entries">
+        <item>Atspējots</item>
+        <item>Fona krāsas režīms</item>
+        <item>Pasvītrošanas režīms</item>
+    </string-array>
+    <string-array name="screen_orientation_entries">
+        <item>Vertikālais orientējums</item>
+        <item>Horizontālais orientējums</item>
+    </string-array>
+    <string-array name="floating_activation_method_entries">
+        <item>Aktivēt no paziņojuma</item>
+        <item>Aktivēt no peldošās pogas</item>
+        <item>Aktivēt no īsceļa</item>
+    </string-array>
+    <string-array name="computation_date_format_entries">
+        <item><xliff:g>yyyy/MM/dd</xliff:g></item>
+        <item><xliff:g>MM/dd</xliff:g></item>
+        <item><xliff:g>dd/MM/yyyy</xliff:g></item>
+        <item><xliff:g>dd/MM/yy</xliff:g></item>
+        <item><xliff:g>dd/MM</xliff:g></item>
+        <item><xliff:g>yyyy-MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd</xliff:g></item>
+        <item><xliff:g>MM-dd-yy</xliff:g></item>
+        <item><xliff:g>dd-MM-yy</xliff:g></item>
+        <item><xliff:g>dd-MM</xliff:g></item>
+        <item><xliff:g>dd.MM.yyyy</xliff:g></item>
+        <item><xliff:g>dd.MM</xliff:g></item>
+        <item>Pielāgots formāts</item>
+    </string-array>
+    <string-array name="file_sort_condition_entries">
+        <item>Kārtot augošā secībā pēc izveides datuma</item>
+        <item>Kārtot dilstošā secībā pēc izveides datuma</item>
+        <item>Kārtot augošā secībā pēc atjaunināšanas datuma</item>
+        <item>Kārtot dilstošā secībā pēc atjaunināšanas datuma</item>
+        <item>Kārtot augošā secībā pēc faila nosaukuma</item>
+        <item>Kārtot dilstošā secībā pēc faila nosaukuma</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>Sistēmas noklusējums</item>
+        <item>Tumšs</item>
+        <item>Gaišs</item>
+    </string-array>
+    <string-array name="summarizer_type_entries">
+        <item>Kopsumma</item>
+        <item>Vidējais</item>
+        <item>Dispersija</item>
+        <item>Standartnovirze</item>
+        <item>Ar nodokli</item>
+        <item>Bez nodokļa</item>
+        <item>Slēpt</item>
+    </string-array>
+</resources>
